@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the big-remote-play-together package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: big-remote-play-together\n"
@@ -144,7 +143,6 @@ msgid "Installation completed successfully!"
 msgstr "Installation gennemført med succes!"
 # 
 # File: usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-#: NEEDS WORK
 msgid "Finish"
 msgstr "Afslut"
 # 
@@ -182,7 +180,6 @@ msgid "Automático"
 msgstr "Automatisk"
 # 
 # File: usr/share/big-remote-play-together/ui/preferences.py, line: 52
-#: NEEDS WORK
 msgid "Claro"
 msgstr "Claro"
 # 
@@ -247,7 +244,6 @@ msgstr "Gamle logfiler er blevet fjernet."
 # File: usr/share/big-remote-play-together/ui/preferences.py, line: 141
 # File: usr/share/big-remote-play-together/ui/guest_view.py, line: 663
 # File: usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-#: NEEDS WORK
 msgid "OK"
 msgstr "OK"
 # 
@@ -1936,7 +1932,6 @@ msgid "Error executing script: {}"
 msgstr "Fejl ved udførelse af script: {}"
 # 
 # File: usr/share/big-remote-play-together/ui/host_view.py, line: 830
-#: NEEDS WORK
 msgid "Copied!"
 msgstr "Kopieret!"
 # 

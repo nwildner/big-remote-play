@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the big-remote-play-together package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: big-remote-play-together\n"
@@ -237,7 +236,6 @@ msgstr "Старите лог файлове бяха премахнати."
 # File: usr/share/big-remote-play-together/ui/preferences.py, line: 141
 # File: usr/share/big-remote-play-together/ui/guest_view.py, line: 663
 # File: usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-#: NEEDS WORK
 msgid "OK"
 msgstr "Добре"
 # 

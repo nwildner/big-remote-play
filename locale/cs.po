@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the big-remote-play-together package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: big-remote-play-together\n"
@@ -177,7 +176,6 @@ msgid "Automático"
 msgstr "Automatický"
 # 
 # File: usr/share/big-remote-play-together/ui/preferences.py, line: 52
-#: NEEDS WORK
 msgid "Claro"
 msgstr "Claro"
 # 
