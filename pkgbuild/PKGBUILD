@@ -1,8 +1,7 @@
 # Maintainer: Rafael Ruscher <rruscher@gmail.com>
 pkgname=big-remote-play-together
 pkgdesc="Integrated remote cooperative gaming system"
-depends=('python' 'gtk4' 'libadwaita' 'python-gobject' 'python-cairo' 'avahi' 'curl' 'iproute2' 'sunshine
--bin' 'moonlight-qt')
+depends=('python' 'gtk4' 'libadwaita' 'python-gobject' 'python-cairo' 'avahi' 'curl' 'iproute2' 'sunshine-bin' 'moonlight-qt')
 # makedepends=('')
 # conflicts=('')
 pkgver=$(date +%y.%m.%d)
