@@ -26,6 +26,20 @@ NAVIGATION_PAGES = {
         'name': _('Connect to Server'),
         'icon': 'network-workgroup-symbolic',
         'description': _('Connect to a host')
+    },
+    'section_private': {
+        'name': _('Private Network'),
+        'type': 'separator'
+    },
+    'create_private': {
+        'name': _('Create Private Network'),
+        'icon': 'network-wired-symbolic',
+        'description': _('Setup Headscale server')
+    },
+    'connect_private': {
+        'name': _('Connect to Private Network'),
+        'icon': 'network-vpn-symbolic',
+        'description': _('Join a private network')
     }
 }
 
@@ -72,7 +86,26 @@ class MainWindow(Adw.ApplicationWindow):
         scroll = Gtk.ScrolledWindow(); scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC); scroll.set_vexpand(True)
         self.nav_list = Gtk.ListBox(); self.nav_list.add_css_class('navigation-sidebar')
         self.nav_list.connect('row-selected', self.on_nav_selected)
-        for pid, info in NAVIGATION_PAGES.items(): self.nav_list.append(self.create_nav_row(pid, info))
+        for pid, info in NAVIGATION_PAGES.items():
+            if info.get('type') == 'separator':
+                sep_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+                sep_box.set_margin_top(12)
+                sep_box.set_margin_bottom(4)
+                sep_box.set_margin_start(12)
+                
+                label = Gtk.Label(label=info['name'])
+                label.add_css_class('caption')
+                label.add_css_class('dim-label')
+                label.set_halign(Gtk.Align.START)
+                sep_box.append(label)
+                
+                row = Gtk.ListBoxRow()
+                row.set_child(sep_box)
+                row.set_activatable(False)
+                row.set_selectable(False)
+                self.nav_list.append(row)
+            else:
+                self.nav_list.append(self.create_nav_row(pid, info))
         if r := self.nav_list.get_row_at_index(0): self.nav_list.select_row(r)
         scroll.set_child(self.nav_list); main.append(scroll); main.append(self.create_status_footer())
         tb.set_content(main); self.split_view.set_sidebar(Adw.NavigationPage.new(tb, 'Navigation'))
@@ -131,71 +164,64 @@ class MainWindow(Adw.ApplicationWindow):
         card = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=0)
         card.add_css_class("info-card")
         
-        # Sunshine Row
-        row_sun = Gtk.Box(spacing=10)
-        row_sun.add_css_class("info-row")
-        
-        box_key_sun = Gtk.Box(spacing=8)
-        box_key_sun.set_hexpand(True)
-        
-        self.sunshine_dot = create_icon_widget('media-record-symbolic', size=10, css_class=['status-dot', 'status-offline'])
-        box_key_sun.append(self.sunshine_dot)
-        
-        lbl_key_sun = Gtk.Label(label='SUNSHINE')
-        lbl_key_sun.add_css_class('info-key')
-        box_key_sun.append(lbl_key_sun)
-        
-        row_sun.append(box_key_sun)
-        
-        self.lbl_sunshine_status = Gtk.Label(label=_('Checking...'))
-        self.lbl_sunshine_status.add_css_class('info-value')
-        self.lbl_sunshine_status.set_halign(Gtk.Align.END)
-        row_sun.append(self.lbl_sunshine_status)
-        
-        card.append(row_sun)
-        
-        # Moonlight Row
-        row_moon = Gtk.Box(spacing=10)
-        row_moon.add_css_class("info-row")
-        
-        box_key_moon = Gtk.Box(spacing=8)
-        box_key_moon.set_hexpand(True)
-        
-        self.moonlight_dot = create_icon_widget('media-record-symbolic', size=10, css_class=['status-dot', 'status-offline'])
-        box_key_moon.append(self.moonlight_dot)
-        
-        lbl_key_moon = Gtk.Label(label='MOONLIGHT')
-        lbl_key_moon.add_css_class('info-key')
-        box_key_moon.append(lbl_key_moon)
-        
-        row_moon.append(box_key_moon)
-        
-        self.lbl_moonlight_status = Gtk.Label(label=_('Checking...'))
-        self.lbl_moonlight_status.add_css_class('info-value')
-        self.lbl_moonlight_status.set_halign(Gtk.Align.END)
-        row_moon.append(self.lbl_moonlight_status)
-        
-        card.append(row_moon)
+        # Status Rows helper
+        def add_status_row(container, label_text, dot_attr, lbl_attr):
+            row = Gtk.Box(spacing=10)
+            row.add_css_class("info-row")
+            box_key = Gtk.Box(spacing=8)
+            box_key.set_hexpand(True)
+            dot = create_icon_widget('media-record-symbolic', size=10, css_class=['status-dot', 'status-offline'])
+            setattr(self, dot_attr, dot)
+            box_key.append(dot)
+            lbl_key = Gtk.Label(label=label_text)
+            lbl_key.add_css_class('info-key')
+            box_key.append(lbl_key)
+            row.append(box_key)
+            lbl_status = Gtk.Label(label=_('Checking...'))
+            lbl_status.add_css_class('info-value')
+            lbl_status.set_halign(Gtk.Align.END)
+            setattr(self, lbl_attr, lbl_status)
+            row.append(lbl_status)
+            container.append(row)
+
+        add_status_row(card, 'SUNSHINE', 'sunshine_dot', 'lbl_sunshine_status')
+        add_status_row(card, 'MOONLIGHT', 'moonlight_dot', 'lbl_moonlight_status')
+        add_status_row(card, 'DOCKER', 'docker_dot', 'lbl_docker_status')
+        add_status_row(card, 'TAILSCALE', 'tailscale_dot', 'lbl_tailscale_status')
         
         footer.append(card)
         return footer
         
-    def update_server_status(self, has_sun, has_moon):
-        for dot, has in [(self.sunshine_dot, has_sun), (self.moonlight_dot, has_moon)]:
-            dot.remove_css_class('status-online' if not has else 'status-offline')
+    def update_server_status(self, has_sun, has_moon, has_docker, has_tailscale):
+        for dot, has in [
+            (self.sunshine_dot, has_sun), 
+            (self.moonlight_dot, has_moon),
+            (self.docker_dot, has_docker),
+            (self.tailscale_dot, has_tailscale)
+        ]:
+            dot.remove_css_class('status-online')
+            dot.remove_css_class('status-offline')
             dot.add_css_class('status-online' if has else 'status-offline')
 
-    def update_dependency_ui(self, has_sun, has_moon):
-        for lbl, card, has, name in [(self.lbl_sunshine_status, self.host_card, has_sun, 'Sunshine'), (self.lbl_moonlight_status, self.guest_card, has_moon, 'Moonlight')]:
+    def update_dependency_ui(self, has_sun, has_moon, has_docker, has_tailscale):
+        status_items = [
+            (self.lbl_sunshine_status, self.host_card, has_sun, 'Sunshine'),
+            (self.lbl_moonlight_status, self.guest_card, has_moon, 'Moonlight'),
+            (self.lbl_docker_status, None, has_docker, 'Docker'),
+            (self.lbl_tailscale_status, None, has_tailscale, 'Tailscale')
+        ]
+        
+        for lbl, card, has, name in status_items:
             status_text = _("Installed") if has else _("Missing")
             lbl.set_markup(f'<span color="{"#2ec27e" if has else "#e01b24"}">{status_text}</span>')
             
-            tooltip = ""
-            if not has:
-                action = _("host") if name == 'Sunshine' else _("connect")
-                tooltip = _("Need to install {} to {}").format(name, action)
-            
-            card.set_sensitive(has); card.set_tooltip_text(tooltip)
+            if card:
+                tooltip = ""
+                if not has:
+                    action = _("host") if name == 'Sunshine' else _("connect")
+                    tooltip = _("Need to install {} to {}").format(name, action)
+                card.set_sensitive(has)
+                card.set_tooltip_text(tooltip)
 
         
     def setup_content(self):
@@ -207,6 +233,14 @@ class MainWindow(Adw.ApplicationWindow):
         self.content_stack.add_named(self.create_welcome_page(), 'welcome')
         self.host_view = HostView(); self.content_stack.add_named(self.host_view, 'host')
         self.guest_view = GuestView(); self.content_stack.add_named(self.guest_view, 'guest')
+        
+        # Private Network Views
+        from .private_network_view import PrivateNetworkView
+        self.create_private_view = PrivateNetworkView(self, mode='create')
+        self.connect_private_view = PrivateNetworkView(self, mode='connect')
+        self.content_stack.add_named(self.create_private_view, 'create_private')
+        self.content_stack.add_named(self.connect_private_view, 'connect_private')
+        
         ct.set_content(self.content_stack); self.split_view.set_content(Adw.NavigationPage.new(ct, 'Big Remote Play Together'))
         
     def create_welcome_page(self):
@@ -350,13 +384,33 @@ class MainWindow(Adw.ApplicationWindow):
         
     def check_system(self):
         def check():
-            h_sun, h_moon = self.system_check.has_sunshine(), self.system_check.has_moonlight()
-            r_sun, r_moon = self.system_check.is_sunshine_running(), self.system_check.is_moonlight_running()
-            GLib.idle_add(lambda: (self.update_status(h_sun, h_moon), self.update_server_status(r_sun, r_moon), self.update_dependency_ui(h_sun, h_moon)))
+            h_sun = self.system_check.has_sunshine()
+            h_moon = self.system_check.has_moonlight()
+            h_docker = self.system_check.has_docker()
+            h_tail = self.system_check.has_tailscale()
+            
+            r_sun = self.system_check.is_sunshine_running()
+            r_moon = self.system_check.is_moonlight_running()
+            r_docker = self.system_check.is_docker_running()
+            r_tail = self.system_check.is_tailscale_running()
+            
+            GLib.idle_add(lambda: (
+                self.update_status(h_sun, h_moon),
+                self.update_server_status(r_sun, r_moon, r_docker, r_tail),
+                self.update_dependency_ui(h_sun, h_moon, h_docker, h_tail)
+            ))
         threading.Thread(target=check, daemon=True).start()
         GLib.timeout_add_seconds(3, self.p_check)
+
     def p_check(self):
-        threading.Thread(target=lambda: GLib.idle_add(self.update_server_status, self.system_check.is_sunshine_running(), self.system_check.is_moonlight_running()), daemon=True).start()
+        def check():
+            r_sun = self.system_check.is_sunshine_running()
+            r_moon = self.system_check.is_moonlight_running()
+            r_docker = self.system_check.is_docker_running()
+            r_tail = self.system_check.is_tailscale_running()
+            GLib.idle_add(self.update_server_status, r_sun, r_moon, r_docker, r_tail)
+            
+        threading.Thread(target=check, daemon=True).start()
         return True
 
         

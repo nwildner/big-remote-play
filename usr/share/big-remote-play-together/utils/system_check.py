@@ -32,6 +32,10 @@ class SystemCheck:
     def has_docker(self) -> bool:
         """Checks if Docker is installed"""
         return shutil.which('docker') is not None
+
+    def has_tailscale(self) -> bool:
+        """Checks if Tailscale is installed"""
+        return shutil.which('tailscale') is not None
         
     def check_all(self) -> dict:
         """Checks all components"""
@@ -40,6 +44,7 @@ class SystemCheck:
             'moonlight': self.has_moonlight(),
             'avahi': self.has_avahi(),
             'docker': self.has_docker(),
+            'tailscale': self.has_tailscale(),
         }
     
     def is_sunshine_running(self) -> bool:
@@ -51,6 +56,20 @@ class SystemCheck:
                 timeout=2
             )
             return result.returncode == 0
+        except:
+            return False
+
+    def is_docker_running(self) -> bool:
+        """Checks if Docker daemon is running"""
+        try:
+            return subprocess.run(['systemctl', 'is-active', '--quiet', 'docker']).returncode == 0
+        except:
+            return False
+
+    def is_tailscale_running(self) -> bool:
+        """Checks if Tailscale daemon is running"""
+        try:
+            return subprocess.run(['systemctl', 'is-active', '--quiet', 'tailscaled']).returncode == 0
         except:
             return False
     
@@ -88,8 +107,7 @@ class SystemCheck:
             return False
         except:
             return False
-
-        
+            
     def get_sunshine_version(self) -> str:
         """Gets Sunshine version"""
         try:
