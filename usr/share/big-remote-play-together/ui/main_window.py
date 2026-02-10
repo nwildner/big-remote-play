@@ -9,6 +9,44 @@ from utils.network import NetworkDiscovery
 from utils.system_check import SystemCheck
 from utils.icons import create_icon_widget, set_icon
 from utils.i18n import _
+import os
+import subprocess
+import shutil
+
+# Service Definitions
+SERVICE_METADATA = {
+    'sunshine': {
+        'name': 'SUNSHINE',
+        'full_name': _('Sunshine Game Stream Host'),
+        'description': _('High-performance game stream host. Required to share your games.'),
+        'type': 'service',
+        'unit': 'sunshine.service',
+        'user': True # Run with systemctl --user
+    },
+    'moonlight': {
+        'name': 'MOONLIGHT',
+        'full_name': _('Moonlight Game Stream Client'),
+        'description': _('Game stream client. Required to connect to other hosts.'),
+        'type': 'app',
+        'bin': 'moonlight-qt'
+    },
+    'docker': {
+        'name': 'DOCKER',
+        'full_name': _('Docker Engine'),
+        'description': _('Container platform. Required for the private network server.'),
+        'type': 'service',
+        'unit': 'docker.service',
+        'user': False
+    },
+    'tailscale': {
+        'name': 'TAILSCALE',
+        'full_name': _('Tailscale / Headscale'),
+        'description': _('Mesh VPN service. Required for private network connectivity.'),
+        'type': 'service',
+        'unit': 'tailscaled.service',
+        'user': False
+    }
+}
 
 # Navigation Categories
 NAVIGATION_PAGES = {
@@ -165,9 +203,15 @@ class MainWindow(Adw.ApplicationWindow):
         card.add_css_class("info-card")
         
         # Status Rows helper
-        def add_status_row(container, label_text, dot_attr, lbl_attr):
+        def add_status_row(container, label_text, dot_attr, lbl_attr, service_id):
             row = Gtk.Box(spacing=10)
             row.add_css_class("info-row")
+            
+            # Click Gesture
+            click = Gtk.GestureClick()
+            click.connect("pressed", lambda g, n, x, y, sid=service_id: self.on_service_clicked(sid))
+            row.add_controller(click)
+
             box_key = Gtk.Box(spacing=8)
             box_key.set_hexpand(True)
             dot = create_icon_widget('media-record-symbolic', size=10, css_class=['status-dot', 'status-offline'])
@@ -184,10 +228,10 @@ class MainWindow(Adw.ApplicationWindow):
             row.append(lbl_status)
             container.append(row)
 
-        add_status_row(card, 'SUNSHINE', 'sunshine_dot', 'lbl_sunshine_status')
-        add_status_row(card, 'MOONLIGHT', 'moonlight_dot', 'lbl_moonlight_status')
-        add_status_row(card, 'DOCKER', 'docker_dot', 'lbl_docker_status')
-        add_status_row(card, 'TAILSCALE', 'tailscale_dot', 'lbl_tailscale_status')
+        add_status_row(card, 'SUNSHINE', 'sunshine_dot', 'lbl_sunshine_status', 'sunshine')
+        add_status_row(card, 'MOONLIGHT', 'moonlight_dot', 'lbl_moonlight_status', 'moonlight')
+        add_status_row(card, 'DOCKER', 'docker_dot', 'lbl_docker_status', 'docker')
+        add_status_row(card, 'TAILSCALE', 'tailscale_dot', 'lbl_tailscale_status', 'tailscale')
         
         footer.append(card)
         return footer
@@ -420,3 +464,124 @@ class MainWindow(Adw.ApplicationWindow):
         d.add_response('cancel', _('Cancel')); d.add_response('install', _('Install')); d.set_response_appearance('install', Adw.ResponseAppearance.SUGGESTED)
         d.connect('response', lambda dlg, r: (InstallerWindow(parent=self, on_success=self.check_system).present() if r == 'install' else None)); d.present()
     def show_toast(self, m): (self.toast_overlay.add_toast(Adw.Toast.new(m)) if hasattr(self, 'toast_overlay') else print(m))
+
+    def on_service_clicked(self, service_id):
+        """Open service control dialog"""
+        meta = SERVICE_METADATA.get(service_id)
+        if not meta: return
+
+        # Check current states
+        is_running = False
+        is_enabled = False
+        
+        if service_id == 'sunshine': is_running = self.system_check.is_sunshine_running()
+        elif service_id == 'moonlight': is_running = self.system_check.is_moonlight_running()
+        elif service_id == 'docker': is_running = self.system_check.is_docker_running()
+        elif service_id == 'tailscale': is_running = self.system_check.is_tailscale_running()
+        
+        if meta['type'] == 'service':
+            cmd = ['systemctl']
+            if meta.get('user'): cmd.append('--user')
+            cmd.extend(['is-enabled', '--quiet', meta['unit']])
+            is_enabled = subprocess.run(cmd).returncode == 0
+
+        # Create Dialog
+        dialog = Adw.Window(transient_for=self)
+        dialog.set_modal(True)
+        dialog.set_title(meta['full_name'])
+        dialog.set_default_size(400, -1)
+
+        content = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20)
+        content.set_margin_top(24); content.set_margin_bottom(24); content.set_margin_start(24); content.set_margin_end(24)
+
+        icon = create_icon_widget('preferences-system-symbolic', size=48)
+        icon.set_halign(Gtk.Align.CENTER)
+        content.append(icon)
+
+        title = Gtk.Label(label=meta['full_name'])
+        title.add_css_class('title-2')
+        content.append(title)
+
+        desc = Gtk.Label(label=meta['description'])
+        desc.set_wrap(True); desc.set_justify(Gtk.Justification.CENTER)
+        desc.add_css_class('dim-label')
+        content.append(desc)
+
+        status_box = Gtk.Box(spacing=10, halign=Gtk.Align.CENTER)
+        dot = create_icon_widget('media-record-symbolic', size=12, css_class=['status-dot', 'status-online' if is_running else 'status-offline'])
+        status_box.append(dot)
+        status_lbl = Gtk.Label(label=_("Running") if is_running else _("Stopped"))
+        status_box.append(status_lbl)
+        content.append(status_box)
+
+        # Buttons
+        actions = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
+        
+        def run_cmd(action, sid=service_id):
+            m = SERVICE_METADATA[sid]
+            cmd = []
+            
+            # Helper to find moonlight binary
+            def find_moonlight():
+                for b in ['moonlight-qt', 'moonlight']:
+                    if shutil.which(b): return b
+                return None
+
+            if m['type'] == 'service':
+                cmd = ["bigsudo", "systemctl"]
+                if m.get('user'): 
+                    cmd = ["systemctl", "--user"]
+                cmd.extend([action, m['unit']])
+            else:
+                # App type
+                bin_name = m['bin']
+                if sid == 'moonlight':
+                    found = find_moonlight()
+                    if not found and action in ['start', 'restart']:
+                        self.show_toast(_("Moonlight not found"))
+                        return
+                    bin_name = found or bin_name
+                
+                if action == 'start': 
+                    cmd = [bin_name]
+                elif action == 'stop': 
+                    cmd = ["pkill", "-x", bin_name]
+                elif action == 'restart':
+                    try: subprocess.run(["pkill", "-x", bin_name], check=False)
+                    except: pass
+                    cmd = [bin_name]
+            
+            if cmd:
+                try:
+                    subprocess.Popen(cmd)
+                    self.show_toast(_("Action {} sent to {}").format(action, m['name']))
+                    dialog.destroy()
+                    GLib.timeout_add(1000, self.check_system)
+                except Exception as e:
+                    self.show_toast(_("Error executing command: {}").format(e))
+
+        # Start / Stop
+        btn_main = Gtk.Button(label=_("Stop") if is_running else _("Start"))
+        btn_main.add_css_class("suggested-action" if not is_running else "destructive-action")
+        btn_main.connect("clicked", lambda b: run_cmd("stop" if is_running else "start"))
+        actions.append(btn_main)
+
+        # Restart
+        btn_restart = Gtk.Button(label=_("Restart"))
+        btn_restart.connect("clicked", lambda b: run_cmd("restart"))
+        actions.append(btn_restart)
+
+        # Enable / Disable (only for services)
+        if meta['type'] == 'service':
+            btn_enable = Gtk.Button(label=_("Disable") if is_enabled else _("Enable"))
+            btn_enable.connect("clicked", lambda b: run_cmd("disable" if is_enabled else "enable"))
+            actions.append(btn_enable)
+
+        content.append(actions)
+        
+        tv = Adw.ToolbarView()
+        hb = Adw.HeaderBar()
+        tv.add_top_bar(hb)
+        tv.set_content(content)
+        dialog.set_content(tv)
+        dialog.present()

@@ -10,6 +10,12 @@ import time
 import json
 import re
 from concurrent.futures import ThreadPoolExecutor
+try:
+    gi.require_version('Vte', '3.91')
+    from gi.repository import Vte
+    HAS_VTE = True
+except:
+    HAS_VTE = False
 from utils.i18n import _
 from utils.icons import create_icon_widget
 
@@ -35,6 +41,76 @@ class ProgressDots(Gtk.Box):
             if i == page: dot.add_css_class("active")
             elif i < page: dot.add_css_class("completed")
 
+class AccessInfoWidget(Gtk.Box):
+    """Widget to display access information after installation"""
+    def __init__(self, data, on_save_cb):
+        super().__init__(orientation=Gtk.Orientation.VERTICAL, spacing=16)
+        self.set_margin_top(20)
+        self.set_margin_bottom(20)
+        self.set_margin_start(20)
+        self.set_margin_end(20)
+        self.data = data
+        self.on_save_cb = on_save_cb
+
+        # Header
+        title = Gtk.Label(label=_("Access Information"))
+        title.add_css_class("title-1")
+        self.append(title)
+
+        # Content Group
+        group = Adw.PreferencesGroup()
+        self.append(group)
+
+        # Fields mapping
+        fields = [
+            ("web_ui", _("Web Interface"), "external-link-symbolic"),
+            ("api_url", _("API URL"), "network-server-symbolic"),
+            ("public_ip", _("Public IP"), "network-workgroup-symbolic"),
+            ("local_ip", _("Local IP"), "network-local-symbolic"),
+            ("api_key", _("API Key (UI)"), "dialog-password-symbolic"),
+            ("auth_key", _("Auth Key (Friends)"), "key-symbolic")
+        ]
+
+        for key, label, icon in fields:
+            val = data.get(key, "")
+            row = Adw.ActionRow(title=label, subtitle=val)
+            row.add_prefix(create_icon_widget(icon, size=16))
+            
+            # Copy button
+            btn_copy = Gtk.Button()
+            btn_copy.set_child(create_icon_widget("edit-copy-symbolic", size=16))
+            btn_copy.add_css_class("flat")
+            btn_copy.set_valign(Gtk.Align.CENTER)
+            btn_copy.connect("clicked", lambda b, v=val: self._copy_to_clipboard(v))
+            row.add_suffix(btn_copy)
+
+            # Open URL button for links
+            if "http" in val:
+                btn_open = Gtk.Button()
+                btn_open.set_child(create_icon_widget("external-link-symbolic", size=16))
+                btn_open.add_css_class("flat")
+                btn_open.set_valign(Gtk.Align.CENTER)
+                btn_open.connect("clicked", lambda b, v=val: os.system(f"xdg-open {v}"))
+                row.add_suffix(btn_open)
+
+            group.add(row)
+
+        # Save Button
+        self.btn_save = Gtk.Button(label=_("Save and Finish"))
+        self.btn_save.add_css_class("suggested-action")
+        self.btn_save.add_css_class("pill")
+        self.btn_save.set_halign(Gtk.Align.CENTER)
+        self.btn_save.set_margin_top(10)
+        self.btn_save.connect("clicked", self.on_save_clicked)
+        self.append(self.btn_save)
+
+    def _copy_to_clipboard(self, text):
+        clipboard = Gdk.Display.get_default().get_clipboard()
+        clipboard.set(text)
+
+    def on_save_clicked(self, btn):
+        self.on_save_cb(self.data)
+
 class PrivateNetworkView(Adw.Bin):
     """View for managing private network (Headscale) with BigLinux Welcome aesthetic"""
     
@@ -48,6 +124,8 @@ class PrivateNetworkView(Adw.Bin):
         self._worker_running = False
         self._worker_thread = None
         self._ping_executor = ThreadPoolExecutor(max_workers=10)
+        
+        self.install_data = {}
         
         self.setup_ui()
         self.set_mode(mode)
@@ -408,7 +486,25 @@ class PrivateNetworkView(Adw.Bin):
         
         self.text_view = Gtk.TextView(editable=False, monospace=True)
         self.text_view.add_css_class("card")
-        self.text_view.set_size_request(-1, 200)
+        self.text_view.set_size_request(-1, 250)
+        self.text_view.set_wrap_mode(Gtk.WrapMode.NONE)
+        
+        # Setup tags for ANSI colors
+        buffer = self.text_view.get_buffer()
+        table = buffer.get_tag_table()
+        ansi_colors = {
+            "green": "#2ec27e",
+            "blue": "#3584e4",
+            "yellow": "#f5c211",
+            "red": "#ed333b",
+            "cyan": "#33c7de",
+            "bold": None
+        }
+        for name, color in ansi_colors.items():
+            tag = Gtk.TextTag(name=name)
+            if color: tag.set_property("foreground", color)
+            if name == "bold": tag.set_property("weight", 700)
+            table.add(tag)
         
         scroll = Gtk.ScrolledWindow(vexpand=True)
         scroll.set_child(self.text_view)
@@ -424,6 +520,8 @@ class PrivateNetworkView(Adw.Bin):
         self.connect_stack = Adw.ViewStack()
         
         # 1. Connection Form Tab
+
+        # 2. Connection Form Tab
         conn_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20)
         conn_box.set_margin_top(30); conn_box.set_margin_bottom(30); conn_box.set_margin_start(40); conn_box.set_margin_end(40)
         
@@ -470,7 +568,7 @@ class PrivateNetworkView(Adw.Bin):
         page_conn = self.connect_stack.add_titled(conn_box, "connection", _("Connect"))
         page_conn.set_icon_name("network-server-symbolic")
 
-        # 2. Network Status Tab
+        # 3. Network Status Tab
         net_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
         net_box.set_margin_top(12); net_box.set_margin_bottom(12); net_box.set_margin_start(12); net_box.set_margin_end(12)
         
@@ -507,6 +605,18 @@ class PrivateNetworkView(Adw.Bin):
         
         page_net = self.connect_stack.add_titled(net_box, "network", _("Status"))
         page_net.set_icon_name("network-transmit-receive-symbolic")
+
+        # 3. Previous Networks Tab (Now Last)
+        self.history_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=20)
+        self.history_box.set_margin_top(30); self.history_box.set_margin_bottom(30); self.history_box.set_margin_start(40); self.history_box.set_margin_end(40)
+        
+        history_scroll = Gtk.ScrolledWindow(vexpand=True)
+        self.history_list_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
+        history_scroll.set_child(self.history_list_box)
+        self.history_box.append(history_scroll)
+        
+        page_hist = self.connect_stack.add_titled(self.history_box, "history", _("Previous Networks"))
+        page_hist.set_icon_name("document-open-recent-symbolic")
         
         header = Adw.HeaderBar()
         header.set_show_start_title_buttons(False)
@@ -520,12 +630,224 @@ class PrivateNetworkView(Adw.Bin):
         
         if self.mode == 'connect': 
             self._start_worker()
+            self.refresh_history_ui()
 
         return self.connect_toolbar_view
 
+    def refresh_history_ui(self):
+        """Load history from JSON and populate the list box"""
+        # Clear current list
+        while child := self.history_list_box.get_first_child():
+            self.history_list_box.remove(child)
+        
+        config_dir = os.path.expanduser("~/.config/big-remoteplay/private_network")
+        history_file = os.path.join(config_dir, "private_network.json")
+        
+        if not os.path.exists(history_file):
+            status = Adw.StatusPage(
+                title=_("No History"),
+                icon_name="document-open-recent-symbolic",
+                description=_("Your created networks will appear here.")
+            )
+            self.history_list_box.append(status)
+            return
+
+        try:
+            with open(history_file, 'r') as f:
+                data = json.load(f)
+                history = data.get("history", [])
+        except:
+            history = []
+
+        if not history:
+            status = Adw.StatusPage(
+                title=_("History is Empty"),
+                icon_name="document-open-recent-symbolic"
+            )
+            self.history_list_box.append(status)
+            return
+
+        for entry in reversed(history):
+            raw_url = entry.get('api_url') or entry.get('web_ui', '')
+            clean_domain = raw_url.replace('http://', '').replace('https://', '').strip('/')
+            entry_id = entry.get('id', '?')
+            timestamp = entry.get('timestamp', '')
+
+            group = Adw.PreferencesGroup()
+            group.set_title(f"ID: {entry_id} - {clean_domain}")
+            group.set_description(timestamp)
+            
+            # Management Buttons in the Header Suffix
+            header_box = Gtk.Box(spacing=6)
+            
+            # 1. Reconnect
+            btn_reconnect = Gtk.Button()
+            btn_reconnect.set_child(create_icon_widget("network-vpn-symbolic", size=16, css_class=["blue-icon"]))
+            btn_reconnect.add_css_class("flat")
+            btn_reconnect.add_css_class("suggested-action")
+            btn_reconnect.set_tooltip_text(_("Reconnect"))
+            btn_reconnect.connect("clicked", lambda b, e=entry: self.reconnect_from_history(e))
+            header_box.append(btn_reconnect)
+            
+            # 2. Save TXT
+            btn_save = Gtk.Button()
+            btn_save.set_child(create_icon_widget("document-save-symbolic", size=16))
+            btn_save.add_css_class("flat")
+            btn_save.set_tooltip_text(_("Save to TXT"))
+            btn_save.connect("clicked", lambda b, e=entry: self.save_entry_to_txt(e))
+            header_box.append(btn_save)
+            
+            # 3. Delete
+            btn_delete = Gtk.Button()
+            btn_delete.set_child(create_icon_widget("user-trash-symbolic", size=16))
+            btn_delete.add_css_class("flat")
+            btn_delete.add_css_class("destructive-action")
+            btn_delete.set_tooltip_text(_("Delete from history"))
+            btn_delete.connect("clicked", lambda b, e=entry: self.confirm_delete_history(e))
+            header_box.append(btn_delete)
+            
+            # Set suffix to the group header
+            group.set_header_suffix(header_box)
+
+            # Rows inside the group
+            # 1. Domain Row
+            domain_row = Adw.ActionRow(title=_("Domain"), subtitle=clean_domain)
+            domain_row.add_prefix(create_icon_widget("network-server-symbolic", size=16))
+            
+            btn_copy_dom = Gtk.Button()
+            btn_copy_dom.set_child(create_icon_widget("edit-copy-symbolic", size=16))
+            btn_copy_dom.add_css_class("flat")
+            btn_copy_dom.set_tooltip_text(_("Copy Domain"))
+            btn_copy_dom.connect("clicked", lambda b, v=clean_domain: self._copy_to_clipboard(v))
+            domain_row.add_suffix(btn_copy_dom)
+            group.add(domain_row)
+
+            # Masked row helper
+            def add_masked_row(grp, title, value, icon):
+                masked_val = "••••••••••••••••"
+                row = Adw.ActionRow(title=title, subtitle=masked_val)
+                row.add_prefix(create_icon_widget(icon, size=16))
+
+                # Visibility Button
+                btn_view = Gtk.Button()
+                btn_view.set_child(create_icon_widget("view-reveal-symbolic", size=16))
+                btn_view.add_css_class("flat")
+                btn_view.set_valign(Gtk.Align.CENTER)
+                
+                def toggle_view(btn, r, val):
+                    is_masked = r.get_subtitle() == "••••••••••••••••"
+                    r.set_subtitle(val if is_masked else "••••••••••••••••")
+                    btn.set_child(create_icon_widget("view-reveal-symbolic" if not is_masked else "view-conceal-symbolic", size=16))
+                
+                btn_view.connect("clicked", toggle_view, row, value)
+                row.add_suffix(btn_view)
+
+                # Copy Button
+                btn_copy = Gtk.Button()
+                btn_copy.set_child(create_icon_widget("edit-copy-symbolic", size=16))
+                btn_copy.add_css_class("flat")
+                btn_copy.set_valign(Gtk.Align.CENTER)
+                btn_copy.connect("clicked", lambda b, v=value: self._copy_to_clipboard(v))
+                row.add_suffix(btn_copy)
+                
+                grp.add(row)
+
+            # Add rows with icons matching Server Information style
+            add_masked_row(group, _("API Key"), entry.get('api_key', ''), "dialog-password-symbolic")
+            add_masked_row(group, _("Auth Key (Friends)"), entry.get('auth_key', ''), "key-symbolic")
+            
+            self.history_list_box.append(group)
+            
+            self.history_list_box.append(group)
+
+    def reconnect_from_history(self, entry):
+        """Auto-fill connection form and trigger connection"""
+        domain = entry.get('api_url', '').replace('http://', '').replace('https://', '').split('/')[0]
+        auth_key = entry.get('auth_key', '')
+        
+        if not domain or not auth_key:
+            self.main_window.show_toast(_("Incomplete data in history"))
+            return
+            
+        self.entry_connect_domain.set_text(domain)
+        self.entry_auth_key.set_text(auth_key)
+        self.connect_stack.set_visible_child_name("connection")
+        self.on_connect_clicked(None)
+
+    def save_entry_to_txt(self, entry):
+        """Save access info to a .txt file for sharing"""
+        dialog = Gtk.FileDialog(title=_("Save Network Information"))
+        dialog.set_initial_name(f"network_info_{entry.get('id')}.txt")
+        
+        def on_save_response(dialog, result):
+            try:
+                file = dialog.save_finish(result)
+                if file:
+                    path = file.get_path()
+                    content = (
+                        f"INFORMACOES DE ACESSO (ID: {entry.get('id')})\n"
+                        f"Data: {entry.get('timestamp')}\n"
+                        f"-----------------------------------\n"
+                        f"Interface Web: {entry.get('web_ui')}\n"
+                        f"URL da API: {entry.get('api_url')}\n"
+                        f"IP Publico: {entry.get('public_ip')}\n"
+                        f"IP Local: {entry.get('local_ip')}\n\n"
+                        f"CREDENCIAIS\n"
+                        f"API Key: {entry.get('api_key')}\n"
+                        f"Chave Amigos: {entry.get('auth_key')}\n"
+                    )
+                    with open(path, 'w') as f:
+                        f.write(content)
+                    self.main_window.show_toast(_("File saved!"))
+            except Exception as e:
+                self.main_window.show_toast(_("Error saving: {}").format(e))
+
+        dialog.save(self.main_window, None, on_save_response)
+
+    def confirm_delete_history(self, entry):
+        """Confirm before removing history entry"""
+        dialog = Adw.MessageDialog(
+            transient_for=self.main_window,
+            heading=_("Delete History?"),
+            body=_("Are you sure you want to remove ID {} from history?").format(entry.get('id'))
+        )
+        dialog.add_response("cancel", _("Cancel"))
+        dialog.add_response("delete", _("Delete"))
+        dialog.set_response_appearance("delete", Adw.ResponseAppearance.DESTRUCTIVE)
+        
+        def on_response(dlg, response):
+            if response == "delete":
+                self.delete_history_id(entry.get('id'))
+        
+        dialog.connect("response", on_response)
+        dialog.present()
+
+    def delete_history_id(self, entry_id):
+        """Remove entry from JSON history"""
+        config_dir = os.path.expanduser("~/.config/big-remoteplay/private_network")
+        history_file = os.path.join(config_dir, "private_network.json")
+        
+        try:
+            with open(history_file, 'r') as f:
+                data = json.load(f)
+                history = data.get("history", [])
+            
+            new_history = [e for e in history if e.get('id') != entry_id]
+            
+            with open(history_file, 'w') as f:
+                json.dump({"history": new_history}, f, indent=4)
+            
+            self.refresh_history_ui()
+            self.main_window.show_toast(_("Deleted from history"))
+        except Exception as e:
+            self.main_window.show_toast(_("Error deleting: {}").format(e))
+
     def on_connect_stack_changed(self, stack, param):
-        if stack.get_visible_child_name() == "network":
+        name = stack.get_visible_child_name()
+        if name == "network":
             self.refresh_peers()
+        elif name == "history":
+            self.refresh_history_ui()
 
     def _on_domain_changed(self, entry):
         domain = entry.get_text()
@@ -726,13 +1048,34 @@ class PrivateNetworkView(Adw.Bin):
         if view is None: view = self.text_view
         GLib.idle_add(self._log_idle, text, view)
 
+    def _apply_ansi_tags(self, buffer, text):
+        ansi_escape = re.compile(r'(\x1b\[[0-9;]*[mK])')
+        parts = ansi_escape.split(text)
+        
+        current_tags = []
+        for part in parts:
+            if part.startswith('\x1b['):
+                if part == '\x1b[0m':
+                    current_tags = []
+                elif '0;32' in part: current_tags = ["green"]
+                elif '0;34' in part: current_tags = ["blue"]
+                elif '1;33' in part: current_tags = ["yellow"]
+                elif '0;31' in part: current_tags = ["red"]
+                elif '0;36' in part: current_tags = ["cyan"]
+                elif '1;' in part: current_tags.append("bold")
+            else:
+                if part:
+                    buffer.insert_with_tags_by_name(buffer.get_end_iter(), part, *current_tags)
+
     def _log_idle(self, text, view):
-        buf = view.get_buffer(); buf.insert(buf.get_end_iter(), text + "\n")
+        buf = view.get_buffer()
+        self._apply_ansi_tags(buf, text + "\n")
         mark = buf.get_insert(); view.scroll_to_mark(mark, 0.0, True, 0.5, 1.0)
 
     def run_install(self):
         self.btn_next.set_sensitive(False)
         self.exec_label.set_text(_("Installing..."))
+        self.text_view.get_buffer().set_text("")
         domain = self.entry_domain.get_text(); zone = self.entry_zone.get_text(); token = self.entry_token.get_text()
         
         def thread_func():
@@ -745,9 +1088,21 @@ class PrivateNetworkView(Adw.Bin):
             inputs = ["1\n", f"{domain}\n", f"{zone}\n", f"{token}\n", "n\n"]
             for s in inputs:
                 process.stdin.write(s); process.stdin.flush()
+            
+            self.install_data = {}
             while True:
                 line = process.stdout.readline()
                 if not line: break
+                clean_line = re.sub(r'\x1b\[[0-9;]*[mK]', '', line).strip()
+                
+                # Capture information
+                if "Interface Web:" in clean_line: self.install_data["web_ui"] = clean_line.split("Interface Web:")[1].strip()
+                elif "URL da API:" in clean_line: self.install_data["api_url"] = clean_line.split("URL da API:")[1].strip()
+                elif "Seu IP Público:" in clean_line: self.install_data["public_ip"] = clean_line.split("Seu IP Público:")[1].strip()
+                elif "IP Local do Servidor:" in clean_line: self.install_data["local_ip"] = clean_line.split("IP Local do Servidor:")[1].strip()
+                elif "API Key (para UI):" in clean_line: self.install_data["api_key"] = clean_line.split("API Key (para UI):")[1].strip()
+                elif "Chave para Amigos:" in clean_line: self.install_data["auth_key"] = clean_line.split("Chave para Amigos:")[1].strip()
+
                 self.log(line.strip())
             process.wait()
             GLib.idle_add(self.on_install_finished, process.returncode)
@@ -755,9 +1110,76 @@ class PrivateNetworkView(Adw.Bin):
 
     def on_install_finished(self, code):
         self.exec_label.set_text(_("Finished with code: {}").format(code))
-        if code == 0: self.main_window.show_toast(_("Success!"))
-        else: self.main_window.show_toast(_("Installation failed"))
+        if code == 0: 
+            self.main_window.show_toast(_("Success!"))
+            self.show_success_dialog()
+        else: 
+            self.main_window.show_toast(_("Installation failed"))
         self.btn_next.set_sensitive(True); self.btn_next.set_label(_("Try Again"))
+
+    def show_success_dialog(self):
+        """Show the access information dialog"""
+        content = AccessInfoWidget(self.install_data, self.save_history)
+        
+        # Check for Adw.Dialog (Libadwaita 1.5+)
+        if hasattr(Adw, 'Dialog'):
+            dialog = Adw.Dialog()
+            dialog.set_child(content)
+            dialog.set_title(_("Network Established"))
+            dialog.present(self.main_window)
+            self.current_dialog = dialog
+        else:
+            # Fallback to Adw.Window styled as a dialog
+            dialog = Adw.Window(transient_for=self.main_window)
+            dialog.set_modal(True)
+            dialog.set_title(_("Network Established"))
+            dialog.set_default_size(500, -1)
+            
+            # Use a ToolbarView to look like a dialog
+            tv = Adw.ToolbarView()
+            hb = Adw.HeaderBar()
+            tv.add_top_bar(hb)
+            tv.set_content(content)
+            dialog.set_content(tv)
+            dialog.present()
+            self.current_dialog = dialog
+
+    def save_history(self, data):
+        """Save installation to private_network.json"""
+        if hasattr(self, 'current_dialog'):
+            if hasattr(self.current_dialog, 'close'): self.current_dialog.close()
+            else: self.current_dialog.destroy()
+
+        config_dir = os.path.expanduser("~/.config/big-remoteplay/private_network")
+        os.makedirs(config_dir, exist_ok=True)
+        history_file = os.path.join(config_dir, "private_network.json")
+        
+        history = []
+        if os.path.exists(history_file):
+            try:
+                with open(history_file, 'r') as f:
+                    content = json.load(f)
+                    history = content.get("history", [])
+            except: pass
+        
+        # Generate sequential ID
+        new_id = 1
+        if history:
+            ids = [h.get("id", 0) for h in history]
+            new_id = max(ids) + 1
+        
+        entry = data.copy()
+        entry["id"] = new_id
+        entry["timestamp"] = time.strftime("%Y-%m-%d %H:%M:%S")
+        history.append(entry)
+        
+        try:
+            with open(history_file, 'w') as f:
+                json.dump({"history": history}, f, indent=4)
+            self.main_window.show_toast(_("Configuration saved to history"))
+            self.refresh_history_ui()
+        except Exception as e:
+            self.main_window.show_toast(_("Error saving history: {}").format(e))
 
     def on_connect_clicked(self, btn):
         domain = self.entry_connect_domain.get_text(); key = self.entry_auth_key.get_text()
