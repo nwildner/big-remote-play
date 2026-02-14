@@ -15,293 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
-msgid " (IPv6 Local)"
-msgstr "(IPv6 Lokal)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
-msgid " (IPv6 Global)"
-msgstr "(IPv6 Global)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
-#, python-brace-format
-msgid "Host ({})"
-msgstr "Vært ({})"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
-msgid "Host"
-msgstr "Vært"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 106
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 109
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 129
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
-msgid "Unknown"
-msgstr "Ukendt"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 48
-msgid "Icon loaded"
-msgstr "Ikon indlæst"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 66
-msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
-msgstr ""
-"Integreret fjern samarbejdsspilssystem  \n"
-"Inspiration fra Steam Remote Play Together"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
-msgid "Install Dependencies"
-msgstr "Installer afhængigheder"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
-msgid "Installing required components..."
-msgstr "Installer nødvendige komponenter..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
-msgid ""
-"Embedded terminal not available (vte4 not found).\n"
-"Opening external terminal for installation...\n"
-"Please wait for the installation to finish in the other window."
-msgstr ""
-"Indlejret terminal ikke tilgængelig (vte4 ikke fundet).  \n"
-"Åbner ekstern terminal til installation...  \n"
-"Vent venligst på, at installationen afsluttes i det andet vindue."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
-msgid "Starting..."
-msgstr "Starter..."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 366
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 581
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 614
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 642
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1430
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 649
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 761
-msgid "Cancel"
-msgstr "Annuller"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
-msgid "Done! Press Enter to close..."
-msgstr "Færdig! Tryk Enter for at lukke..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-msgid "Running in external terminal. Restart after completion."
-msgstr "Kører i ekstern terminal. Genstart efter afslutning."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
-msgid "Close"
-msgstr "Luk"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid "Error: No terminal detected."
-msgstr "Fejl: Ingen terminal registreret."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-#, python-brace-format
-msgid ""
-"Execute manually:\n"
-"{}"
-msgstr ""
-"Udfør manuelt:\n"
-"{}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
-msgid "Installing..."
-msgstr "Installerer..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
-#, python-brace-format
-msgid "Error: {}"
-msgstr "Fejl: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
-#, python-brace-format
-msgid "Embedded terminal error: {}. Trying external..."
-msgstr "Indlejret terminalfejl: {}. Forsøger ekstern..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
-msgid "Installation completed successfully!"
-msgstr "Installation gennemført med succes!"
-# 
-# File: usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-msgid "Finish"
-msgstr "Afslut"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
-#, python-brace-format
-msgid "Installation failed. Exit code: {}"
-msgstr "Installation mislykkedes. Afslutningskode: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
-msgid "Preferências"
-msgstr "Præferencer"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
-msgid "Geral"
-msgstr "Gennemsnit"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
-msgid "Aparência"
-msgstr "Udseende"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
-msgid "Tema"
-msgstr "Tema"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
-msgid "Escolha o esquema de cores"
-msgstr "Vælg farveskemaet"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
-msgid "Automático"
-msgstr "Automatisk"
-# 
-# File: usr/share/big-remote-play-together/ui/preferences.py, line: 52
-msgid "Claro"
-msgstr "Claro"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
-msgid "Escuro"
-msgstr "Mørk"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-msgid "Avançado"
-msgstr "Avanceret"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
-msgid "Caminhos"
-msgstr "Stierninger"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
-msgid "Diretório de Configuração"
-msgstr "Konfigurationsmappe"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
-msgid "Copiar Caminho"
-msgstr "Kopier Sti"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
-msgid "Logs e Depuração"
-msgstr "Logs og Fejlfinding"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
-msgid "Logs Detalhados"
-msgstr "Detaljerede logfiler"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
-msgid "Ativar logging verbose para depuração"
-msgstr "Aktiver detaljeret logging til fejlfinding"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
-msgid "Limpar Logs"
-msgstr "Ryd logfiler"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
-msgid "Remover arquivos de log antigos"
-msgstr "Fjern gamle logfiler"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-msgid "Limpar"
-msgstr "Rydde"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
-msgid "Manutenção do Sistema"
-msgstr "Systemvedligeholdelse"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Værktøjer til at løse almindelige problemer"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Korriger biblioteker (ICU)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Løs fejlen libicuuc.so.7* mangler"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
-msgid "Fix Automático"
-msgstr "Automatisk reparation"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
-msgid "Logs Limpos"
-msgstr "Rene logs"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
-msgid "Arquivos de log antigos foram removidos."
-msgstr "Gamle logfiler er blevet fjernet."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-msgid "OK"
-msgstr "OK"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "Fix Automático Iniciado"
-msgstr "Automatisk reparation startet"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr ""
-"Scripts til reparation af biblioteker er blevet startet. Indtast adgangskoden, hvis du bliver bedt "
-"om det."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Erro"
-msgstr "Fejl"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Script de correção não encontrado."
-msgstr "Script til rettelse ikke fundet."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
-msgid "Caminho copiado!"
-msgstr "Sti kopieret!"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 61
 msgid "Sunshine"
 msgstr "Solskin"
@@ -1233,6 +946,106 @@ msgstr "Aktiv - Ingen enheder"
 msgid "Connected to {}"
 msgstr "Forbundet til {}"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
+msgid "Install Dependencies"
+msgstr "Installer afhængigheder"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
+msgid "Installing required components..."
+msgstr "Installer nødvendige komponenter..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
+msgid ""
+"Embedded terminal not available (vte4 not found).\n"
+"Opening external terminal for installation...\n"
+"Please wait for the installation to finish in the other window."
+msgstr ""
+"Indlejret terminal ikke tilgængelig (vte4 ikke fundet).  \n"
+"Åbner ekstern terminal til installation...  \n"
+"Vent venligst på, at installationen afsluttes i det andet vindue."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
+msgid "Starting..."
+msgstr "Starter..."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 366
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 581
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 614
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 642
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1430
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 649
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 761
+msgid "Cancel"
+msgstr "Annuller"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
+msgid "Done! Press Enter to close..."
+msgstr "Færdig! Tryk Enter for at lukke..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+msgid "Running in external terminal. Restart after completion."
+msgstr "Kører i ekstern terminal. Genstart efter afslutning."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
+msgid "Close"
+msgstr "Luk"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid "Error: No terminal detected."
+msgstr "Fejl: Ingen terminal registreret."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+#, python-brace-format
+msgid ""
+"Execute manually:\n"
+"{}"
+msgstr ""
+"Udfør manuelt:\n"
+"{}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
+msgid "Installing..."
+msgstr "Installerer..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+#, python-brace-format
+msgid "Error: {}"
+msgstr "Fejl: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+#, python-brace-format
+msgid "Embedded terminal error: {}. Trying external..."
+msgstr "Indlejret terminalfejl: {}. Forsøger ekstern..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
+msgid "Installation completed successfully!"
+msgstr "Installation gennemført med succes!"
+# 
+# File: usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+msgid "Finish"
+msgstr "Afslut"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+#, python-brace-format
+msgid "Installation failed. Exit code: {}"
+msgstr "Installation mislykkedes. Afslutningskode: {}"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
 msgid "🎮 Network Created Successfully!"
 msgstr "🎮 Netværk oprettet med succes!"
@@ -1289,6 +1102,10 @@ msgstr "I sidebarmenu"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Indtast domæne og Auth-nøgle"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
@@ -1797,6 +1614,10 @@ msgstr "Netværksenheder"
 msgid "IP"
 msgstr "IP"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
+msgid "Host"
+msgstr "Vært"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 437
 msgid "User"
 msgstr "Bruger"
@@ -1963,6 +1784,114 @@ msgstr "❌ Forbindelse mislykkedes"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
 msgid "Connection failed"
 msgstr "Forbindelse mislykkedes"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
+msgid "Preferências"
+msgstr "Præferencer"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
+msgid "Geral"
+msgstr "Gennemsnit"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
+msgid "Aparência"
+msgstr "Udseende"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
+msgid "Tema"
+msgstr "Tema"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
+msgid "Escolha o esquema de cores"
+msgstr "Vælg farveskemaet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
+msgid "Automático"
+msgstr "Automatisk"
+# 
+# File: usr/share/big-remote-play-together/ui/preferences.py, line: 52
+msgid "Claro"
+msgstr "Claro"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
+msgid "Escuro"
+msgstr "Mørk"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+msgid "Avançado"
+msgstr "Avanceret"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
+msgid "Caminhos"
+msgstr "Stierninger"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
+msgid "Diretório de Configuração"
+msgstr "Konfigurationsmappe"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
+msgid "Copiar Caminho"
+msgstr "Kopier Sti"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
+msgid "Logs e Depuração"
+msgstr "Logs og Fejlfinding"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
+msgid "Logs Detalhados"
+msgstr "Detaljerede logfiler"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
+msgid "Ativar logging verbose para depuração"
+msgstr "Aktiver detaljeret logging til fejlfinding"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
+msgid "Limpar Logs"
+msgstr "Ryd logfiler"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
+msgid "Remover arquivos de log antigos"
+msgstr "Fjern gamle logfiler"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+msgid "Limpar"
+msgstr "Rydde"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+msgid "Logs Limpos"
+msgstr "Rene logs"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+msgid "Arquivos de log antigos foram removidos."
+msgstr "Gamle logfiler er blevet fjernet."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+msgid "OK"
+msgstr "OK"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
+msgid "Caminho copiado!"
+msgstr "Sti kopieret!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2356,6 +2285,350 @@ msgstr "Vis visningskvalitetsadvarsler"
 msgid "Keep display active during streaming"
 msgstr "Hold skærmen aktiv under streaming"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 34
+msgid "Detecting bandwidth..."
+msgstr "Registrerer båndbredde..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
+#, python-brace-format
+msgid "Suggested bitrate: {} Mbps"
+msgstr "Forslået bitrate: {} Mbps"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 54
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 150
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
+msgid "Find and connect to the host using the options below."
+msgstr "Find og forbind til værten ved hjælp af mulighederne nedenfor."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 62
+msgid "Discover"
+msgstr "Opdag"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 63
+msgid "Manual"
+msgstr "Håndbog"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 356
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 376
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 429
+msgid "PIN Code"
+msgstr "PIN-kode"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 74
+msgid "Client Settings"
+msgstr "Klientindstillinger"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 75
+msgid "Reset to Defaults"
+msgstr "Nulstil til standardindstillinger"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 77
+msgid "Stream resolution"
+msgstr "Streamopløsning"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 79
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 90
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 731
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 742
+msgid "Custom"
+msgstr "Brugerdefineret"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Native Resolution (Adaptive)"
+msgstr "Native opløsning (Adaptiv)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Use screen/window resolution"
+msgstr "Brug skærm/vinduesopløsning"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 88
+msgid "Video smoothness"
+msgstr "Videoblødhed"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 101
+msgid "Apply and Reconnect"
+msgstr "Anvend og Genopret forbindelsen"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
+msgid "Bitrate (Quality)"
+msgstr "Bitrate (Kvalitet)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
+msgid "Adjust bandwidth (0.5 - 150 Mbps)"
+msgstr "Juster båndbredde (0,5 - 150 Mbps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 111
+msgid "Detect"
+msgstr "Registrer"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "How the window will be displayed"
+msgstr "Hvordan vinduet vil blive vist"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 219
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
+msgid "Audio"
+msgstr "Lyd"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
+msgid "Receive audio streaming"
+msgstr "Modtag lydstreaming"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
+msgid "Hardware Decoding"
+msgstr "Hardware dekodning"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
+msgid "Use GPU for decoding"
+msgstr "Brug GPU til dekodning"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
+#, python-brace-format
+msgid "Host connected: {}"
+msgstr "Vært tilsluttet: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 141
+msgid "Active Session"
+msgstr "Aktiv session"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 155
+msgid "Moonlight closed"
+msgstr "Måneskin lukket"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
+msgid "Host connected. Click Stop to disconnect."
+msgstr "Vært tilsluttet. Klik på Stop for at afbryde forbindelsen."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+#, python-brace-format
+msgid "Connect to {}"
+msgstr "Forbind til {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 270
+msgid "Connect to Selected"
+msgstr "Forbind til valgt"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 219
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 425
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 449
+msgid "Connect with PIN"
+msgstr "Forbind med PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 223
+msgid "Applying settings..."
+msgstr "Anvender indstillinger..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 247
+msgid "Discovered Hosts"
+msgstr "Opdagede værter"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 248
+msgid "Scroll to list all found devices."
+msgstr "Rul for at liste alle fundne enheder."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 299
+msgid "Searching for hosts..."
+msgstr "Søger efter værter..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
+msgid "No hosts found"
+msgstr "Ingen værter fundet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
+#, python-brace-format
+msgid "IP Copied: {}"
+msgstr "IP kopieret: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 372
+msgid "Connection Data"
+msgstr "Forbindelsesdata"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 373
+msgid "Enter server IP and port"
+msgstr "Indtast server-IP og port"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 376
+msgid "IP/Hostname"
+msgstr "IP/Hostname"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 380
+msgid "Port"
+msgstr "Havn"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 384
+msgid "Use IPv6"
+msgstr "Brug IPv6"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
+msgid "Enter the 6-digit PIN code provided by the host"
+msgstr "Indtast den 6-cifrede PIN-kode, der er givet af værten."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Klikkede på Forbind..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 537
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 565
+msgid "Active Stream"
+msgstr "Aktiv Stream"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
+msgid "Failed to connect. Verify if Moonlight is paired."
+msgstr "Mislykkedes at oprette forbindelse. Bekræft om Moonlight er parret."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
+msgid "Failed to connect"
+msgstr "Mislykkedes at oprette forbindelse"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
+#, python-brace-format
+msgid "Attempting automatic pairing PIN: {}"
+msgstr "Forsøger automatisk parring PIN: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 590
+msgid "Automatic pairing sent!"
+msgstr "Automatisk parring sendt!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 601
+msgid "Starting pairing..."
+msgstr "Starter parring..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 625
+msgid "Paired successfully!"
+msgstr "Sammenkoblet med succes!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+msgid "Pairing Error"
+msgstr "Parringsfejl"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+msgid ""
+"Could not pair with host.\n"
+"Verify the PIN was entered correctly."
+msgstr ""
+"Kunne ikke parre med værten.  \n"
+"Bekræft, at PIN-koden blev indtastet korrekt."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 640
+msgid "Canceling connection..."
+msgstr "Afbryder forbindelse..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+msgid "Pairing Required"
+msgstr "Parring påkrævet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+#, python-brace-format
+msgid ""
+"Moonlight needs to be paired.\n"
+"\n"
+"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+msgstr "Moonlight skal parres."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
+#, python-brace-format
+msgid ""
+"Follow instructions.\n"
+"\n"
+"1. Provide PIN and Host <b>{}</b> to the server.\n"
+"2. On the host, access Sunshine Configuration.\n"
+"3. Enter PIN and Host.\n"
+"4. Click Send."
+msgstr ""
+"1. Angiv PIN og Vært <b>{}</b> til serveren.\n"
+"2. På værten, få adgang til Sunshine Konfiguration.\n"
+"3. Indtast PIN og Vært.\n"
+"4. Klik på Send."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 661
+msgid "Pairing Started"
+msgstr "Parring startet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
+msgid "Invalid PIN"
+msgstr "Ugyldig PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
+msgid "Must contain 6 digits."
+msgstr "Skal indeholde 6 cifre."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
+#, python-brace-format
+msgid "Host found: {}"
+msgstr "Vært fundet: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
+msgid "Host Not Found"
+msgstr "Vært ikke fundet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
+msgid "Could not find a host with this PIN on the local network..."
+msgstr "Kunne ikke finde en vært med denne PIN på det lokale netværk..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
+#, python-brace-format
+msgid "Set: {}"
+msgstr "Sæt: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
+msgid "Custom Resolution"
+msgstr "Brugerdefineret opløsning"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
+msgid "Enter WxH:"
+msgstr "Indtast BxH:"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Custom FPS"
+msgstr "Brugerdefineret FPS"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Use a number"
+msgstr "Brug et nummer"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
+msgid "Value"
+msgstr "Værdi"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 762
+msgid "Apply"
+msgstr "Anvend"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
+msgid "Reset defaults?"
+msgstr "Nulstil standardindstillinger?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
+msgid "All client settings will be restored."
+msgstr "Alle klientindstillinger vil blive gendannet."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 792
+msgid "No"
+msgstr ""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 793
+msgid "Yes"
+msgstr "Ja"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 802
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 808
+msgid "Restored"
+msgstr "Gendannet"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 111
 msgid "Sunshine Offline"
 msgstr "Sunshine Offline"
@@ -2368,13 +2641,6 @@ msgstr "Konfigurer og del dit spil, så venner kan oprette forbindelse."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 118
 msgid "Game Configuration"
 msgstr "Spilkonfiguration"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 75
-msgid "Reset to Defaults"
-msgstr "Nulstil til standardindstillinger"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 126
 msgid "Game Mode"
@@ -2501,14 +2767,6 @@ msgstr "Wayland (anbefalet), X11 (legacy), eller KMS (direkte)"
 msgid "KMS (Direct)"
 msgstr "KMS (Direkte)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 219
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
-msgid "Audio"
-msgstr "Lyd"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 220
 msgid "Sound settings"
 msgstr "Lydindstillinger"
@@ -2613,15 +2871,6 @@ msgstr "Brug PIN-kode til at oprette forbindelse"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 353
 msgid "Share this with the guest. Local network is required."
 msgstr "Del dette med gæsten. Lokalt netværk er påkrævet."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 356
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 376
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 429
-msgid "PIN Code"
-msgstr "PIN-kode"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 366
 msgid "Copy PIN"
@@ -2894,325 +3143,41 @@ msgstr "Gendan"
 msgid "Settings Restored"
 msgstr "Indstillinger gendannet"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 34
-msgid "Detecting bandwidth..."
-msgstr "Registrerer båndbredde..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 48
+msgid "Icon loaded"
+msgstr "Ikon indlæst"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
-#, python-brace-format
-msgid "Suggested bitrate: {} Mbps"
-msgstr "Forslået bitrate: {} Mbps"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 54
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 150
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
-msgid "Find and connect to the host using the options below."
-msgstr "Find og forbind til værten ved hjælp af mulighederne nedenfor."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 62
-msgid "Discover"
-msgstr "Opdag"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 63
-msgid "Manual"
-msgstr "Håndbog"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 74
-msgid "Client Settings"
-msgstr "Klientindstillinger"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 77
-msgid "Stream resolution"
-msgstr "Streamopløsning"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 79
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 90
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 731
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 742
-msgid "Custom"
-msgstr "Brugerdefineret"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Native Resolution (Adaptive)"
-msgstr "Native opløsning (Adaptiv)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Use screen/window resolution"
-msgstr "Brug skærm/vinduesopløsning"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 88
-msgid "Video smoothness"
-msgstr "Videoblødhed"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 101
-msgid "Apply and Reconnect"
-msgstr "Anvend og Genopret forbindelsen"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
-msgid "Bitrate (Quality)"
-msgstr "Bitrate (Kvalitet)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
-msgid "Adjust bandwidth (0.5 - 150 Mbps)"
-msgstr "Juster båndbredde (0,5 - 150 Mbps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 111
-msgid "Detect"
-msgstr "Registrer"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "How the window will be displayed"
-msgstr "Hvordan vinduet vil blive vist"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
-msgid "Receive audio streaming"
-msgstr "Modtag lydstreaming"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
-msgid "Hardware Decoding"
-msgstr "Hardware dekodning"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
-msgid "Use GPU for decoding"
-msgstr "Brug GPU til dekodning"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
-#, python-brace-format
-msgid "Host connected: {}"
-msgstr "Vært tilsluttet: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 141
-msgid "Active Session"
-msgstr "Aktiv session"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 155
-msgid "Moonlight closed"
-msgstr "Måneskin lukket"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
-msgid "Host connected. Click Stop to disconnect."
-msgstr "Vært tilsluttet. Klik på Stop for at afbryde forbindelsen."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
-#, python-brace-format
-msgid "Connect to {}"
-msgstr "Forbind til {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 270
-msgid "Connect to Selected"
-msgstr "Forbind til valgt"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 219
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 425
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 449
-msgid "Connect with PIN"
-msgstr "Forbind med PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 223
-msgid "Applying settings..."
-msgstr "Anvender indstillinger..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 247
-msgid "Discovered Hosts"
-msgstr "Opdagede værter"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 248
-msgid "Scroll to list all found devices."
-msgstr "Rul for at liste alle fundne enheder."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 299
-msgid "Searching for hosts..."
-msgstr "Søger efter værter..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
-msgid "No hosts found"
-msgstr "Ingen værter fundet"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
-#, python-brace-format
-msgid "IP Copied: {}"
-msgstr "IP kopieret: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 372
-msgid "Connection Data"
-msgstr "Forbindelsesdata"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 373
-msgid "Enter server IP and port"
-msgstr "Indtast server-IP og port"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 376
-msgid "IP/Hostname"
-msgstr "IP/Hostname"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 380
-msgid "Port"
-msgstr "Havn"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 384
-msgid "Use IPv6"
-msgstr "Brug IPv6"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
-msgid "Enter the 6-digit PIN code provided by the host"
-msgstr "Indtast den 6-cifrede PIN-kode, der er givet af værten."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
-msgid "Clicked Connect..."
-msgstr "Klikkede på Forbind..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 537
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 565
-msgid "Active Stream"
-msgstr "Aktiv Stream"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
-msgid "Failed to connect. Verify if Moonlight is paired."
-msgstr "Mislykkedes at oprette forbindelse. Bekræft om Moonlight er parret."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
-msgid "Failed to connect"
-msgstr "Mislykkedes at oprette forbindelse"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
-#, python-brace-format
-msgid "Attempting automatic pairing PIN: {}"
-msgstr "Forsøger automatisk parring PIN: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 590
-msgid "Automatic pairing sent!"
-msgstr "Automatisk parring sendt!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 601
-msgid "Starting pairing..."
-msgstr "Starter parring..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 625
-msgid "Paired successfully!"
-msgstr "Sammenkoblet med succes!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
-msgid "Pairing Error"
-msgstr "Parringsfejl"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 66
 msgid ""
-"Could not pair with host.\n"
-"Verify the PIN was entered correctly."
+"Integrated remote cooperative gaming system\n"
+"Inspired by Steam Remote Play Together"
 msgstr ""
-"Kunne ikke parre med værten.  \n"
-"Bekræft, at PIN-koden blev indtastet korrekt."
+"Integreret fjern samarbejdsspilssystem  \n"
+"Inspiration fra Steam Remote Play Together"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 640
-msgid "Canceling connection..."
-msgstr "Afbryder forbindelse..."
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
-msgid "Pairing Required"
-msgstr "Parring påkrævet"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 106
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 109
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 129
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
+msgid "Unknown"
+msgstr "Ukendt"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
+msgid " (IPv6 Local)"
+msgstr "(IPv6 Lokal)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
+msgid " (IPv6 Global)"
+msgstr "(IPv6 Global)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
 #, python-brace-format
-msgid ""
-"Moonlight needs to be paired.\n"
-"\n"
-"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
-msgstr "Moonlight skal parres."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
-#, python-brace-format
-msgid ""
-"Follow instructions.\n"
-"\n"
-"1. Provide PIN and Host <b>{}</b> to the server.\n"
-"2. On the host, access Sunshine Configuration.\n"
-"3. Enter PIN and Host.\n"
-"4. Click Send."
-msgstr ""
-"1. Angiv PIN og Vært <b>{}</b> til serveren.\n"
-"2. På værten, få adgang til Sunshine Konfiguration.\n"
-"3. Indtast PIN og Vært.\n"
-"4. Klik på Send."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 661
-msgid "Pairing Started"
-msgstr "Parring startet"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
-msgid "Invalid PIN"
-msgstr "Ugyldig PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
-msgid "Must contain 6 digits."
-msgstr "Skal indeholde 6 cifre."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
-#, python-brace-format
-msgid "Host found: {}"
-msgstr "Vært fundet: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
-msgid "Host Not Found"
-msgstr "Vært ikke fundet"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
-msgid "Could not find a host with this PIN on the local network..."
-msgstr "Kunne ikke finde en vært med denne PIN på det lokale netværk..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
-#, python-brace-format
-msgid "Set: {}"
-msgstr "Sæt: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
-msgid "Custom Resolution"
-msgstr "Brugerdefineret opløsning"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
-msgid "Enter WxH:"
-msgstr "Indtast BxH:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Custom FPS"
-msgstr "Brugerdefineret FPS"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Use a number"
-msgstr "Brug et nummer"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
-msgid "Value"
-msgstr "Værdi"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 762
-msgid "Apply"
-msgstr "Anvend"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
-msgid "Reset defaults?"
-msgstr "Nulstil standardindstillinger?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
-msgid "All client settings will be restored."
-msgstr "Alle klientindstillinger vil blive gendannet."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 792
-msgid "No"
-msgstr ""
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 793
-msgid "Yes"
-msgstr "Ja"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 802
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 808
-msgid "Restored"
-msgstr "Gendannet"
+msgid "Host ({})"
+msgstr "Vært ({})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 80
 #, python-brace-format

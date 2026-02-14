@@ -15,285 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
-msgid " (IPv6 Local)"
-msgstr "(IPv6 로컬)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
-msgid " (IPv6 Global)"
-msgstr "(IPv6 글로벌)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
-msgid "Host ({})"
-msgstr "호스트 ({})"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 992
-msgid "Host"
-msgstr "호스트"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
-msgid "Unknown"
-msgstr "알 수 없음"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 51
-msgid "Icon loaded"
-msgstr "아이콘이 로드되었습니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 69
-msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
-msgstr ""
-"통합 원격 협동 게임 시스템  \n"
-"Steam 원격 플레이 함께에서 영감을 받음"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
-msgid "Install Dependencies"
-msgstr "종속성 설치"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
-msgid "Installing required components..."
-msgstr "필수 구성 요소 설치 중..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
-msgid ""
-"Embedded terminal not available (vte4 not found).\n"
-"Opening external terminal for installation...\n"
-"Please wait for the installation to finish in the other window."
-msgstr ""
-"임베디드 터미널을 사용할 수 없습니다 (vte4를 찾을 수 없음).\n"
-"설치를 위해 외부 터미널을 엽니다...\n"
-"다른 창에서 설치가 완료될 때까지 기다려 주십시오."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
-msgid "Starting..."
-msgstr "시작 중..."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1262
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 464
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 587
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 620
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 648
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 692
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 672
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 784
-msgid "Cancel"
-msgstr "취소"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
-msgid "Done! Press Enter to close..."
-msgstr "완료! 종료하려면 Enter 키를 누르세요..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-msgid "Running in external terminal. Restart after completion."
-msgstr "외부 터미널에서 실행 중입니다. 완료 후 재시작합니다."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
-msgid "Close"
-msgstr "닫기"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid "Error: No terminal detected."
-msgstr "오류: 터미널이 감지되지 않았습니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid ""
-"Execute manually:\n"
-"{}"
-msgstr ""
-"수동으로 실행:  \n"
-"{}"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1669
-msgid "Installing..."
-msgstr "설치 중..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
-msgid "Error: {}"
-msgstr "오류: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
-msgid "Embedded terminal error: {}. Trying external..."
-msgstr "임베디드 터미널 오류: {}. 외부 시도 중..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
-msgid "Installation completed successfully!"
-msgstr "설치가 성공적으로 완료되었습니다!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-msgid "Finish"
-msgstr "완료"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
-msgid "Installation failed. Exit code: {}"
-msgstr "설치 실패. 종료 코드: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
-msgid "Preferências"
-msgstr "선호 사항"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
-msgid "Geral"
-msgstr "일반"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
-msgid "Aparência"
-msgstr "모양"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
-msgid "Tema"
-msgstr "테마"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
-msgid "Escolha o esquema de cores"
-msgstr "색 구성표를 선택하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
-msgid "Automático"
-msgstr "자동으로"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-msgid "Claro"
-msgstr "클라로"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
-msgid "Escuro"
-msgstr "어두운"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-msgid "Avançado"
-msgstr "고급"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
-msgid "Caminhos"
-msgstr "경로"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
-msgid "Diretório de Configuração"
-msgstr "구성 디렉토리"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
-msgid "Copiar Caminho"
-msgstr "경로 복사"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
-msgid "Logs e Depuração"
-msgstr "로그 및 디버깅"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
-msgid "Logs Detalhados"
-msgstr "상세 로그"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
-msgid "Ativar logging verbose para depuração"
-msgstr "로깅 자세히 활성화하여 디버깅합니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
-msgid "Limpar Logs"
-msgstr "로그 지우기"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
-msgid "Remover arquivos de log antigos"
-msgstr "오래된 로그 파일 제거"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-msgid "Limpar"
-msgstr "지우기"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
-msgid "Manutenção do Sistema"
-msgstr "시스템 유지보수"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "일반적인 문제를 해결하기 위한 도구"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "교정 라이브러리 (ICU)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "libicuuc.so.7* 누락 오류를 해결하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
-msgid "Fix Automático"
-msgstr "자동 수정"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
-msgid "Logs Limpos"
-msgstr "로그 정리"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
-msgid "Arquivos de log antigos foram removidos."
-msgstr "오래된 로그 파일이 제거되었습니다."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "Fix Automático Iniciado"
-msgstr "자동으로 시작된 수정"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "라이브러리 수정 스크립트가 시작되었습니다. 요청 시 비밀번호를 입력하십시오."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Erro"
-msgstr "오류"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Script de correção não encontrado."
-msgstr "스크립트 수정이 없습니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
-msgid "Caminho copiado!"
-msgstr "경로가 복사되었습니다!"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 62
 msgid "Sunshine"
 msgstr "햇빛"
@@ -1177,6 +898,104 @@ msgstr "활성 - 장치 없음"
 msgid "Connected to {}"
 msgstr "{}에 연결됨"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
+msgid "Install Dependencies"
+msgstr "종속성 설치"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
+msgid "Installing required components..."
+msgstr "필수 구성 요소 설치 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
+msgid ""
+"Embedded terminal not available (vte4 not found).\n"
+"Opening external terminal for installation...\n"
+"Please wait for the installation to finish in the other window."
+msgstr ""
+"임베디드 터미널을 사용할 수 없습니다 (vte4를 찾을 수 없음).\n"
+"설치를 위해 외부 터미널을 엽니다...\n"
+"다른 창에서 설치가 완료될 때까지 기다려 주십시오."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
+msgid "Starting..."
+msgstr "시작 중..."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1262
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 464
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 587
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 620
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 648
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 692
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 672
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 784
+msgid "Cancel"
+msgstr "취소"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
+msgid "Done! Press Enter to close..."
+msgstr "완료! 종료하려면 Enter 키를 누르세요..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+msgid "Running in external terminal. Restart after completion."
+msgstr "외부 터미널에서 실행 중입니다. 완료 후 재시작합니다."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
+msgid "Close"
+msgstr "닫기"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid "Error: No terminal detected."
+msgstr "오류: 터미널이 감지되지 않았습니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid ""
+"Execute manually:\n"
+"{}"
+msgstr ""
+"수동으로 실행:  \n"
+"{}"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1669
+msgid "Installing..."
+msgstr "설치 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+msgid "Error: {}"
+msgstr "오류: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+msgid "Embedded terminal error: {}. Trying external..."
+msgstr "임베디드 터미널 오류: {}. 외부 시도 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
+msgid "Installation completed successfully!"
+msgstr "설치가 성공적으로 완료되었습니다!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+msgid "Finish"
+msgstr "완료"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+msgid "Installation failed. Exit code: {}"
+msgstr "설치 실패. 종료 코드: {}"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
 msgid "🎮 Network Created Successfully!"
 msgstr "🎮 네트워크가 성공적으로 생성되었습니다!"
@@ -1232,6 +1051,10 @@ msgstr "사이드바 메뉴에서"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. 도메인 및 인증 키 입력"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
@@ -1750,6 +1573,13 @@ msgstr "네트워크 장치"
 msgid "IP"
 msgstr "IP"
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 992
+msgid "Host"
+msgstr "호스트"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 993
 msgid "User"
 msgstr "사용자"
@@ -1917,6 +1747,102 @@ msgstr "❌ 연결 실패"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
 msgid "Connection failed"
 msgstr "연결 실패"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
+msgid "Preferências"
+msgstr "선호 사항"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
+msgid "Geral"
+msgstr "일반"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
+msgid "Aparência"
+msgstr "모양"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
+msgid "Tema"
+msgstr "테마"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
+msgid "Escolha o esquema de cores"
+msgstr "색 구성표를 선택하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
+msgid "Automático"
+msgstr "자동으로"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+msgid "Claro"
+msgstr "클라로"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
+msgid "Escuro"
+msgstr "어두운"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+msgid "Avançado"
+msgstr "고급"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
+msgid "Caminhos"
+msgstr "경로"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
+msgid "Diretório de Configuração"
+msgstr "구성 디렉토리"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
+msgid "Copiar Caminho"
+msgstr "경로 복사"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
+msgid "Logs e Depuração"
+msgstr "로그 및 디버깅"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
+msgid "Logs Detalhados"
+msgstr "상세 로그"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
+msgid "Ativar logging verbose para depuração"
+msgstr "로깅 자세히 활성화하여 디버깅합니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
+msgid "Limpar Logs"
+msgstr "로그 지우기"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
+msgid "Remover arquivos de log antigos"
+msgstr "오래된 로그 파일 제거"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+msgid "Limpar"
+msgstr "지우기"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
+msgid "Logs Limpos"
+msgstr "로그 정리"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
+msgid "Arquivos de log antigos foram removidos."
+msgstr "오래된 로그 파일이 제거되었습니다."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
+msgid "Caminho copiado!"
+msgstr "경로가 복사되었습니다!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2311,6 +2237,342 @@ msgstr "연결 품질 경고 표시"
 msgid "Keep display active during streaming"
 msgstr "스트리밍 중에 디스플레이 활성 유지"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 36
+msgid "Detecting bandwidth..."
+msgstr "대역폭 감지 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 42
+msgid "Suggested bitrate: {} Mbps"
+msgstr "제안된 비트 전송률: {} Mbps"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 56
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 158
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
+msgid "Find and connect to the host using the options below."
+msgstr "아래 옵션을 사용하여 호스트를 찾고 연결하십시오."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
+msgid "Discover"
+msgstr "발견하다"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 67
+msgid "Manual"
+msgstr "매뉴얼"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 361
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 438
+msgid "PIN Code"
+msgstr "PIN 코드"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 82
+msgid "Client Settings"
+msgstr "클라이언트 설정"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Reset to Defaults"
+msgstr "기본값으로 재설정"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 85
+msgid "Stream resolution"
+msgstr "스트림 해상도"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 87
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 98
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 754
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 765
+msgid "Custom"
+msgstr "사용자 정의"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
+msgid "Native Resolution (Adaptive)"
+msgstr "네이티브 해상도 (적응형)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
+msgid "Use screen/window resolution"
+msgstr "화면/창 해상도 사용"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 96
+msgid "Video smoothness"
+msgstr "비디오 부드러움"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 109
+msgid "Apply and Reconnect"
+msgstr "적용 및 재연결"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "Bitrate (Quality)"
+msgstr "비트 전송률 (품질)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "Adjust bandwidth (0.5 - 150 Mbps)"
+msgstr "대역폭 조정 (0.5 - 150 Mbps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 119
+msgid "Detect"
+msgstr "감지하다"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 123
+msgid "How the window will be displayed"
+msgstr "창이 어떻게 표시될지"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 224
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 352
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
+msgid "Audio"
+msgstr "오디오"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
+msgid "Receive audio streaming"
+msgstr "오디오 스트리밍 수신"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
+msgid "Hardware Decoding"
+msgstr "하드웨어 디코딩"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
+msgid "Use GPU for decoding"
+msgstr "디코딩에 GPU 사용"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 148
+msgid "Host connected: {}"
+msgstr "호스트 연결됨: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 149
+msgid "Active Session"
+msgstr "활성 세션"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 163
+msgid "Moonlight closed"
+msgstr "문라이트 종료"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
+msgid "Host connected. Click Stop to disconnect."
+msgstr "호스트가 연결되었습니다. 연결을 끊으려면 중지 버튼을 클릭하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
+msgid "Connect to {}"
+msgstr "{}에 연결합니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 278
+msgid "Connect to Selected"
+msgstr "선택한 항목에 연결"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 227
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 434
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 458
+msgid "Connect with PIN"
+msgstr "PIN으로 연결하기"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 231
+msgid "Applying settings..."
+msgstr "설정 적용 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 255
+msgid "Discovered Hosts"
+msgstr "발견된 호스트"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 256
+msgid "Scroll to list all found devices."
+msgstr "모든 발견된 장치를 나열하려면 스크롤하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 307
+msgid "Searching for hosts..."
+msgstr "호스트 검색 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 319
+msgid "No hosts found"
+msgstr "호스트를 찾을 수 없습니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 368
+msgid "IP Copied: {}"
+msgstr "IP가 복사되었습니다: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 381
+msgid "Connection Data"
+msgstr "연결 데이터"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 382
+msgid "Enter server IP and port"
+msgstr "서버 IP와 포트를 입력하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 385
+msgid "IP/Hostname"
+msgstr "IP/호스트 이름"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 389
+msgid "Port"
+msgstr "포트"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 393
+msgid "Use IPv6"
+msgstr "IPv6 사용"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 435
+msgid "Enter the 6-digit PIN code provided by the host"
+msgstr "호스트가 제공한 6자리 PIN 코드를 입력하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 472
+msgid "Clicked Connect..."
+msgstr "연결 클릭됨..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 560
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 598
+msgid "Active Stream"
+msgstr "활성 스트림"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 562
+msgid "Failed to connect. Verify if Moonlight is paired."
+msgstr "연결에 실패했습니다. Moonlight가 연결되어 있는지 확인하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 600
+msgid "Failed to connect"
+msgstr "연결 실패"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 620
+msgid "Attempting automatic pairing PIN: {}"
+msgstr "자동 페어링 PIN 시도: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 623
+msgid "Automatic pairing sent!"
+msgstr "자동 쌍짓기 전송 완료!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 634
+msgid "Starting pairing..."
+msgstr "페어링 시작 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 651
+msgid "Paired successfully!"
+msgstr "연결이 성공적으로 완료되었습니다!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
+msgid "Pairing Error"
+msgstr "페어링 오류"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
+msgid ""
+"Could not pair with host.\n"
+"Verify the PIN was entered correctly."
+msgstr ""
+"호스트와 연결할 수 없습니다.\n"
+"PIN이 올바르게 입력되었는지 확인하십시오."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+msgid "Canceling connection..."
+msgstr "연결 취소 중..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+msgid "Pairing Required"
+msgstr "페어링 필요"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+msgid ""
+"Moonlight needs to be paired.\n"
+"\n"
+"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+msgstr ""
+"문라이트를 연결해야 합니다.\n"
+"\n"
+"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 678
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 682
+msgid ""
+"Follow instructions.\n"
+"\n"
+"1. Provide PIN and Host <b>{}</b> to the server.\n"
+"2. On the host, access Sunshine Configuration.\n"
+"3. Enter PIN and Host.\n"
+"4. Click Send."
+msgstr ""
+"1. PIN과 호스트 <b>{}</b>를 서버에 제공합니다.\n"
+"2. 호스트에서 Sunshine 구성에 접근합니다.\n"
+"3. PIN과 호스트를 입력합니다.\n"
+"4. 보내기를 클릭합니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 684
+msgid "Pairing Started"
+msgstr "페어링 시작됨"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
+msgid "Invalid PIN"
+msgstr "잘못된 PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
+msgid "Must contain 6 digits."
+msgstr "6자리 이상이어야 합니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 740
+msgid "Host found: {}"
+msgstr "호스트 발견: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Host Not Found"
+msgstr "호스트를 찾을 수 없습니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Could not find a host with this PIN on the local network..."
+msgstr "로컬 네트워크에서 이 PIN을 가진 호스트를 찾을 수 없습니다..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 767
+msgid "Set: {}"
+msgstr "세트: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
+msgid "Custom Resolution"
+msgstr "사용자 정의 해상도"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
+msgid "Enter WxH:"
+msgstr "WxH 입력:"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
+msgid "Custom FPS"
+msgstr "사용자 정의 FPS"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
+msgid "Use a number"
+msgstr "숫자를 사용하세요."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 780
+msgid "Value"
+msgstr "값"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 785
+msgid "Apply"
+msgstr "적용하다"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
+msgid "Reset defaults?"
+msgstr "기본값 재설정?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
+msgid "All client settings will be restored."
+msgstr "모든 클라이언트 설정이 복원됩니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 815
+msgid "No"
+msgstr "No"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 816
+msgid "Yes"
+msgstr "죄송합니다."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 825
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 831
+msgid "Restored"
+msgstr "복원됨"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 113
 msgid "Sunshine Offline"
 msgstr "선샤인 오프라인"
@@ -2323,13 +2585,6 @@ msgstr "게임을 구성하고 친구들이 연결할 수 있도록 공유하세
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
 msgid "Game Configuration"
 msgstr "게임 설정"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Reset to Defaults"
-msgstr "기본값으로 재설정"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 131
 msgid "Game Mode"
@@ -2456,14 +2711,6 @@ msgstr "Wayland (권장), X11 (구형), 또는 KMS (직접)"
 msgid "KMS (Direct)"
 msgstr "KMS (직접)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 224
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 352
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
-msgid "Audio"
-msgstr "오디오"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 225
 msgid "Sound settings"
 msgstr "사운드 설정"
@@ -2568,15 +2815,6 @@ msgstr "PIN 코드를 사용하여 연결하십시오."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 358
 msgid "Share this with the guest. Local network is required."
 msgstr "게스트와 공유하세요. 로컬 네트워크가 필요합니다."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 361
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 382
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 438
-msgid "PIN Code"
-msgstr "PIN 코드"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 372
 msgid "Copy PIN"
@@ -2835,317 +3073,40 @@ msgstr "복원"
 msgid "Settings Restored"
 msgstr "설정이 복원되었습니다."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 36
-msgid "Detecting bandwidth..."
-msgstr "대역폭 감지 중..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 51
+msgid "Icon loaded"
+msgstr "아이콘이 로드되었습니다."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 42
-msgid "Suggested bitrate: {} Mbps"
-msgstr "제안된 비트 전송률: {} Mbps"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 56
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 158
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
-msgid "Find and connect to the host using the options below."
-msgstr "아래 옵션을 사용하여 호스트를 찾고 연결하십시오."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
-msgid "Discover"
-msgstr "발견하다"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 67
-msgid "Manual"
-msgstr "매뉴얼"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 82
-msgid "Client Settings"
-msgstr "클라이언트 설정"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 85
-msgid "Stream resolution"
-msgstr "스트림 해상도"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 87
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 98
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 754
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 765
-msgid "Custom"
-msgstr "사용자 정의"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
-msgid "Native Resolution (Adaptive)"
-msgstr "네이티브 해상도 (적응형)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
-msgid "Use screen/window resolution"
-msgstr "화면/창 해상도 사용"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 96
-msgid "Video smoothness"
-msgstr "비디오 부드러움"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 109
-msgid "Apply and Reconnect"
-msgstr "적용 및 재연결"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "Bitrate (Quality)"
-msgstr "비트 전송률 (품질)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "Adjust bandwidth (0.5 - 150 Mbps)"
-msgstr "대역폭 조정 (0.5 - 150 Mbps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 119
-msgid "Detect"
-msgstr "감지하다"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 123
-msgid "How the window will be displayed"
-msgstr "창이 어떻게 표시될지"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
-msgid "Receive audio streaming"
-msgstr "오디오 스트리밍 수신"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
-msgid "Hardware Decoding"
-msgstr "하드웨어 디코딩"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
-msgid "Use GPU for decoding"
-msgstr "디코딩에 GPU 사용"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 148
-msgid "Host connected: {}"
-msgstr "호스트 연결됨: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 149
-msgid "Active Session"
-msgstr "활성 세션"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 163
-msgid "Moonlight closed"
-msgstr "문라이트 종료"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
-msgid "Host connected. Click Stop to disconnect."
-msgstr "호스트가 연결되었습니다. 연결을 끊으려면 중지 버튼을 클릭하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
-msgid "Connect to {}"
-msgstr "{}에 연결합니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 278
-msgid "Connect to Selected"
-msgstr "선택한 항목에 연결"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 227
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 434
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 458
-msgid "Connect with PIN"
-msgstr "PIN으로 연결하기"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 231
-msgid "Applying settings..."
-msgstr "설정 적용 중..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 255
-msgid "Discovered Hosts"
-msgstr "발견된 호스트"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 256
-msgid "Scroll to list all found devices."
-msgstr "모든 발견된 장치를 나열하려면 스크롤하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 307
-msgid "Searching for hosts..."
-msgstr "호스트 검색 중..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 319
-msgid "No hosts found"
-msgstr "호스트를 찾을 수 없습니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 368
-msgid "IP Copied: {}"
-msgstr "IP가 복사되었습니다: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 381
-msgid "Connection Data"
-msgstr "연결 데이터"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 382
-msgid "Enter server IP and port"
-msgstr "서버 IP와 포트를 입력하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 385
-msgid "IP/Hostname"
-msgstr "IP/호스트 이름"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 389
-msgid "Port"
-msgstr "포트"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 393
-msgid "Use IPv6"
-msgstr "IPv6 사용"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 435
-msgid "Enter the 6-digit PIN code provided by the host"
-msgstr "호스트가 제공한 6자리 PIN 코드를 입력하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 472
-msgid "Clicked Connect..."
-msgstr "연결 클릭됨..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 560
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 598
-msgid "Active Stream"
-msgstr "활성 스트림"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 562
-msgid "Failed to connect. Verify if Moonlight is paired."
-msgstr "연결에 실패했습니다. Moonlight가 연결되어 있는지 확인하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 600
-msgid "Failed to connect"
-msgstr "연결 실패"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 620
-msgid "Attempting automatic pairing PIN: {}"
-msgstr "자동 페어링 PIN 시도: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 623
-msgid "Automatic pairing sent!"
-msgstr "자동 쌍짓기 전송 완료!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 634
-msgid "Starting pairing..."
-msgstr "페어링 시작 중..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 651
-msgid "Paired successfully!"
-msgstr "연결이 성공적으로 완료되었습니다!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
-msgid "Pairing Error"
-msgstr "페어링 오류"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 69
 msgid ""
-"Could not pair with host.\n"
-"Verify the PIN was entered correctly."
+"Integrated remote cooperative gaming system\n"
+"Inspired by Steam Remote Play Together"
 msgstr ""
-"호스트와 연결할 수 없습니다.\n"
-"PIN이 올바르게 입력되었는지 확인하십시오."
+"통합 원격 협동 게임 시스템  \n"
+"Steam 원격 플레이 함께에서 영감을 받음"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-msgid "Canceling connection..."
-msgstr "연결 취소 중..."
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-msgid "Pairing Required"
-msgstr "페어링 필요"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
+msgid "Unknown"
+msgstr "알 수 없음"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-msgid ""
-"Moonlight needs to be paired.\n"
-"\n"
-"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
-msgstr ""
-"문라이트를 연결해야 합니다.\n"
-"\n"
-"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
+msgid " (IPv6 Local)"
+msgstr "(IPv6 로컬)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 678
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 682
-msgid ""
-"Follow instructions.\n"
-"\n"
-"1. Provide PIN and Host <b>{}</b> to the server.\n"
-"2. On the host, access Sunshine Configuration.\n"
-"3. Enter PIN and Host.\n"
-"4. Click Send."
-msgstr ""
-"1. PIN과 호스트 <b>{}</b>를 서버에 제공합니다.\n"
-"2. 호스트에서 Sunshine 구성에 접근합니다.\n"
-"3. PIN과 호스트를 입력합니다.\n"
-"4. 보내기를 클릭합니다."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
+msgid " (IPv6 Global)"
+msgstr "(IPv6 글로벌)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 684
-msgid "Pairing Started"
-msgstr "페어링 시작됨"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
-msgid "Invalid PIN"
-msgstr "잘못된 PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
-msgid "Must contain 6 digits."
-msgstr "6자리 이상이어야 합니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 740
-msgid "Host found: {}"
-msgstr "호스트 발견: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Host Not Found"
-msgstr "호스트를 찾을 수 없습니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Could not find a host with this PIN on the local network..."
-msgstr "로컬 네트워크에서 이 PIN을 가진 호스트를 찾을 수 없습니다..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 767
-msgid "Set: {}"
-msgstr "세트: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
-msgid "Custom Resolution"
-msgstr "사용자 정의 해상도"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
-msgid "Enter WxH:"
-msgstr "WxH 입력:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
-msgid "Custom FPS"
-msgstr "사용자 정의 FPS"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
-msgid "Use a number"
-msgstr "숫자를 사용하세요."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 780
-msgid "Value"
-msgstr "값"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 785
-msgid "Apply"
-msgstr "적용하다"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
-msgid "Reset defaults?"
-msgstr "기본값 재설정?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
-msgid "All client settings will be restored."
-msgstr "모든 클라이언트 설정이 복원됩니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 815
-msgid "No"
-msgstr "No"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 816
-msgid "Yes"
-msgstr "죄송합니다."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 825
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 831
-msgid "Restored"
-msgstr "복원됨"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+msgid "Host ({})"
+msgstr "호스트 ({})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

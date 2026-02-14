@@ -15,439 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
-msgid " (IPv6 Local)"
-msgstr "(IPv6 Kohalik)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
-msgid " (IPv6 Global)"
-msgstr "(IPv6 Globaal)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
-msgid "Host ({})"
-msgstr "Host ({})"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
-msgid "Host"
-msgstr "Host"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 106
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 109
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 129
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
-msgid "Unknown"
-msgstr "Tundmatu"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 48
-msgid "Icon loaded"
-msgstr "Ikon laaditud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 66
-msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
-msgstr ""
-"Integreeritud kaugkoostöö mängusüsteem  \n"
-"Inspireeritud Steam Remote Play Together'ist"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
-msgid "Install Dependencies"
-msgstr "Paigaldage sõltuvused"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
-msgid "Installing required components..."
-msgstr "Paigaldatakse vajalikud komponendid..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
-msgid ""
-"Embedded terminal not available (vte4 not found).\n"
-"Opening external terminal for installation...\n"
-"Please wait for the installation to finish in the other window."
-msgstr ""
-"Sissee on treenitud andmetel kuni oktoober 2023.  \n"
-"Sisseehitatud terminal pole saadaval (vte4 ei leitud).  \n"
-"Avan välise terminali installimiseks...  \n"
-"Palun oodake, kuni installatsioon teises aknas lõppeb."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
-msgid "Starting..."
-msgstr "Alustamine..."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 366
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 581
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 614
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 642
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1430
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 649
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 761
-msgid "Cancel"
-msgstr "Tühista"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
-msgid "Done! Press Enter to close..."
-msgstr "Valmis! Vajutage Enter, et sulgeda..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-msgid "Running in external terminal. Restart after completion."
-msgstr "Käivitamine välisterminalis. Taaskäivita pärast lõpetamist."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
-msgid "Close"
-msgstr "Sulge"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid "Error: No terminal detected."
-msgstr "Viga: Terminali ei leitud."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid ""
-"Execute manually:\n"
-"{}"
-msgstr ""
-"Käivita käsitsi:\n"
-"{}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
-msgid "Installing..."
-msgstr "Installeerimine..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
-msgid "Error: {}"
-msgstr "Viga: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
-msgid "Embedded terminal error: {}. Trying external..."
-msgstr "Sisseehitatud terminali viga: {}. Proovin väliseid..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
-msgid "Installation completed successfully!"
-msgstr "Installeerimine lõpetati edukalt!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
-msgid "Installation failed. Exit code: {}"
-msgstr "Installeerimine ebaõnnestus. Väljumiskood: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
-msgid "Preferências"
-msgstr "Eelistused"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
-msgid "Geral"
-msgstr "Geral"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
-msgid "Aparência"
-msgstr "Välimus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
-msgid "Tema"
-msgstr "Teema"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
-msgid "Escolha o esquema de cores"
-msgstr "Vali värviskeem."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
-msgid "Automático"
-msgstr "Automaatne"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-msgid "Claro"
-msgstr "Selge"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
-msgid "Escuro"
-msgstr "Tume"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
-msgid "Caminhos"
-msgstr "Teed"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
-msgid "Diretório de Configuração"
-msgstr "Konfiguratsioonikaust"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
-msgid "Copiar Caminho"
-msgstr "Kopeeri tee"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
-msgid "Logs e Depuração"
-msgstr "Logid ja tõrkeotsing"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
-msgid "Logs Detalhados"
-msgstr "Logidetailid"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
-msgid "Ativar logging verbose para depuração"
-msgstr "Aktiveerige üksikasjalik logimine tõrkeotsinguks"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
-msgid "Limpar Logs"
-msgstr "Logide puhastamine"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
-msgid "Remover arquivos de log antigos"
-msgstr "Eemaldage vanad logifailid"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-msgid "Limpar"
-msgstr "Puhastama"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
-msgid "Manutenção do Sistema"
-msgstr "Süsteemi hooldus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Tavalised probleemide lahendamise tööriistad"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Korrigeeri raamatukogud (ICU)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Lahenda puuduv viga libicuuc.so.7*"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
-msgid "Fix Automático"
-msgstr "Automaatne parandamine"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
-msgid "Logs Limpos"
-msgstr "Puhas logid"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
-msgid "Arquivos de log antigos foram removidos."
-msgstr "Vana logifailid on eemaldatud."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "Fix Automático Iniciado"
-msgstr "Automaatne parandamine algatatud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Raamatukogude parandamise skript on käivitatud. Palun sisestage parool, kui seda küsitakse."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Erro"
-msgstr "Viga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Script de correção não encontrado."
-msgstr "Korrektuur skripti ei leitud."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
-msgid "Caminho copiado!"
-msgstr "Teekond on kopeeritud!"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 61
 msgid "Sunshine"
 msgstr "Päikesepaiste"
@@ -1374,6 +941,135 @@ msgstr "Aktiivne - Seadmeid pole"
 msgid "Connected to {}"
 msgstr "Ühendatud {}"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
+msgid "Install Dependencies"
+msgstr "Paigaldage sõltuvused"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
+msgid "Installing required components..."
+msgstr "Paigaldatakse vajalikud komponendid..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
+msgid ""
+"Embedded terminal not available (vte4 not found).\n"
+"Opening external terminal for installation...\n"
+"Please wait for the installation to finish in the other window."
+msgstr ""
+"Sissee on treenitud andmetel kuni oktoober 2023.  \n"
+"Sisseehitatud terminal pole saadaval (vte4 ei leitud).  \n"
+"Avan välise terminali installimiseks...  \n"
+"Palun oodake, kuni installatsioon teises aknas lõppeb."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
+msgid "Starting..."
+msgstr "Alustamine..."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 366
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 581
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 614
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 642
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1430
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 649
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 761
+msgid "Cancel"
+msgstr "Tühista"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
+msgid "Done! Press Enter to close..."
+msgstr "Valmis! Vajutage Enter, et sulgeda..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+msgid "Running in external terminal. Restart after completion."
+msgstr "Käivitamine välisterminalis. Taaskäivita pärast lõpetamist."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
+msgid "Close"
+msgstr "Sulge"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid "Error: No terminal detected."
+msgstr "Viga: Terminali ei leitud."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid ""
+"Execute manually:\n"
+"{}"
+msgstr ""
+"Käivita käsitsi:\n"
+"{}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
+msgid "Installing..."
+msgstr "Installeerimine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+msgid "Error: {}"
+msgstr "Viga: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+msgid "Embedded terminal error: {}. Trying external..."
+msgstr "Sisseehitatud terminali viga: {}. Proovin väliseid..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
+msgid "Installation completed successfully!"
+msgstr "Installeerimine lõpetati edukalt!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+msgid "Installation failed. Exit code: {}"
+msgstr "Installeerimine ebaõnnestus. Väljumiskood: {}"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
 msgid "🎮 Network Created Successfully!"
 msgstr "🎮 Võrk on edukalt loodud!"
@@ -1430,6 +1126,10 @@ msgstr "Külgmenüüs"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Sisestage domeen ja autentimisvõti"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
@@ -1934,6 +1634,10 @@ msgstr "Võrguseadmed"
 msgid "IP"
 msgstr "IP"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
+msgid "Host"
+msgstr "Host"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 437
 msgid "User"
 msgstr "Kasutaja"
@@ -2100,6 +1804,236 @@ msgstr "❌ Ühendus ebaõnnestus"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
 msgid "Connection failed"
 msgstr "Ühendus ebaõnnestus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
+msgid "Preferências"
+msgstr "Eelistused"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
+msgid "Geral"
+msgstr "Geral"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
+msgid "Aparência"
+msgstr "Välimus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
+msgid "Tema"
+msgstr "Teema"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
+msgid "Escolha o esquema de cores"
+msgstr "Vali värviskeem."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
+msgid "Automático"
+msgstr "Automaatne"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+msgid "Claro"
+msgstr "Selge"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
+msgid "Escuro"
+msgstr "Tume"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
+msgid "Caminhos"
+msgstr "Teed"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
+msgid "Diretório de Configuração"
+msgstr "Konfiguratsioonikaust"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
+msgid "Copiar Caminho"
+msgstr "Kopeeri tee"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
+msgid "Logs e Depuração"
+msgstr "Logid ja tõrkeotsing"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
+msgid "Logs Detalhados"
+msgstr "Logidetailid"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
+msgid "Ativar logging verbose para depuração"
+msgstr "Aktiveerige üksikasjalik logimine tõrkeotsinguks"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
+msgid "Limpar Logs"
+msgstr "Logide puhastamine"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
+msgid "Remover arquivos de log antigos"
+msgstr "Eemaldage vanad logifailid"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+msgid "Limpar"
+msgstr "Puhastama"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+msgid "Logs Limpos"
+msgstr "Puhas logid"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+msgid "Arquivos de log antigos foram removidos."
+msgstr "Vana logifailid on eemaldatud."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
+msgid "Caminho copiado!"
+msgstr "Teekond on kopeeritud!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2492,6 +2426,341 @@ msgstr "Kuva ühenduse kvaliteedi hoiatustest"
 msgid "Keep display active during streaming"
 msgstr "Hoia ekraan aktiivne voogedastamise ajal"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 34
+msgid "Detecting bandwidth..."
+msgstr "Bandiwidthi tuvastamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
+msgid "Suggested bitrate: {} Mbps"
+msgstr "Soovitatud bitikiirus: {} Mbps"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 54
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 150
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
+msgid "Find and connect to the host using the options below."
+msgstr "Leidke ja ühendage host allolevate valikute abil."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 62
+msgid "Discover"
+msgstr "Avasta"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 63
+msgid "Manual"
+msgstr "Käsiotsik"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 356
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 376
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 429
+msgid "PIN Code"
+msgstr "PIN-kood"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 74
+msgid "Client Settings"
+msgstr "Kliendi seaded"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 75
+msgid "Reset to Defaults"
+msgstr "Lähtesta vaikeid."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 77
+msgid "Stream resolution"
+msgstr "Voogesus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 79
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 90
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 731
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 742
+msgid "Custom"
+msgstr "Kohandatud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Native Resolution (Adaptive)"
+msgstr "Kohalik Resolutsioon (Kohandatav)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Use screen/window resolution"
+msgstr "Kasutage ekraani/akna eraldusvõimet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 88
+msgid "Video smoothness"
+msgstr "Video sujuvus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 101
+msgid "Apply and Reconnect"
+msgstr "Kohanda ja Ühenda uuesti"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
+msgid "Bitrate (Quality)"
+msgstr "Bitiki (Kvaliteet)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
+msgid "Adjust bandwidth (0.5 - 150 Mbps)"
+msgstr "Kohanda ribalai (0,5 - 150 Mbps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 111
+msgid "Detect"
+msgstr "Tuvasta"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "How the window will be displayed"
+msgstr "Kuidas aken kuvatakse"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 219
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
+msgid "Audio"
+msgstr "Heli"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
+msgid "Receive audio streaming"
+msgstr "Vastake helivoo voogedastust"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
+msgid "Hardware Decoding"
+msgstr "Riistvara dekodeerimine"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
+msgid "Use GPU for decoding"
+msgstr "Kasutage dekodeerimiseks GPU-d"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
+msgid "Host connected: {}"
+msgstr "Host on ühendatud: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 141
+msgid "Active Session"
+msgstr "Aktiivne seanss"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 155
+msgid "Moonlight closed"
+msgstr "Kuuvalgus suletud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
+msgid "Host connected. Click Stop to disconnect."
+msgstr "Host on ühendatud. Klõpsake Stop, et lahti ühendada."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+msgid "Connect to {}"
+msgstr "Ühenda {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 270
+msgid "Connect to Selected"
+msgstr "Ühenda valituga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 219
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 425
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 449
+msgid "Connect with PIN"
+msgstr "Ühenda PIN-iga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 223
+msgid "Applying settings..."
+msgstr "Seadistuste rakendamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 247
+msgid "Discovered Hosts"
+msgstr "Avastatud hostid"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 248
+msgid "Scroll to list all found devices."
+msgstr "Kerige, et kuvada kõik leitud seadmed."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 299
+msgid "Searching for hosts..."
+msgstr "Otsin hoste..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
+msgid "No hosts found"
+msgstr "Hoste ei leitud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
+msgid "IP Copied: {}"
+msgstr "IP kopeeritud: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 372
+msgid "Connection Data"
+msgstr "Ühenduse andmed"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 373
+msgid "Enter server IP and port"
+msgstr "Sisestage serveri IP ja port"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 376
+msgid "IP/Hostname"
+msgstr "IP/Hostinimi"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 380
+msgid "Port"
+msgstr "Port"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 384
+msgid "Use IPv6"
+msgstr "Kasutage IPv6."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
+msgid "Enter the 6-digit PIN code provided by the host"
+msgstr "Sisestage peremehe poolt antud 6-kohaline PIN-kood."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Klõpsatud Ühenda..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 537
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 565
+msgid "Active Stream"
+msgstr "Aktiivne voog"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
+msgid "Failed to connect. Verify if Moonlight is paired."
+msgstr "Ühendamine ebaõnnestus. Kontrollige, kas Moonlight on paaritatud."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
+msgid "Failed to connect"
+msgstr "Ühendamine ebaõnnestus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
+msgid "Attempting automatic pairing PIN: {}"
+msgstr "Proovitakse automaatset paarimist PIN-koodi: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 590
+msgid "Automatic pairing sent!"
+msgstr "Automaatne paarimine saadetud!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 601
+msgid "Starting pairing..."
+msgstr "Alustamine paarimist..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 625
+msgid "Paired successfully!"
+msgstr "Edukseeritud edukalt!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+msgid "Pairing Error"
+msgstr "Paarimise viga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+msgid ""
+"Could not pair with host.\n"
+"Verify the PIN was entered correctly."
+msgstr ""
+"Ei saanud hostiga siduda.  \n"
+"Kontrollige, et PIN-kood on õigesti sisestatud."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 640
+msgid "Canceling connection..."
+msgstr "Ühenduse tühistamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+msgid "Pairing Required"
+msgstr "Nõutav paarimine"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+msgid ""
+"Moonlight needs to be paired.\n"
+"\n"
+"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+msgstr "Kuuvalgus tuleb siduda."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
+msgid ""
+"Follow instructions.\n"
+"\n"
+"1. Provide PIN and Host <b>{}</b> to the server.\n"
+"2. On the host, access Sunshine Configuration.\n"
+"3. Enter PIN and Host.\n"
+"4. Click Send."
+msgstr ""
+"1. Esitage PIN ja host <b>{}</b> serverile.\n"
+"2. Hostis pääsege Sunshine'i konfiguratsiooni.\n"
+"3. Sisestage PIN ja host.\n"
+"4. Klõpsake Saada."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 661
+msgid "Pairing Started"
+msgstr "Paarimine alustatud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
+msgid "Invalid PIN"
+msgstr "Kehtetu PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
+msgid "Must contain 6 digits."
+msgstr "Peab olema 6 numbrit."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
+msgid "Host found: {}"
+msgstr "Host leitud: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
+msgid "Host Not Found"
+msgstr "Hosti ei leitud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
+msgid "Could not find a host with this PIN on the local network..."
+msgstr "Kohalikul võrgul ei leitud selle PIN-iga hosti..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
+msgid "Set: {}"
+msgstr "Seade: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
+msgid "Custom Resolution"
+msgstr "Kohandatud eraldusvõime"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
+msgid "Enter WxH:"
+msgstr "Sisestage LxK:"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Custom FPS"
+msgstr "Kohandatud FPS"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Use a number"
+msgstr "Kasutage numbrit"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
+msgid "Value"
+msgstr "Väärtus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 762
+msgid "Apply"
+msgstr "Kinnita"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
+msgid "Reset defaults?"
+msgstr "Lähtesta vaike seadistused?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
+msgid "All client settings will be restored."
+msgstr "Kõik kliendi seaded taastatakse."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 792
+msgid "No"
+msgstr "Ei"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 793
+msgid "Yes"
+msgstr "Jah"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 802
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 808
+msgid "Restored"
+msgstr "Taastatud"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 111
 msgid "Sunshine Offline"
 msgstr "Päikesevalgus Offline"
@@ -2504,13 +2773,6 @@ msgstr "Konfigureeri ja jaga oma mängu, et sõbrad saaksid ühenduda."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 118
 msgid "Game Configuration"
 msgstr "Mängu konfiguratsioon"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 75
-msgid "Reset to Defaults"
-msgstr "Lähtesta vaikeid."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 126
 msgid "Game Mode"
@@ -2637,14 +2899,6 @@ msgstr "Wayland (soovitatav), X11 (pärand), või KMS (otsene)"
 msgid "KMS (Direct)"
 msgstr "KMS (Otsene)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 219
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
-msgid "Audio"
-msgstr "Heli"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 220
 msgid "Sound settings"
 msgstr "Heli seaded"
@@ -2749,15 +3003,6 @@ msgstr "Kasuta PIN-koodi ühendamiseks"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 353
 msgid "Share this with the guest. Local network is required."
 msgstr "Jaga seda külalisele. Kohalik võrk on vajalik."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 356
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 376
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 429
-msgid "PIN Code"
-msgstr "PIN-kood"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 366
 msgid "Copy PIN"
@@ -3018,316 +3263,40 @@ msgstr "Taasta"
 msgid "Settings Restored"
 msgstr "Seaded taastatud"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 34
-msgid "Detecting bandwidth..."
-msgstr "Bandiwidthi tuvastamine..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 48
+msgid "Icon loaded"
+msgstr "Ikon laaditud"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
-msgid "Suggested bitrate: {} Mbps"
-msgstr "Soovitatud bitikiirus: {} Mbps"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 54
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 150
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
-msgid "Find and connect to the host using the options below."
-msgstr "Leidke ja ühendage host allolevate valikute abil."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 62
-msgid "Discover"
-msgstr "Avasta"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 63
-msgid "Manual"
-msgstr "Käsiotsik"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 74
-msgid "Client Settings"
-msgstr "Kliendi seaded"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 77
-msgid "Stream resolution"
-msgstr "Voogesus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 79
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 90
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 731
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 742
-msgid "Custom"
-msgstr "Kohandatud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Native Resolution (Adaptive)"
-msgstr "Kohalik Resolutsioon (Kohandatav)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Use screen/window resolution"
-msgstr "Kasutage ekraani/akna eraldusvõimet"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 88
-msgid "Video smoothness"
-msgstr "Video sujuvus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 101
-msgid "Apply and Reconnect"
-msgstr "Kohanda ja Ühenda uuesti"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
-msgid "Bitrate (Quality)"
-msgstr "Bitiki (Kvaliteet)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
-msgid "Adjust bandwidth (0.5 - 150 Mbps)"
-msgstr "Kohanda ribalai (0,5 - 150 Mbps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 111
-msgid "Detect"
-msgstr "Tuvasta"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "How the window will be displayed"
-msgstr "Kuidas aken kuvatakse"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
-msgid "Receive audio streaming"
-msgstr "Vastake helivoo voogedastust"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
-msgid "Hardware Decoding"
-msgstr "Riistvara dekodeerimine"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
-msgid "Use GPU for decoding"
-msgstr "Kasutage dekodeerimiseks GPU-d"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
-msgid "Host connected: {}"
-msgstr "Host on ühendatud: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 141
-msgid "Active Session"
-msgstr "Aktiivne seanss"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 155
-msgid "Moonlight closed"
-msgstr "Kuuvalgus suletud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
-msgid "Host connected. Click Stop to disconnect."
-msgstr "Host on ühendatud. Klõpsake Stop, et lahti ühendada."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
-msgid "Connect to {}"
-msgstr "Ühenda {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 270
-msgid "Connect to Selected"
-msgstr "Ühenda valituga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 219
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 425
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 449
-msgid "Connect with PIN"
-msgstr "Ühenda PIN-iga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 223
-msgid "Applying settings..."
-msgstr "Seadistuste rakendamine..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 247
-msgid "Discovered Hosts"
-msgstr "Avastatud hostid"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 248
-msgid "Scroll to list all found devices."
-msgstr "Kerige, et kuvada kõik leitud seadmed."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 299
-msgid "Searching for hosts..."
-msgstr "Otsin hoste..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
-msgid "No hosts found"
-msgstr "Hoste ei leitud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
-msgid "IP Copied: {}"
-msgstr "IP kopeeritud: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 372
-msgid "Connection Data"
-msgstr "Ühenduse andmed"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 373
-msgid "Enter server IP and port"
-msgstr "Sisestage serveri IP ja port"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 376
-msgid "IP/Hostname"
-msgstr "IP/Hostinimi"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 380
-msgid "Port"
-msgstr "Port"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 384
-msgid "Use IPv6"
-msgstr "Kasutage IPv6."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
-msgid "Enter the 6-digit PIN code provided by the host"
-msgstr "Sisestage peremehe poolt antud 6-kohaline PIN-kood."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
-msgid "Clicked Connect..."
-msgstr "Klõpsatud Ühenda..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 537
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 565
-msgid "Active Stream"
-msgstr "Aktiivne voog"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
-msgid "Failed to connect. Verify if Moonlight is paired."
-msgstr "Ühendamine ebaõnnestus. Kontrollige, kas Moonlight on paaritatud."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
-msgid "Failed to connect"
-msgstr "Ühendamine ebaõnnestus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
-msgid "Attempting automatic pairing PIN: {}"
-msgstr "Proovitakse automaatset paarimist PIN-koodi: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 590
-msgid "Automatic pairing sent!"
-msgstr "Automaatne paarimine saadetud!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 601
-msgid "Starting pairing..."
-msgstr "Alustamine paarimist..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 625
-msgid "Paired successfully!"
-msgstr "Edukseeritud edukalt!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
-msgid "Pairing Error"
-msgstr "Paarimise viga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 66
 msgid ""
-"Could not pair with host.\n"
-"Verify the PIN was entered correctly."
+"Integrated remote cooperative gaming system\n"
+"Inspired by Steam Remote Play Together"
 msgstr ""
-"Ei saanud hostiga siduda.  \n"
-"Kontrollige, et PIN-kood on õigesti sisestatud."
+"Integreeritud kaugkoostöö mängusüsteem  \n"
+"Inspireeritud Steam Remote Play Together'ist"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 640
-msgid "Canceling connection..."
-msgstr "Ühenduse tühistamine..."
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
-msgid "Pairing Required"
-msgstr "Nõutav paarimine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 106
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 109
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 129
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
+msgid "Unknown"
+msgstr "Tundmatu"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
-msgid ""
-"Moonlight needs to be paired.\n"
-"\n"
-"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
-msgstr "Kuuvalgus tuleb siduda."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
+msgid " (IPv6 Local)"
+msgstr "(IPv6 Kohalik)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
-msgid ""
-"Follow instructions.\n"
-"\n"
-"1. Provide PIN and Host <b>{}</b> to the server.\n"
-"2. On the host, access Sunshine Configuration.\n"
-"3. Enter PIN and Host.\n"
-"4. Click Send."
-msgstr ""
-"1. Esitage PIN ja host <b>{}</b> serverile.\n"
-"2. Hostis pääsege Sunshine'i konfiguratsiooni.\n"
-"3. Sisestage PIN ja host.\n"
-"4. Klõpsake Saada."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
+msgid " (IPv6 Global)"
+msgstr "(IPv6 Globaal)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 661
-msgid "Pairing Started"
-msgstr "Paarimine alustatud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
-msgid "Invalid PIN"
-msgstr "Kehtetu PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
-msgid "Must contain 6 digits."
-msgstr "Peab olema 6 numbrit."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
-msgid "Host found: {}"
-msgstr "Host leitud: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
-msgid "Host Not Found"
-msgstr "Hosti ei leitud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
-msgid "Could not find a host with this PIN on the local network..."
-msgstr "Kohalikul võrgul ei leitud selle PIN-iga hosti..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
-msgid "Set: {}"
-msgstr "Seade: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
-msgid "Custom Resolution"
-msgstr "Kohandatud eraldusvõime"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
-msgid "Enter WxH:"
-msgstr "Sisestage LxK:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Custom FPS"
-msgstr "Kohandatud FPS"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Use a number"
-msgstr "Kasutage numbrit"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
-msgid "Value"
-msgstr "Väärtus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 762
-msgid "Apply"
-msgstr "Kinnita"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
-msgid "Reset defaults?"
-msgstr "Lähtesta vaike seadistused?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
-msgid "All client settings will be restored."
-msgstr "Kõik kliendi seaded taastatakse."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 792
-msgid "No"
-msgstr "Ei"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 793
-msgid "Yes"
-msgstr "Jah"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 802
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 808
-msgid "Restored"
-msgstr "Taastatud"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+msgid "Host ({})"
+msgstr "Host ({})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 80
 msgid "Sunshine failed to start (Exit code {}).\n"

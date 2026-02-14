@@ -15,287 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
-msgid " (IPv6 Local)"
-msgstr "(IPv6 Local)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
-msgid " (IPv6 Global)"
-msgstr "(IPv6 Global)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
-msgid "Host ({})"
-msgstr "Gazdă ({})"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 992
-msgid "Host"
-msgstr "Gazdă"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
-msgid "Unknown"
-msgstr "Necunoscut"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 51
-msgid "Icon loaded"
-msgstr "Iconă încărcată"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 69
-msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
-msgstr ""
-"Sistem integrat de jocuri cooperativ la distanță  \n"
-"Inspirație din Steam Remote Play Together"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
-msgid "Install Dependencies"
-msgstr "Instalare dependențe"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
-msgid "Installing required components..."
-msgstr "Instalarea componentelor necesare..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
-msgid ""
-"Embedded terminal not available (vte4 not found).\n"
-"Opening external terminal for installation...\n"
-"Please wait for the installation to finish in the other window."
-msgstr ""
-"Terminal încorporat indisponibil (vte4 nu a fost găsit).\n"
-"Se deschide un terminal extern pentru instalare...\n"
-"Vă rugăm să așteptați finalizarea instalării în cealaltă fereastră."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
-msgid "Starting..."
-msgstr "Începere..."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1262
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 464
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 587
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 620
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 648
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 692
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 672
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 784
-msgid "Cancel"
-msgstr "Anulează"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
-msgid "Done! Press Enter to close..."
-msgstr "Gata! Apasă Enter pentru a închide..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-msgid "Running in external terminal. Restart after completion."
-msgstr "Se execută în terminal extern. Repornire după finalizare."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
-msgid "Close"
-msgstr "Închide"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid "Error: No terminal detected."
-msgstr "Eroare: Niciun terminal detectat."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid ""
-"Execute manually:\n"
-"{}"
-msgstr ""
-"Execută manual: \n"
-"{}"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1669
-msgid "Installing..."
-msgstr "Instalare..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
-msgid "Error: {}"
-msgstr "Eroare: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
-msgid "Embedded terminal error: {}. Trying external..."
-msgstr "Eroare terminal încorporat: {}. Încercare externă..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
-msgid "Installation completed successfully!"
-msgstr "Instalarea a fost finalizată cu succes!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-msgid "Finish"
-msgstr "Finalizați"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
-msgid "Installation failed. Exit code: {}"
-msgstr "Instalarea a eșuat. Cod de ieșire: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
-msgid "Preferências"
-msgstr "Preferințe"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
-msgid "Geral"
-msgstr "Geral"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
-msgid "Aparência"
-msgstr "Aparitie"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
-msgid "Tema"
-msgstr "Tema"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
-msgid "Escolha o esquema de cores"
-msgstr "Alege schema de culori"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
-msgid "Automático"
-msgstr "Automatizat"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
-msgid "Escuro"
-msgstr "Întunecat"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-msgid "Avançado"
-msgstr "Avansat"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
-msgid "Caminhos"
-msgstr "Cărți de acces"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
-msgid "Diretório de Configuração"
-msgstr "Director de Configurare"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
-msgid "Copiar Caminho"
-msgstr "Copiere Cale."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
-msgid "Logs e Depuração"
-msgstr "Jurnale și Depurare"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
-msgid "Logs Detalhados"
-msgstr "Logs detaliate"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
-msgid "Ativar logging verbose para depuração"
-msgstr "Activate verbose logging for debugging"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
-msgid "Limpar Logs"
-msgstr "Curăță jurnalele"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
-msgid "Remover arquivos de log antigos"
-msgstr "Remove old log files"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-msgid "Limpar"
-msgstr "Curățare"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
-msgid "Manutenção do Sistema"
-msgstr "Manutenção a Sistemului"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Instrumente pentru rezolvarea problemelor comune"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Corrigerea bibliotecilor (ICU)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Rezolvați eroarea libicuuc.so.7* lipsă"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
-msgid "Fix Automático"
-msgstr "Fix Automată"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
-msgid "Logs Limpos"
-msgstr "Jurnale curate"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
-msgid "Arquivos de log antigos foram removidos."
-msgstr "Fișierele de jurnal vechi au fost eliminate."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "Fix Automático Iniciado"
-msgstr "Fix Automată Inițiată"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Scriptul de corectare a bibliotecilor a fost inițiat. Furnizați parola dacă vi se solicită."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Erro"
-msgstr "Eroare"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Script de correção não encontrado."
-msgstr "Script de corecție nu a fost găsit."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
-msgid "Caminho copiado!"
-msgstr "Calea copiată!"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 62
 msgid "Sunshine"
 msgstr "Soare"
@@ -1233,6 +952,106 @@ msgstr "Activ - Niciun dispozitiv"
 msgid "Connected to {}"
 msgstr "Conectat la {}"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
+msgid "Install Dependencies"
+msgstr "Instalare dependențe"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
+msgid "Installing required components..."
+msgstr "Instalarea componentelor necesare..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
+msgid ""
+"Embedded terminal not available (vte4 not found).\n"
+"Opening external terminal for installation...\n"
+"Please wait for the installation to finish in the other window."
+msgstr ""
+"Terminal încorporat indisponibil (vte4 nu a fost găsit).\n"
+"Se deschide un terminal extern pentru instalare...\n"
+"Vă rugăm să așteptați finalizarea instalării în cealaltă fereastră."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
+msgid "Starting..."
+msgstr "Începere..."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1262
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 464
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 587
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 620
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 648
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 692
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 672
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 784
+msgid "Cancel"
+msgstr "Anulează"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
+msgid "Done! Press Enter to close..."
+msgstr "Gata! Apasă Enter pentru a închide..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+msgid "Running in external terminal. Restart after completion."
+msgstr "Se execută în terminal extern. Repornire după finalizare."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
+msgid "Close"
+msgstr "Închide"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid "Error: No terminal detected."
+msgstr "Eroare: Niciun terminal detectat."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid ""
+"Execute manually:\n"
+"{}"
+msgstr ""
+"Execută manual: \n"
+"{}"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1669
+msgid "Installing..."
+msgstr "Instalare..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+msgid "Error: {}"
+msgstr "Eroare: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+msgid "Embedded terminal error: {}. Trying external..."
+msgstr "Eroare terminal încorporat: {}. Încercare externă..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
+msgid "Installation completed successfully!"
+msgstr "Instalarea a fost finalizată cu succes!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+msgid "Finish"
+msgstr "Finalizați"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+msgid "Installation failed. Exit code: {}"
+msgstr "Instalarea a eșuat. Cod de ieșire: {}"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
 msgid "🎮 Network Created Successfully!"
 msgstr "🎮 Rețea creată cu succes!"
@@ -1290,6 +1109,10 @@ msgstr "În meniul din bara laterală"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Introduceți domeniul și cheia de autentificare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
@@ -1812,6 +1635,13 @@ msgstr "Dispozitive de rețea"
 msgid "IP"
 msgstr "IP"
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 992
+msgid "Host"
+msgstr "Gazdă"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 993
 msgid "User"
 msgstr "Utilizator"
@@ -1979,6 +1809,106 @@ msgstr "Conexiune eșuată"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
 msgid "Connection failed"
 msgstr "Conexiune eșuată"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
+msgid "Preferências"
+msgstr "Preferințe"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
+msgid "Geral"
+msgstr "Geral"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
+msgid "Aparência"
+msgstr "Aparitie"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
+msgid "Tema"
+msgstr "Tema"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
+msgid "Escolha o esquema de cores"
+msgstr "Alege schema de culori"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
+msgid "Automático"
+msgstr "Automatizat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
+msgid "Escuro"
+msgstr "Întunecat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+msgid "Avançado"
+msgstr "Avansat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
+msgid "Caminhos"
+msgstr "Cărți de acces"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
+msgid "Diretório de Configuração"
+msgstr "Director de Configurare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
+msgid "Copiar Caminho"
+msgstr "Copiere Cale."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
+msgid "Logs e Depuração"
+msgstr "Jurnale și Depurare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
+msgid "Logs Detalhados"
+msgstr "Logs detaliate"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
+msgid "Ativar logging verbose para depuração"
+msgstr "Activate verbose logging for debugging"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
+msgid "Limpar Logs"
+msgstr "Curăță jurnalele"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
+msgid "Remover arquivos de log antigos"
+msgstr "Remove old log files"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+msgid "Limpar"
+msgstr "Curățare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
+msgid "Logs Limpos"
+msgstr "Jurnale curate"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
+msgid "Arquivos de log antigos foram removidos."
+msgstr "Fișierele de jurnal vechi au fost eliminate."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
+msgid "Caminho copiado!"
+msgstr "Calea copiată!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2373,6 +2303,339 @@ msgstr "Afișați avertismente privind calitatea conexiunii"
 msgid "Keep display active during streaming"
 msgstr "Menține afișajul activ în timpul transmiterii."
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 36
+msgid "Detecting bandwidth..."
+msgstr "Detectarea lățimii de bandă..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 42
+msgid "Suggested bitrate: {} Mbps"
+msgstr "Bitrate sugerat: {} Mbps"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 56
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 158
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
+msgid "Find and connect to the host using the options below."
+msgstr "Găsiți și conectați-vă la gazdă folosind opțiunile de mai jos."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
+msgid "Discover"
+msgstr "Descoperiți"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 67
+msgid "Manual"
+msgstr "Manual"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 361
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 438
+msgid "PIN Code"
+msgstr "Cod PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 82
+msgid "Client Settings"
+msgstr "Setări client"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Reset to Defaults"
+msgstr "Resetare la setările implicite"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 85
+msgid "Stream resolution"
+msgstr "Rezoluția fluxului"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 87
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 98
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 754
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 765
+msgid "Custom"
+msgstr "Personalizat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
+msgid "Native Resolution (Adaptive)"
+msgstr "Rezoluție nativă (adaptivă)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
+msgid "Use screen/window resolution"
+msgstr "Utilizați rezoluția ecranului/fereastrei"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 96
+msgid "Video smoothness"
+msgstr "Fluiditatea video"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 109
+msgid "Apply and Reconnect"
+msgstr "Aplică și reconectează"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "Bitrate (Quality)"
+msgstr "Bitrate (Calitate)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "Adjust bandwidth (0.5 - 150 Mbps)"
+msgstr "Ajustați lățimea de bandă (0,5 - 150 Mbps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 119
+msgid "Detect"
+msgstr "Detecta"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 123
+msgid "How the window will be displayed"
+msgstr "Cum va fi afișată fereastra"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 224
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 352
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
+msgid "Audio"
+msgstr "Audio"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
+msgid "Receive audio streaming"
+msgstr "Recepționare streaming audio"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
+msgid "Hardware Decoding"
+msgstr "Decodare hardware"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
+msgid "Use GPU for decoding"
+msgstr "Utilizați GPU pentru decodare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 148
+msgid "Host connected: {}"
+msgstr "Gazda conectată: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 149
+msgid "Active Session"
+msgstr "Sesiune activă"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 163
+msgid "Moonlight closed"
+msgstr "Lumină de lună închisă"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
+msgid "Host connected. Click Stop to disconnect."
+msgstr "Gazda conectată. Faceți clic pe Oprire pentru a deconecta."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
+msgid "Connect to {}"
+msgstr "Conectează-te la {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 278
+msgid "Connect to Selected"
+msgstr "Conectează-te la selecție"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 227
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 434
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 458
+msgid "Connect with PIN"
+msgstr "Conectează-te cu PIN-ul"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 231
+msgid "Applying settings..."
+msgstr "Aplicarea setărilor..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 255
+msgid "Discovered Hosts"
+msgstr "Gazde Descoperite"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 256
+msgid "Scroll to list all found devices."
+msgstr "Derulați pentru a lista toate dispozitivele găsite."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 307
+msgid "Searching for hosts..."
+msgstr "Căutare gazde..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 319
+msgid "No hosts found"
+msgstr "Niciun gazdă găsită"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 368
+msgid "IP Copied: {}"
+msgstr "IP Copiat: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 381
+msgid "Connection Data"
+msgstr "Date de conexiune"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 382
+msgid "Enter server IP and port"
+msgstr "Introduceți IP-ul serverului și portul"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 385
+msgid "IP/Hostname"
+msgstr "IP/Nume gazdă"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 389
+msgid "Port"
+msgstr "Port"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 393
+msgid "Use IPv6"
+msgstr "Utilizați IPv6"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 435
+msgid "Enter the 6-digit PIN code provided by the host"
+msgstr "Introduceți codul PIN de 6 cifre furnizat de gazdă."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 472
+msgid "Clicked Connect..."
+msgstr "Ați făcut clic pe Conectare..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 560
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 598
+msgid "Active Stream"
+msgstr "Flux Activ."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 562
+msgid "Failed to connect. Verify if Moonlight is paired."
+msgstr "Conexiune eșuată. Verifică dacă Moonlight este asociat."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 600
+msgid "Failed to connect"
+msgstr "Conectare eșuată"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 620
+msgid "Attempting automatic pairing PIN: {}"
+msgstr "Încercarea de asociere automată a PIN-ului: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 623
+msgid "Automatic pairing sent!"
+msgstr "Asocierea automată a fost trimisă!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 634
+msgid "Starting pairing..."
+msgstr "Începerea asociării..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 651
+msgid "Paired successfully!"
+msgstr "Perechea a fost realizată cu succes!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
+msgid "Pairing Error"
+msgstr "Eroare de asociere"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
+msgid ""
+"Could not pair with host.\n"
+"Verify the PIN was entered correctly."
+msgstr ""
+"Nu s-a putut conecta la gazdă.  \n"
+"Verificați dacă PIN-ul a fost introdus corect."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+msgid "Canceling connection..."
+msgstr "Anularea conexiunii..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+msgid "Pairing Required"
+msgstr "Asociere necesară"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
+msgid ""
+"Moonlight needs to be paired.\n"
+"\n"
+"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+msgstr "Moonlight trebuie să fie asociat."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 678
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 682
+msgid ""
+"Follow instructions.\n"
+"\n"
+"1. Provide PIN and Host <b>{}</b> to the server.\n"
+"2. On the host, access Sunshine Configuration.\n"
+"3. Enter PIN and Host.\n"
+"4. Click Send."
+msgstr ""
+"1. Furnizați PIN-ul și gazda <b>{}</b> serverului.\n"
+"2. Pe gazdă, accesați Configurarea Sunshine.\n"
+"3. Introduceți PIN-ul și gazda.\n"
+"4. Faceți clic pe Trimite."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 684
+msgid "Pairing Started"
+msgstr "Asocierea a început"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
+msgid "Invalid PIN"
+msgstr "PIN invalid."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
+msgid "Must contain 6 digits."
+msgstr "Trebuie să conțină 6 cifre."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 740
+msgid "Host found: {}"
+msgstr "Gazda găsită: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Host Not Found"
+msgstr "Gazda nu a fost găsită"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Could not find a host with this PIN on the local network..."
+msgstr "Nu s-a putut găsi un gazdă cu acest PIN pe rețeaua locală..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 767
+msgid "Set: {}"
+msgstr "Set: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
+msgid "Custom Resolution"
+msgstr "Rezoluție personalizată"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
+msgid "Enter WxH:"
+msgstr "Introduceți WxH:"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
+msgid "Custom FPS"
+msgstr "FPS personalizat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
+msgid "Use a number"
+msgstr "Folosește un număr"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 780
+msgid "Value"
+msgstr "Valoare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 785
+msgid "Apply"
+msgstr "Aplică"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
+msgid "Reset defaults?"
+msgstr "Resetare la setările implicite?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
+msgid "All client settings will be restored."
+msgstr "Toate setările clientului vor fi restaurate."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 815
+msgid "No"
+msgstr ""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 816
+msgid "Yes"
+msgstr "Da"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 825
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 831
+msgid "Restored"
+msgstr "Restaurat"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 113
 msgid "Sunshine Offline"
 msgstr "Soare Offline"
@@ -2385,13 +2648,6 @@ msgstr "Configurează și împărtășește-ți jocul pentru ca prietenii să se
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
 msgid "Game Configuration"
 msgstr "Configurare jocuri"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Reset to Defaults"
-msgstr "Resetare la setările implicite"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 131
 msgid "Game Mode"
@@ -2518,14 +2774,6 @@ msgstr "Wayland (recomandat), X11 (moștenit) sau KMS (direct)"
 msgid "KMS (Direct)"
 msgstr "KMS (Direct)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 224
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 352
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
-msgid "Audio"
-msgstr "Audio"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 225
 msgid "Sound settings"
 msgstr "Setări audio"
@@ -2630,15 +2878,6 @@ msgstr "Utilizați codul PIN pentru a vă conecta."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 358
 msgid "Share this with the guest. Local network is required."
 msgstr "Împărtășește acest lucru cu oaspetele. Este necesară o rețea locală."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 361
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 382
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 438
-msgid "PIN Code"
-msgstr "Cod PIN"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 372
 msgid "Copy PIN"
@@ -2901,314 +3140,40 @@ msgstr "Restaurare"
 msgid "Settings Restored"
 msgstr "Setările restaurate"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 36
-msgid "Detecting bandwidth..."
-msgstr "Detectarea lățimii de bandă..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 51
+msgid "Icon loaded"
+msgstr "Iconă încărcată"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 42
-msgid "Suggested bitrate: {} Mbps"
-msgstr "Bitrate sugerat: {} Mbps"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 56
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 158
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
-msgid "Find and connect to the host using the options below."
-msgstr "Găsiți și conectați-vă la gazdă folosind opțiunile de mai jos."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
-msgid "Discover"
-msgstr "Descoperiți"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 67
-msgid "Manual"
-msgstr "Manual"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 82
-msgid "Client Settings"
-msgstr "Setări client"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 85
-msgid "Stream resolution"
-msgstr "Rezoluția fluxului"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 87
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 98
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 754
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 765
-msgid "Custom"
-msgstr "Personalizat"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
-msgid "Native Resolution (Adaptive)"
-msgstr "Rezoluție nativă (adaptivă)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 91
-msgid "Use screen/window resolution"
-msgstr "Utilizați rezoluția ecranului/fereastrei"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 96
-msgid "Video smoothness"
-msgstr "Fluiditatea video"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 109
-msgid "Apply and Reconnect"
-msgstr "Aplică și reconectează"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "Bitrate (Quality)"
-msgstr "Bitrate (Calitate)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "Adjust bandwidth (0.5 - 150 Mbps)"
-msgstr "Ajustați lățimea de bandă (0,5 - 150 Mbps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 119
-msgid "Detect"
-msgstr "Detecta"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 123
-msgid "How the window will be displayed"
-msgstr "Cum va fi afișată fereastra"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
-msgid "Receive audio streaming"
-msgstr "Recepționare streaming audio"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
-msgid "Hardware Decoding"
-msgstr "Decodare hardware"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 130
-msgid "Use GPU for decoding"
-msgstr "Utilizați GPU pentru decodare"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 148
-msgid "Host connected: {}"
-msgstr "Gazda conectată: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 149
-msgid "Active Session"
-msgstr "Sesiune activă"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 163
-msgid "Moonlight closed"
-msgstr "Lumină de lună închisă"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 177
-msgid "Host connected. Click Stop to disconnect."
-msgstr "Gazda conectată. Faceți clic pe Oprire pentru a deconecta."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
-msgid "Connect to {}"
-msgstr "Conectează-te la {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 220
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 278
-msgid "Connect to Selected"
-msgstr "Conectează-te la selecție"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 227
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 434
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 458
-msgid "Connect with PIN"
-msgstr "Conectează-te cu PIN-ul"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 231
-msgid "Applying settings..."
-msgstr "Aplicarea setărilor..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 255
-msgid "Discovered Hosts"
-msgstr "Gazde Descoperite"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 256
-msgid "Scroll to list all found devices."
-msgstr "Derulați pentru a lista toate dispozitivele găsite."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 307
-msgid "Searching for hosts..."
-msgstr "Căutare gazde..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 319
-msgid "No hosts found"
-msgstr "Niciun gazdă găsită"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 368
-msgid "IP Copied: {}"
-msgstr "IP Copiat: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 381
-msgid "Connection Data"
-msgstr "Date de conexiune"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 382
-msgid "Enter server IP and port"
-msgstr "Introduceți IP-ul serverului și portul"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 385
-msgid "IP/Hostname"
-msgstr "IP/Nume gazdă"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 389
-msgid "Port"
-msgstr "Port"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 393
-msgid "Use IPv6"
-msgstr "Utilizați IPv6"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 435
-msgid "Enter the 6-digit PIN code provided by the host"
-msgstr "Introduceți codul PIN de 6 cifre furnizat de gazdă."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 472
-msgid "Clicked Connect..."
-msgstr "Ați făcut clic pe Conectare..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 560
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 598
-msgid "Active Stream"
-msgstr "Flux Activ."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 562
-msgid "Failed to connect. Verify if Moonlight is paired."
-msgstr "Conexiune eșuată. Verifică dacă Moonlight este asociat."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 600
-msgid "Failed to connect"
-msgstr "Conectare eșuată"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 620
-msgid "Attempting automatic pairing PIN: {}"
-msgstr "Încercarea de asociere automată a PIN-ului: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 623
-msgid "Automatic pairing sent!"
-msgstr "Asocierea automată a fost trimisă!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 634
-msgid "Starting pairing..."
-msgstr "Începerea asociării..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 651
-msgid "Paired successfully!"
-msgstr "Perechea a fost realizată cu succes!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
-msgid "Pairing Error"
-msgstr "Eroare de asociere"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 653
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 69
 msgid ""
-"Could not pair with host.\n"
-"Verify the PIN was entered correctly."
+"Integrated remote cooperative gaming system\n"
+"Inspired by Steam Remote Play Together"
 msgstr ""
-"Nu s-a putut conecta la gazdă.  \n"
-"Verificați dacă PIN-ul a fost introdus corect."
+"Sistem integrat de jocuri cooperativ la distanță  \n"
+"Inspirație din Steam Remote Play Together"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-msgid "Canceling connection..."
-msgstr "Anularea conexiunii..."
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-msgid "Pairing Required"
-msgstr "Asociere necesară"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
+msgid "Unknown"
+msgstr "Necunoscut"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 671
-msgid ""
-"Moonlight needs to be paired.\n"
-"\n"
-"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
-msgstr "Moonlight trebuie să fie asociat."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
+msgid " (IPv6 Local)"
+msgstr "(IPv6 Local)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 678
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 682
-msgid ""
-"Follow instructions.\n"
-"\n"
-"1. Provide PIN and Host <b>{}</b> to the server.\n"
-"2. On the host, access Sunshine Configuration.\n"
-"3. Enter PIN and Host.\n"
-"4. Click Send."
-msgstr ""
-"1. Furnizați PIN-ul și gazda <b>{}</b> serverului.\n"
-"2. Pe gazdă, accesați Configurarea Sunshine.\n"
-"3. Introduceți PIN-ul și gazda.\n"
-"4. Faceți clic pe Trimite."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
+msgid " (IPv6 Global)"
+msgstr "(IPv6 Global)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 684
-msgid "Pairing Started"
-msgstr "Asocierea a început"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
-msgid "Invalid PIN"
-msgstr "PIN invalid."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 719
-msgid "Must contain 6 digits."
-msgstr "Trebuie să conțină 6 cifre."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 740
-msgid "Host found: {}"
-msgstr "Gazda găsită: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Host Not Found"
-msgstr "Gazda nu a fost găsită"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Could not find a host with this PIN on the local network..."
-msgstr "Nu s-a putut găsi un gazdă cu acest PIN pe rețeaua locală..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 767
-msgid "Set: {}"
-msgstr "Set: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
-msgid "Custom Resolution"
-msgstr "Rezoluție personalizată"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 759
-msgid "Enter WxH:"
-msgstr "Introduceți WxH:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
-msgid "Custom FPS"
-msgstr "FPS personalizat"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 768
-msgid "Use a number"
-msgstr "Folosește un număr"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 780
-msgid "Value"
-msgstr "Valoare"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 785
-msgid "Apply"
-msgstr "Aplică"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
-msgid "Reset defaults?"
-msgstr "Resetare la setările implicite?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 813
-msgid "All client settings will be restored."
-msgstr "Toate setările clientului vor fi restaurate."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 815
-msgid "No"
-msgstr ""
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 816
-msgid "Yes"
-msgstr "Da"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 825
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 831
-msgid "Restored"
-msgstr "Restaurat"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+msgid "Host ({})"
+msgstr "Gazdă ({})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

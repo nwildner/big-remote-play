@@ -15,290 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
-msgid " (IPv6 Local)"
-msgstr "(IPv6 מקומי)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
-msgid " (IPv6 Global)"
-msgstr "(IPv6 גלובלי)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
-msgid "Host ({})"
-msgstr "מארח ({})"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 437
-msgid "Host"
-msgstr "מארח"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
-msgid "Unknown"
-msgstr "לא ידוע"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 48
-msgid "Icon loaded"
-msgstr "אייקון נטען"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 66
-msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
-msgstr ""
-"מערכת משחקים שיתופית מרוחקת משולבת  \n"
-"בהשראת Steam Remote Play Together"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
-msgid "Install Dependencies"
-msgstr "התקן תלויות"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
-msgid "Installing required components..."
-msgstr "מתקין רכיבים נדרשים..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
-msgid ""
-"Embedded terminal not available (vte4 not found).\n"
-"Opening external terminal for installation...\n"
-"Please wait for the installation to finish in the other window."
-msgstr ""
-"טרמינל משולב אינו זמין (vte4 לא נמצא).\n"
-"פותחים טרמינל חיצוני להתקנה...\n"
-"אנא המתן לסיום ההתקנה בחלון האחר."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
-msgid "Starting..."
-msgstr "מתחיל..."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 420
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 581
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 614
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 642
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1430
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 649
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 761
-msgid "Cancel"
-msgstr "ביטול"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
-msgid "Done! Press Enter to close..."
-msgstr "סיימת! לחץ על Enter כדי לסגור..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-msgid "Running in external terminal. Restart after completion."
-msgstr "ריצה במסוף חיצוני. הפעל מחדש לאחר סיום."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
-msgid "Close"
-msgstr "סגור"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid "Error: No terminal detected."
-msgstr "שגיאה: לא זוהה מסוף."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid ""
-"Execute manually:\n"
-"{}"
-msgstr ""
-"בצע ידנית:\n"
-"{}"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 576
-msgid "Installing..."
-msgstr "מתקין..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
-msgid "Error: {}"
-msgstr "שגיאה: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
-msgid "Embedded terminal error: {}. Trying external..."
-msgstr "שגיאת טרמינל משולב: {}. מנסה חיצוני..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
-msgid "Installation completed successfully!"
-msgstr "ההתקנה הושלמה בהצלחה!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-msgid "Finish"
-msgstr "סיימו"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
-msgid "Installation failed. Exit code: {}"
-msgstr "ההתקנה נכשלה. קוד יציאה: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
-msgid "Preferências"
-msgstr "העדפות"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
-msgid "Geral"
-msgstr "ג'נרל"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
-msgid "Aparência"
-msgstr "מראה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
-msgid "Tema"
-msgstr "נושא"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
-msgid "Escolha o esquema de cores"
-msgstr "בחר את סכמת הצבעים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
-msgid "Automático"
-msgstr "אוטומטי"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-msgid "Claro"
-msgstr "ברור"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
-msgid "Escuro"
-msgstr "כהה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-msgid "Avançado"
-msgstr "מתקדם"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
-msgid "Caminhos"
-msgstr "דרכים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
-msgid "Diretório de Configuração"
-msgstr "תיקיית הגדרות"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
-msgid "Copiar Caminho"
-msgstr "העתק נתיב"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
-msgid "Logs e Depuração"
-msgstr "יומנים ודיבוג"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
-msgid "Logs Detalhados"
-msgstr "יומני פרטים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
-msgid "Ativar logging verbose para depuração"
-msgstr "הפעל רישום מפורט לצורך דיבוג"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
-msgid "Limpar Logs"
-msgstr "נקה יומנים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
-msgid "Remover arquivos de log antigos"
-msgstr "הסר קבצי יומן ישנים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-msgid "Limpar"
-msgstr "נקה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
-msgid "Manutenção do Sistema"
-msgstr "תחזוקת המערכת"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "כלים לפתרון בעיות נפוצות"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "לתקן ספריות (ICU)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "פתור את השגיאה libicuuc.so.7* חסר"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
-msgid "Fix Automático"
-msgstr "תיקון אוטומטי"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
-msgid "Logs Limpos"
-msgstr "יומנים נקיים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
-msgid "Arquivos de log antigos foram removidos."
-msgstr "קבצי יומן ישנים הוסרו."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-msgid "OK"
-msgstr "אוקי"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "Fix Automático Iniciado"
-msgstr "תיקון אוטומטי החל"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "הסקריפט לתיקון ספריות הושק. ספק את הסיסמה אם תתבקש."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Erro"
-msgstr "שגיאה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Script de correção não encontrado."
-msgstr "סקריפט תיקון לא נמצא."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
-msgid "Caminho copiado!"
-msgstr "נתיב הועתק!"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 61
 msgid "Sunshine"
 msgstr "שמש"
@@ -1212,6 +928,101 @@ msgstr "פעיל - אין מכשירים"
 msgid "Connected to {}"
 msgstr "מחובר ל{}"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
+msgid "Install Dependencies"
+msgstr "התקן תלויות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
+msgid "Installing required components..."
+msgstr "מתקין רכיבים נדרשים..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
+msgid ""
+"Embedded terminal not available (vte4 not found).\n"
+"Opening external terminal for installation...\n"
+"Please wait for the installation to finish in the other window."
+msgstr ""
+"טרמינל משולב אינו זמין (vte4 לא נמצא).\n"
+"פותחים טרמינל חיצוני להתקנה...\n"
+"אנא המתן לסיום ההתקנה בחלון האחר."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
+msgid "Starting..."
+msgstr "מתחיל..."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 420
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 581
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 614
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 642
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1430
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 649
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 761
+msgid "Cancel"
+msgstr "ביטול"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
+msgid "Done! Press Enter to close..."
+msgstr "סיימת! לחץ על Enter כדי לסגור..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+msgid "Running in external terminal. Restart after completion."
+msgstr "ריצה במסוף חיצוני. הפעל מחדש לאחר סיום."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
+msgid "Close"
+msgstr "סגור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid "Error: No terminal detected."
+msgstr "שגיאה: לא זוהה מסוף."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid ""
+"Execute manually:\n"
+"{}"
+msgstr ""
+"בצע ידנית:\n"
+"{}"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 576
+msgid "Installing..."
+msgstr "מתקין..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+msgid "Error: {}"
+msgstr "שגיאה: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+msgid "Embedded terminal error: {}. Trying external..."
+msgstr "שגיאת טרמינל משולב: {}. מנסה חיצוני..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
+msgid "Installation completed successfully!"
+msgstr "ההתקנה הושלמה בהצלחה!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+msgid "Finish"
+msgstr "סיימו"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+msgid "Installation failed. Exit code: {}"
+msgstr "ההתקנה נכשלה. קוד יציאה: {}"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
 msgid "🎮 Network Created Successfully!"
 msgstr "🎮 הרשת נוצרה בהצלחה!"
@@ -1266,6 +1077,10 @@ msgstr "בתפריט הצדדי"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. הזן דומיין ומפתח אימות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
@@ -1771,6 +1586,13 @@ msgstr "מכשירי רשת"
 msgid "IP"
 msgstr "כתובת IP"
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 437
+msgid "Host"
+msgstr "מארח"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 437
 msgid "User"
 msgstr "משתמש"
@@ -1937,6 +1759,116 @@ msgstr "❌ חיבור נכשל"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
 msgid "Connection failed"
 msgstr "חיבור נכשל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
+msgid "Preferências"
+msgstr "העדפות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
+msgid "Geral"
+msgstr "ג'נרל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
+msgid "Aparência"
+msgstr "מראה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
+msgid "Tema"
+msgstr "נושא"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
+msgid "Escolha o esquema de cores"
+msgstr "בחר את סכמת הצבעים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
+msgid "Automático"
+msgstr "אוטומטי"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+msgid "Claro"
+msgstr "ברור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
+msgid "Escuro"
+msgstr "כהה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+msgid "Avançado"
+msgstr "מתקדם"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
+msgid "Caminhos"
+msgstr "דרכים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
+msgid "Diretório de Configuração"
+msgstr "תיקיית הגדרות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
+msgid "Copiar Caminho"
+msgstr "העתק נתיב"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
+msgid "Logs e Depuração"
+msgstr "יומנים ודיבוג"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
+msgid "Logs Detalhados"
+msgstr "יומני פרטים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
+msgid "Ativar logging verbose para depuração"
+msgstr "הפעל רישום מפורט לצורך דיבוג"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
+msgid "Limpar Logs"
+msgstr "נקה יומנים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
+msgid "Remover arquivos de log antigos"
+msgstr "הסר קבצי יומן ישנים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+msgid "Limpar"
+msgstr "נקה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+msgid "Logs Limpos"
+msgstr "יומנים נקיים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+msgid "Arquivos de log antigos foram removidos."
+msgstr "קבצי יומן ישנים הוסרו."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+msgid "OK"
+msgstr "אוקי"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
+msgid "Caminho copiado!"
+msgstr "נתיב הועתק!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2328,6 +2260,349 @@ msgstr "הצג אזהרות איכות חיבור"
 msgid "Keep display active during streaming"
 msgstr "שמור על התצוגה פעילה במהלך הזרמה"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 34
+msgid "Detecting bandwidth..."
+msgstr "מגלה רוחב פס..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
+msgid "Suggested bitrate: {} Mbps"
+msgstr "קצב סיביות מוצע: {} מגה-ביט לשנייה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 54
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 150
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
+msgid "Find and connect to the host using the options below."
+msgstr "מצא והתחבר לארח באמצעות האפשרויות למטה."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 62
+msgid "Discover"
+msgstr "גלה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 63
+msgid "Manual"
+msgstr "מדריך"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 356
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 376
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 429
+msgid "PIN Code"
+msgstr "קוד זיהוי אישי"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 74
+msgid "Client Settings"
+msgstr "הגדרות לקוח"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 75
+msgid "Reset to Defaults"
+msgstr "אפס לברירות מחדל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 77
+msgid "Stream resolution"
+msgstr "רזולוציית סטרים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 79
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 90
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 731
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 742
+msgid "Custom"
+msgstr "מותאם אישית"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Native Resolution (Adaptive)"
+msgstr "רזולוציה מקומית (מותאמת)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Use screen/window resolution"
+msgstr "השתמש ברזולוציית מסך/חלון"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 88
+msgid "Video smoothness"
+msgstr "חלקות וידאו"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 101
+msgid "Apply and Reconnect"
+msgstr "החל והתחבר מחדש"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
+msgid "Bitrate (Quality)"
+msgstr "קצב סיביות (איכות)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
+msgid "Adjust bandwidth (0.5 - 150 Mbps)"
+msgstr "התאם רוחב פס (0.5 - 150 מגה-ביט לשנייה)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 111
+msgid "Detect"
+msgstr "גלה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
+msgid "How the window will be displayed"
+msgstr "כיצד החלון יוצג"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 219
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
+msgid "Audio"
+msgstr "אודיו"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
+msgid "Receive audio streaming"
+msgstr "קבל סטרימינג של אודיו"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
+msgid "Hardware Decoding"
+msgstr "פיענוח חומרה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
+msgid "Use GPU for decoding"
+msgstr "השתמש ב-GPU לפיענוח"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
+msgid "Host connected: {}"
+msgstr "המארח מחובר: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 141
+msgid "Active Session"
+msgstr "סשן פעיל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 155
+msgid "Moonlight closed"
+msgstr "מונלייט נסגר"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
+msgid "Host connected. Click Stop to disconnect."
+msgstr "המארח מחובר. לחץ על עצור כדי להתנתק."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+msgid "Connect to {}"
+msgstr "התחבר ל{}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 270
+msgid "Connect to Selected"
+msgstr "חבר לבחירה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 219
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 425
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 449
+msgid "Connect with PIN"
+msgstr "התחבר עם קוד PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 223
+msgid "Applying settings..."
+msgstr "מיישם הגדרות..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 247
+msgid "Discovered Hosts"
+msgstr "מארחים שהתגלו"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 248
+msgid "Scroll to list all found devices."
+msgstr "גלול כדי לרשום את כל המכשירים שנמצאו."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 299
+msgid "Searching for hosts..."
+msgstr "מחפש מארחים..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
+msgid "No hosts found"
+msgstr "לא נמצאו מארחים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
+msgid "IP Copied: {}"
+msgstr "IP הועתק: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 372
+msgid "Connection Data"
+msgstr "נתוני חיבור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 373
+msgid "Enter server IP and port"
+msgstr "הזן את כתובת ה-IP של השרת ואת הפורט"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 376
+msgid "IP/Hostname"
+msgstr "כתובת IP/שם מארח"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 380
+msgid "Port"
+msgstr "פורט"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 384
+msgid "Use IPv6"
+msgstr "השתמש ב-IPv6"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
+msgid "Enter the 6-digit PIN code provided by the host"
+msgstr "הזן את קוד ה-PIN בן 6 הספרות שסיפק המארח"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 472
+msgid "Clicked Connect..."
+msgstr "לחצת על חיבור..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 537
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 565
+msgid "Active Stream"
+msgstr "זרם פעיל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
+msgid "Failed to connect. Verify if Moonlight is paired."
+msgstr "החיבור נכשל. ודא ש-Moonlight מחובר."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
+msgid "Failed to connect"
+msgstr "כישלון בחיבור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
+msgid "Attempting automatic pairing PIN: {}"
+msgstr "מנסה קישור אוטומטי עם קוד PIN: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 590
+msgid "Automatic pairing sent!"
+msgstr "שליחת התאמה אוטומטית!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 601
+msgid "Starting pairing..."
+msgstr "מתחיל חיבור..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 625
+msgid "Paired successfully!"
+msgstr "זוגי בהצלחה!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+msgid "Pairing Error"
+msgstr "שגיאת חיבור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+msgid ""
+"Could not pair with host.\n"
+"Verify the PIN was entered correctly."
+msgstr ""
+"לא ניתן לחבר עם המארח.  \n"
+"אמת שהקוד האישי הוזן נכון."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 640
+msgid "Canceling connection..."
+msgstr "מבוטל חיבור..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+msgid "Pairing Required"
+msgstr "דרוש חיבור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+msgid ""
+"Moonlight needs to be paired.\n"
+"\n"
+"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
+msgstr "מונלייט צריך להיות מחובר."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
+msgid ""
+"Follow instructions.\n"
+"\n"
+"1. Provide PIN and Host <b>{}</b> to the server.\n"
+"2. On the host, access Sunshine Configuration.\n"
+"3. Enter PIN and Host.\n"
+"4. Click Send."
+msgstr ""
+"1. ספק את ה-PIN ואת ה-Host <b>{}</b> לשרת.\n"
+"2. על ה-Host, גש להגדרות Sunshine.\n"
+"3. הזן את ה-PIN ואת ה-Host.\n"
+"4. לחץ על שלח."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 661
+msgid "Pairing Started"
+msgstr "הזיווג החל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
+msgid "Invalid PIN"
+msgstr "קוד אישי לא תקין"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
+msgid "Must contain 6 digits."
+msgstr "חייב לכלול 6 ספרות."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
+msgid "Host found: {}"
+msgstr "מארח נמצא: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
+msgid "Host Not Found"
+msgstr "ה-host לא נמצא"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
+msgid "Could not find a host with this PIN on the local network..."
+msgstr "לא ניתן למצוא מארח עם ה-PIN הזה ברשת המקומית..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
+msgid "Set: {}"
+msgstr "הגדר: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
+msgid "Custom Resolution"
+msgstr "רזולוציה מותאמת אישית"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
+msgid "Enter WxH:"
+msgstr "הזן רוחבxגובה:"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+msgid "Custom FPS"
+msgstr "FPS מותאם אישית"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 753
+msgid "Use a number"
+msgstr "השתמש במספר"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
+msgid "Value"
+msgstr "ערך"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 762
+msgid "Apply"
+msgstr "החל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
+msgid "Reset defaults?"
+msgstr "אפס ברירות מחדל?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
+msgid "All client settings will be restored."
+msgstr "כל הגדרות הלקוח יוחזרו."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 792
+msgid "No"
+msgstr "לא"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 793
+msgid "Yes"
+msgstr "כן"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 802
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 808
+msgid "Restored"
+msgstr "שוחזר"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 111
 msgid "Sunshine Offline"
 msgstr "שמש זורחת לא מקוון"
@@ -2340,13 +2615,6 @@ msgstr "הגדר ושיתוף את המשחק שלך כדי שהחברים ית�
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 118
 msgid "Game Configuration"
 msgstr "הגדרות משחק"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 75
-msgid "Reset to Defaults"
-msgstr "אפס לברירות מחדל"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 126
 msgid "Game Mode"
@@ -2473,14 +2741,6 @@ msgstr "ווילנד (מומלץ), X11 (מורשת), או KMS (ישיר)"
 msgid "KMS (Direct)"
 msgstr "KMS (ישיר)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 219
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
-msgid "Audio"
-msgstr "אודיו"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 220
 msgid "Sound settings"
 msgstr "הגדרות קול"
@@ -2585,15 +2845,6 @@ msgstr "השתמש בקוד PIN כדי להתחבר"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 353
 msgid "Share this with the guest. Local network is required."
 msgstr "שתף זאת עם האורח. רשת מקומית נדרשת."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 356
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 376
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 64
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 429
-msgid "PIN Code"
-msgstr "קוד זיהוי אישי"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 366
 msgid "Copy PIN"
@@ -2852,324 +3103,40 @@ msgstr "שחזר"
 msgid "Settings Restored"
 msgstr "הגדרות שוחזרו"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 34
-msgid "Detecting bandwidth..."
-msgstr "מגלה רוחב פס..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 48
+msgid "Icon loaded"
+msgstr "אייקון נטען"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
-msgid "Suggested bitrate: {} Mbps"
-msgstr "קצב סיביות מוצע: {} מגה-ביט לשנייה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 54
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 150
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
-msgid "Find and connect to the host using the options below."
-msgstr "מצא והתחבר לארח באמצעות האפשרויות למטה."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 62
-msgid "Discover"
-msgstr "גלה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 63
-msgid "Manual"
-msgstr "מדריך"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 74
-msgid "Client Settings"
-msgstr "הגדרות לקוח"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 77
-msgid "Stream resolution"
-msgstr "רזולוציית סטרים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 79
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 90
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 731
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 742
-msgid "Custom"
-msgstr "מותאם אישית"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Native Resolution (Adaptive)"
-msgstr "רזולוציה מקומית (מותאמת)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Use screen/window resolution"
-msgstr "השתמש ברזולוציית מסך/חלון"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 88
-msgid "Video smoothness"
-msgstr "חלקות וידאו"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 101
-msgid "Apply and Reconnect"
-msgstr "החל והתחבר מחדש"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
-msgid "Bitrate (Quality)"
-msgstr "קצב סיביות (איכות)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 107
-msgid "Adjust bandwidth (0.5 - 150 Mbps)"
-msgstr "התאם רוחב פס (0.5 - 150 מגה-ביט לשנייה)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 111
-msgid "Detect"
-msgstr "גלה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 115
-msgid "How the window will be displayed"
-msgstr "כיצד החלון יוצג"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 120
-msgid "Receive audio streaming"
-msgstr "קבל סטרימינג של אודיו"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
-msgid "Hardware Decoding"
-msgstr "פיענוח חומרה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 122
-msgid "Use GPU for decoding"
-msgstr "השתמש ב-GPU לפיענוח"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
-msgid "Host connected: {}"
-msgstr "המארח מחובר: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 141
-msgid "Active Session"
-msgstr "סשן פעיל"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 155
-msgid "Moonlight closed"
-msgstr "מונלייט נסגר"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 169
-msgid "Host connected. Click Stop to disconnect."
-msgstr "המארח מחובר. לחץ על עצור כדי להתנתק."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
-msgid "Connect to {}"
-msgstr "התחבר ל{}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 270
-msgid "Connect to Selected"
-msgstr "חבר לבחירה"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 219
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 425
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 449
-msgid "Connect with PIN"
-msgstr "התחבר עם קוד PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 223
-msgid "Applying settings..."
-msgstr "מיישם הגדרות..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 247
-msgid "Discovered Hosts"
-msgstr "מארחים שהתגלו"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 248
-msgid "Scroll to list all found devices."
-msgstr "גלול כדי לרשום את כל המכשירים שנמצאו."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 299
-msgid "Searching for hosts..."
-msgstr "מחפש מארחים..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
-msgid "No hosts found"
-msgstr "לא נמצאו מארחים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
-msgid "IP Copied: {}"
-msgstr "IP הועתק: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 372
-msgid "Connection Data"
-msgstr "נתוני חיבור"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 373
-msgid "Enter server IP and port"
-msgstr "הזן את כתובת ה-IP של השרת ואת הפורט"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 376
-msgid "IP/Hostname"
-msgstr "כתובת IP/שם מארח"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 380
-msgid "Port"
-msgstr "פורט"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 384
-msgid "Use IPv6"
-msgstr "השתמש ב-IPv6"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
-msgid "Enter the 6-digit PIN code provided by the host"
-msgstr "הזן את קוד ה-PIN בן 6 הספרות שסיפק המארח"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 472
-msgid "Clicked Connect..."
-msgstr "לחצת על חיבור..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 537
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 565
-msgid "Active Stream"
-msgstr "זרם פעיל"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
-msgid "Failed to connect. Verify if Moonlight is paired."
-msgstr "החיבור נכשל. ודא ש-Moonlight מחובר."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
-msgid "Failed to connect"
-msgstr "כישלון בחיבור"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
-msgid "Attempting automatic pairing PIN: {}"
-msgstr "מנסה קישור אוטומטי עם קוד PIN: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 590
-msgid "Automatic pairing sent!"
-msgstr "שליחת התאמה אוטומטית!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 601
-msgid "Starting pairing..."
-msgstr "מתחיל חיבור..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 625
-msgid "Paired successfully!"
-msgstr "זוגי בהצלחה!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
-msgid "Pairing Error"
-msgstr "שגיאת חיבור"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 66
 msgid ""
-"Could not pair with host.\n"
-"Verify the PIN was entered correctly."
+"Integrated remote cooperative gaming system\n"
+"Inspired by Steam Remote Play Together"
 msgstr ""
-"לא ניתן לחבר עם המארח.  \n"
-"אמת שהקוד האישי הוזן נכון."
+"מערכת משחקים שיתופית מרוחקת משולבת  \n"
+"בהשראת Steam Remote Play Together"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 640
-msgid "Canceling connection..."
-msgstr "מבוטל חיבור..."
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
-msgid "Pairing Required"
-msgstr "דרוש חיבור"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
+msgid "Unknown"
+msgstr "לא ידוע"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
-msgid ""
-"Moonlight needs to be paired.\n"
-"\n"
-"<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</span>"
-msgstr "מונלייט צריך להיות מחובר."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
+msgid " (IPv6 Local)"
+msgstr "(IPv6 מקומי)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
-msgid ""
-"Follow instructions.\n"
-"\n"
-"1. Provide PIN and Host <b>{}</b> to the server.\n"
-"2. On the host, access Sunshine Configuration.\n"
-"3. Enter PIN and Host.\n"
-"4. Click Send."
-msgstr ""
-"1. ספק את ה-PIN ואת ה-Host <b>{}</b> לשרת.\n"
-"2. על ה-Host, גש להגדרות Sunshine.\n"
-"3. הזן את ה-PIN ואת ה-Host.\n"
-"4. לחץ על שלח."
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
+msgid " (IPv6 Global)"
+msgstr "(IPv6 גלובלי)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 661
-msgid "Pairing Started"
-msgstr "הזיווג החל"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
-msgid "Invalid PIN"
-msgstr "קוד אישי לא תקין"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 696
-msgid "Must contain 6 digits."
-msgstr "חייב לכלול 6 ספרות."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
-msgid "Host found: {}"
-msgstr "מארח נמצא: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
-msgid "Host Not Found"
-msgstr "ה-host לא נמצא"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 722
-msgid "Could not find a host with this PIN on the local network..."
-msgstr "לא ניתן למצוא מארח עם ה-PIN הזה ברשת המקומית..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
-msgid "Set: {}"
-msgstr "הגדר: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
-msgid "Custom Resolution"
-msgstr "רזולוציה מותאמת אישית"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 736
-msgid "Enter WxH:"
-msgstr "הזן רוחבxגובה:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-msgid "Custom FPS"
-msgstr "FPS מותאם אישית"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 753
-msgid "Use a number"
-msgstr "השתמש במספר"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 745
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 757
-msgid "Value"
-msgstr "ערך"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 762
-msgid "Apply"
-msgstr "החל"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
-msgid "Reset defaults?"
-msgstr "אפס ברירות מחדל?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 790
-msgid "All client settings will be restored."
-msgstr "כל הגדרות הלקוח יוחזרו."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 792
-msgid "No"
-msgstr "לא"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 793
-msgid "Yes"
-msgstr "כן"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 802
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 808
-msgid "Restored"
-msgstr "שוחזר"
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+msgid "Host ({})"
+msgstr "מארח ({})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 80
 msgid "Sunshine failed to start (Exit code {}).\n"

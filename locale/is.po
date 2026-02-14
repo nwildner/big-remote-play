@@ -15,285 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: attranslate\n"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
-msgid " (IPv6 Local)"
-msgstr "(IPv6 staðbundið)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
-msgid " (IPv6 Global)"
-msgstr "(IPv6 Alheims)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
-msgid "Host ({})"
-msgstr "Hýsing ({})"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 992
-msgid "Host"
-msgstr "Hýsing"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
-# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
-msgid "Unknown"
-msgstr "Óþekkt"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 51
-msgid "Icon loaded"
-msgstr "Tákn hlaðið"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 69
-msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
-msgstr ""
-"Samþætt fjarstýrð samvinnuleikjakerfi  \n"
-"Innblásið af Steam Remote Play Together"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
-msgid "Install Dependencies"
-msgstr "Installera beroenden"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
-msgid "Installing required components..."
-msgstr "Að setja upp nauðsynlegar einingar..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
-msgid ""
-"Embedded terminal not available (vte4 not found).\n"
-"Opening external terminal for installation...\n"
-"Please wait for the installation to finish in the other window."
-msgstr ""
-"Innbyggður terminal er ekki tiltækur (vte4 fannst ekki).\n"
-"Opna ytri terminal fyrir uppsetningu...\n"
-"Vinsamlegast bíðu eftir að uppsetningin klárist í hinni glugganum."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
-msgid "Starting..."
-msgstr "Byrjar..."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1262
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 464
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 587
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 620
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 648
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 692
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 672
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 784
-msgid "Cancel"
-msgstr "Hætta við"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
-msgid "Done! Press Enter to close..."
-msgstr "Klárt! Ýttu á Enter til að loka..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-msgid "Running in external terminal. Restart after completion."
-msgstr "Keyrði í ytri terminal. Endurræstu eftir lokun."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
-msgid "Close"
-msgstr "Lokaðu"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid "Error: No terminal detected."
-msgstr "Villa: Engin skráning fannst ekki."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
-msgid ""
-"Execute manually:\n"
-"{}"
-msgstr "Framkvæmdu handvirkt: {}"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1669
-msgid "Installing..."
-msgstr "Installing..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
-msgid "Error: {}"
-msgstr "Villa: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
-msgid "Embedded terminal error: {}. Trying external..."
-msgstr "Innbyggt skalsfel: {}. Försöker extern..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
-msgid "Installation completed successfully!"
-msgstr "Þrýstingur lokið með góðum árangri!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
-msgid "Installation failed. Exit code: {}"
-msgstr "Uppsetning mistókst. Útgangs kóði: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
-msgid "Preferências"
-msgstr "Valmyndir"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
-msgid "Geral"
-msgstr "Geral"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
-msgid "Aparência"
-msgstr "Útlit"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
-msgid "Tema"
-msgstr "Þema"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
-msgid "Escolha o esquema de cores"
-msgstr "Veldu litaskemað"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
-msgid "Automático"
-msgstr "Automatískt"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
-msgid "Escuro"
-msgstr "Dökkur"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-msgid "Avançado"
-msgstr "Fyrirgefðu, ég get ekki þýtt þetta."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
-msgid "Caminhos"
-msgstr "Slóðir"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
-msgid "Diretório de Configuração"
-msgstr "Stillingar Directory"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
-msgid "Copiar Caminho"
-msgstr "Kópa Slóð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
-msgid "Logs e Depuração"
-msgstr "Skrár og Villuleit"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
-msgid "Logs Detalhados"
-msgstr "Detailed Logs"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
-msgid "Ativar logging verbose para depuração"
-msgstr "Virkja ítarleg skráning fyrir villuleit"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
-msgid "Limpar Logs"
-msgstr "Ræsa skráir"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
-msgid "Remover arquivos de log antigos"
-msgstr "Remove old log files"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
-msgid "Limpar"
-msgstr "Ræsa"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
-msgid "Manutenção do Sistema"
-msgstr "System Maintenance"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Tól til að leysa algeng vandamál"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Corrigir bókasafn (ICU)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Lagaðu villuna libicuuc.so.7* vantar."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
-msgid "Fix Automático"
-msgstr "Automatic Repair"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
-msgid "Logs Limpos"
-msgstr "Hreinsaðar skýrslur"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
-msgid "Arquivos de log antigos foram removidos."
-msgstr "Gamall skráar hafa verið fjarlægðar."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "Fix Automático Iniciado"
-msgstr "Automatísk lagfæring hafin"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Skráning á bókasafni hefur verið hafin. Vinsamlegast gefðu upp lykilorð ef beðið er um það."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Erro"
-msgstr "Villað."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
-msgid "Script de correção não encontrado."
-msgstr "Skrá de leiðréttingar fannst ekki."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
-msgid "Caminho copiado!"
-msgstr "Slóð afritað!"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 62
 msgid "Sunshine"
 msgstr "Sólskin"
@@ -1216,6 +937,106 @@ msgstr "Virkt - Engin tæki"
 msgid "Connected to {}"
 msgstr "Tengist tengingu við {}"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 17
+msgid "Install Dependencies"
+msgstr "Installera beroenden"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 30
+msgid "Installing required components..."
+msgstr "Að setja upp nauðsynlegar einingar..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 56
+msgid ""
+"Embedded terminal not available (vte4 not found).\n"
+"Opening external terminal for installation...\n"
+"Please wait for the installation to finish in the other window."
+msgstr ""
+"Innbyggður terminal er ekki tiltækur (vte4 fannst ekki).\n"
+"Opna ytri terminal fyrir uppsetningu...\n"
+"Vinsamlegast bíðu eftir að uppsetningin klárist í hinni glugganum."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 67
+msgid "Starting..."
+msgstr "Byrjar..."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1262
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 464
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 587
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 620
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 648
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 692
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 672
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 784
+msgid "Cancel"
+msgstr "Hætta við"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 77
+msgid "Done! Press Enter to close..."
+msgstr "Klárt! Ýttu á Enter til að loka..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+msgid "Running in external terminal. Restart after completion."
+msgstr "Keyrði í ytri terminal. Endurræstu eftir lokun."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 85
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 126
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
+msgid "Close"
+msgstr "Lokaðu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid "Error: No terminal detected."
+msgstr "Villa: Engin skráning fannst ekki."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+msgid ""
+"Execute manually:\n"
+"{}"
+msgstr "Framkvæmdu handvirkt: {}"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 89
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1669
+msgid "Installing..."
+msgstr "Installing..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+msgid "Error: {}"
+msgstr "Villa: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+msgid "Embedded terminal error: {}. Trying external..."
+msgstr "Innbyggt skalsfel: {}. Försöker extern..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 109
+msgid "Installation completed successfully!"
+msgstr "Þrýstingur lokið með góðum árangri!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+msgid "Installation failed. Exit code: {}"
+msgstr "Uppsetning mistókst. Útgangs kóði: {}"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
 msgid "🎮 Network Created Successfully!"
 msgstr "🎮 Netkerfi búið til með góðum árangri!"
@@ -1273,6 +1094,10 @@ msgstr "Í íslenzku valmyndinni"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Sláðu inn lén og Auth lykil"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
@@ -1795,6 +1620,13 @@ msgstr "Netvörk tæki"
 msgid "IP"
 msgstr "IP"
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 267
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 992
+msgid "Host"
+msgstr "Hýsing"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 993
 msgid "User"
 msgstr "Not found."
@@ -1962,6 +1794,108 @@ msgstr "❌ Tengslum mistókst"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
 msgid "Connection failed"
 msgstr "Tengist ekki."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 22
+msgid "Preferências"
+msgstr "Valmyndir"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 38
+msgid "Geral"
+msgstr "Geral"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 43
+msgid "Aparência"
+msgstr "Útlit"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 47
+msgid "Tema"
+msgstr "Þema"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 48
+msgid "Escolha o esquema de cores"
+msgstr "Veldu litaskemað"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
+msgid "Automático"
+msgstr "Automatískt"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
+msgid "Escuro"
+msgstr "Dökkur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+msgid "Avançado"
+msgstr "Fyrirgefðu, ég get ekki þýtt þetta."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 69
+msgid "Caminhos"
+msgstr "Slóðir"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 72
+msgid "Diretório de Configuração"
+msgstr "Stillingar Directory"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 79
+msgid "Copiar Caminho"
+msgstr "Kópa Slóð"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 88
+msgid "Logs e Depuração"
+msgstr "Skrár og Villuleit"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 91
+msgid "Logs Detalhados"
+msgstr "Detailed Logs"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 92
+msgid "Ativar logging verbose para depuração"
+msgstr "Virkja ítarleg skráning fyrir villuleit"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 97
+msgid "Limpar Logs"
+msgstr "Ræsa skráir"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 98
+msgid "Remover arquivos de log antigos"
+msgstr "Remove old log files"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
+msgid "Limpar"
+msgstr "Ræsa"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
+msgid "Logs Limpos"
+msgstr "Hreinsaðar skýrslur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
+msgid "Arquivos de log antigos foram removidos."
+msgstr "Gamall skráar hafa verið fjarlægðar."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
+msgid "Caminho copiado!"
+msgstr "Slóð afritað!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2356,534 +2290,6 @@ msgstr "Sýna tengingar gæði viðvaranir"
 msgid "Keep display active during streaming"
 msgstr "Hafðu skjá virkan meðan á streymi stendur"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 113
-msgid "Sunshine Offline"
-msgstr "Sólskin Offline"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 118
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 889
-msgid "Configure and share your game for friends to connect"
-msgstr "Stilltuðu og deildu leiknum þínum svo vinir geti tengst."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
-msgid "Game Configuration"
-msgstr "Leikjaskipulag"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 127
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
-msgid "Reset to Defaults"
-msgstr "Að endurstilla í sjálfgefið"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 131
-msgid "Game Mode"
-msgstr "Leikjaskipulag"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 131
-msgid "Select game source"
-msgstr "Veldu leikgjafa"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 133
-msgid "Full Desktop"
-msgstr "Fullur skrifborð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 133
-msgid "Custom App"
-msgstr "Sérfræðilausn"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 137
-msgid "Game Selection"
-msgstr "Leikja valkostur"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 138
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 143
-msgid "Choose game from list"
-msgstr "Veldu leik úr lista"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 142
-msgid "Select Game"
-msgstr "Veldu leik"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 150
-msgid "Application Details"
-msgstr "Upplysingar um forritið"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 151
-msgid "Configure name and command"
-msgstr "Stillir nafn og skipun"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 155
-msgid "Application Name"
-msgstr "Forritsheiti"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 159
-msgid "Command"
-msgstr "Skipun"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 164
-msgid "Streaming Settings"
-msgstr "Straumstillingar"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 165
-msgid "Quality and Players"
-msgstr "Gæði og Spilarar"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 169
-msgid "Streaming Quality"
-msgstr "Straumgæði"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 170
-msgid "Higher quality = higher bandwidth usage"
-msgstr "Hærri gæði = hærri bandbreiddarnotkun"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
-msgid "Low (720p 30fps)"
-msgstr "Lág (720p 30fps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
-msgid "Medium (1080p 30fps)"
-msgstr "Miðlungs (1080p 30fps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
-msgid "High (1080p 60fps)"
-msgstr "Hár (1080p 60fps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
-msgid "Ultra (1440p 60fps)"
-msgstr "Ultra (1440p 60fps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
-msgid "Max (4K 60fps)"
-msgstr "Max (4K 60fps)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 180
-msgid "Max Players"
-msgstr "Maksimum leikmenn"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 181
-msgid "Maximum number of simultaneous connections"
-msgstr "Hámarksfjöldi samtímis tenginga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 188
-msgid "Hardware and Capture"
-msgstr "Hugbúnaður og Fanga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 189
-msgid "Monitor, GPU, and Capture Method"
-msgstr "Vöktun, GPU, og Fanga aðferð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 193
-msgid "Monitor / Display"
-msgstr "Skjár / Sýning"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 194
-msgid "Select the display to capture"
-msgstr "Veldu skjáinn til að fanga"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 202
-msgid "Graphics Card / Encoder"
-msgstr "Grafíkort / Kóðari"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 203
-msgid "Choose hardware for video encoding"
-msgstr "Veldu vélbúnað fyrir vídeókóðun"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 211
-msgid "Capture Method"
-msgstr "Fangaraðferð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 212
-msgid "Wayland (recommended), X11 (legacy), or KMS (direct)"
-msgstr "Wayland (ráðlagt), X11 (arfgengur), eða KMS (beint)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 214
-msgid "KMS (Direct)"
-msgstr "KMS (Beint)"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 224
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 352
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
-msgid "Audio"
-msgstr "Hljóð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 225
-msgid "Sound settings"
-msgstr "Hljóðstillingar"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 229
-msgid "Host Audio Output"
-msgstr "Hýsing hljóðúttak"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 230
-msgid "Where YOU will hear the game sound"
-msgstr "Hvar ÞÚ munt heyra hljóðið úr leiknum"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 237
-msgid "Audio Streaming"
-msgstr "Hljóðstraumspilun"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 238
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Virkja hljóð á viðskiptavini (Hljóð á gestgjafa + gesti)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 245
-msgid "Audio Mixer (Sources)"
-msgstr "Hljóðblanda (Heimildir)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 246
-msgid "Manage audio sources"
-msgstr "Stjórna hljóðgjöfum"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 256
-msgid "Input, Network, and Access"
-msgstr "Inntak, Netkerfi og Aðgangur"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 260
-msgid "Share Controls"
-msgstr "Deila stjórnum"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 261
-msgid "Allow guests to control the game"
-msgstr "Leyfðu gestum að stjórna leiknum"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 266
-msgid "Automatic UPnP"
-msgstr "Sjálfvirk UPnP"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 267
-msgid "Automatically configure router ports"
-msgstr "Sjálfvirkt stilla rútartengi"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 272
-msgid "Address Family (IPv4 + IPv6)"
-msgstr "Heimilisfjölskylda (IPv4 + IPv6)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 273
-msgid "Enable simultaneous IPv4 and IPv6 support on server"
-msgstr "Virkja stuðning fyrir IPv4 og IPv6 samtímis á þjóninum"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 278
-msgid "Origin Web UI Allowed (WAN)"
-msgstr "Origin Vefviðmót Leyft (WAN)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 279
-msgid "Allows anyone to access the web interface (Anyone may access Web UI)"
-msgstr "Leyfir öllum aðgang að vefviðmótinu (Hver sem er getur aðgang að Vef UI)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 284
-msgid "Configure Firewall (IPv6)"
-msgstr "Stillir eldvegg (IPv6)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 285
-msgid "Open TCP/UDP ports required for external connection"
-msgstr "Opna TCP/UDP hafnir sem krafist er fyrir ytri tengingu"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 288
-msgid "Configure"
-msgstr "Stilla"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 310
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 909
-msgid "Start Server"
-msgstr "Byrjaðu þjónustuna"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 317
-msgid "Configure Sunshine"
-msgstr "Stilltuðu Sunshine"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 325
-msgid "Enter PIN"
-msgstr "Sláðu inn PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 342
-msgid "Information"
-msgstr "Upplýsingar"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
-msgid "Game"
-msgstr "Leikur"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 357
-msgid "Use PIN Code to Connect"
-msgstr "Notaðu PIN númer til að tengjast"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 358
-msgid "Share this with the guest. Local network is required."
-msgstr "Deildu þessu með gestinum. Innanlandsnet er nauðsynlegt."
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 361
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 382
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 70
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 438
-msgid "PIN Code"
-msgstr "PIN númer."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 372
-msgid "Copy PIN"
-msgstr "Afrita PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 569
-msgid "Insert PIN"
-msgstr "Settu PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 570
-msgid "Enter the PIN displayed on the client device (Moonlight)."
-msgstr "Sláðu inn PIN númerið sem sýnt er á viðskiptatækinu (Moonlight)."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 577
-msgid "PIN"
-msgstr "PIN"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 580
-msgid "Device Name (Optional)"
-msgstr "nafn tækis (valfrjálst)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 588
-msgid "Send"
-msgstr "Senda"
-# 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 601
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 665
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 705
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 307
-msgid "PIN sent successfully"
-msgstr "PIN sent successfully"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 609
-msgid "PIN Error"
-msgstr "PIN villa"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 616
-msgid "User Not Found"
-msgstr "Notandi fannst ekki"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 617
-msgid "No user has been created in Sunshine. It is necessary to configure a user through the browser."
-msgstr ""
-"Enginn notandi hefur verið búinn til í Sunshine. Það er nauðsynlegt að stilla notanda í gegnum "
-"vafrann."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 621
-msgid "Open Configuration"
-msgstr "Opna stillingu"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 635
-msgid "Create Sunshine User"
-msgstr "Búðu til Sunshine notanda"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 636
-msgid "Define a username and password for Sunshine."
-msgstr "Skilgreindu notendanafn og lykilorð fyrir Sunshine."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 641
-msgid "New User"
-msgstr "Notandi nýr"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 643
-msgid "New Password"
-msgstr "Nýtt lykilorð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 649
-msgid "Save and Continue"
-msgstr "Vista og Haltu áfram"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 660
-msgid "User created!"
-msgstr "Notandi búinn til!"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 666
-msgid "Error sending PIN after creation"
-msgstr "Villa að senda PIN eftir sköpun."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 668
-msgid "Error creating user"
-msgstr "Villa að búa til notanda"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 679
-msgid "Sunshine Authentication"
-msgstr "Sólarheimild"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 680
-msgid ""
-"Sunshine requires login. Enter your credentials (default: admin / password created during "
-"installation)."
-msgstr ""
-"Sunshine krefst innskráningu. Sláðu inn auðkenni þín (sjálfgefið: admin / lykilorð sem var búið til "
-"við uppsetningu)."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 685
-msgid "Username"
-msgstr "notendanafn"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 687
-msgid "Password"
-msgstr "Lykilorð"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 693
-msgid "Confirm"
-msgstr "Staðfesta"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 709
-msgid "Failed with credentials"
-msgstr "Mistakast með auðkenni"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 716
-msgid "Server Information"
-msgstr "upplýsingar um þjóninn"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 726
-msgid "Restart server to apply complex audio changes."
-msgstr "Endurrætta þjóninn til að beita flóknum hljóðbreytingum."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 739
-msgid "System Default"
-msgstr "Kerfiskarstilling"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 752
-msgid "Error loading audio"
-msgstr "Villa að hlaða hljóð."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 771
-msgid "Output changed to: {}"
-msgstr "Útgangur breyttist í: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
-msgid "Configuring firewall... (Password may be requested)"
-msgstr "Stillir eldvegg... (Lykilorð gæti verið óskað)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 794
-msgid "Success: {}"
-msgstr "Sigrún: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 795
-msgid "Firewall Error"
-msgstr "Eldvegg Villa"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 795
-msgid "Execution failed or cancelled."
-msgstr "Framkvæmd mistókst eða var aflýst."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 807
-msgid "Error executing script: {}"
-msgstr "Villa að framkvæma skrift: {}"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 843
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 843
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 847
-msgid "Clicked Start Server..."
-msgstr "Smellt Server..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 863
-msgid "Server Active - Guests can now connect"
-msgstr "Þjónn virkur - Gestir geta nú tengst"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 864
-msgid "Active - Waiting for Connections"
-msgstr "Virkt - Bíður eftir tengingum"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 890
-msgid "Inactive"
-msgstr "Óvirkt"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1041
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1045
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1068
-msgid "Host + Guest"
-msgstr "Gestgjafi + Gestur"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1041
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1045
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1068
-msgid "Host Only"
-msgstr "aðeins hýsill"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1153
-msgid "Failed to create Virtual Audio"
-msgstr "Mistók að búa til sýndarhljóð."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1196
-msgid "Server started"
-msgstr "Þjónn hafinn"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1202
-msgid "Check logs for details."
-msgstr "Skoðaðu skýrslurnar fyrir nánari upplýsingar."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1213
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Vantar bókasafn: {}\n"
-"\n"
-"Viltu reyna að laga það sjálfkrafa?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1222
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Please check your Sunshine installation."
-msgstr ""
-"Vantar bókasafn: {}\n"
-"\n"
-"Vinsamlegast athugaðu Sunshine uppsetninguna þína."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
-msgid "Port already in use. Check if another instance is running."
-msgstr "Portur er þegar í notkun. Athugaðu hvort önnur tilvik sé í gangi."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1229
-msgid "Failed to start"
-msgstr "Mistók að hefja"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1229
-msgid ""
-"The server failed to start.\n"
-"{}"
-msgstr "Þjónninn tókst ekki að ræsa."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1231
-msgid "Fix Automatically"
-msgstr "Lagfærðu sjálfkrafa"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1256
-msgid "Stopping server..."
-msgstr "Að stöðva þjóninn..."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1287
-msgid "Server stopped"
-msgstr "Þjónn stöðvaður"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1297
-msgid "Sunshine stopped unexpectedly"
-msgstr "Sólskin hætti óvænt."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1442
-msgid "Restore Defaults"
-msgstr "Endurheimta sjálfgefin gildi"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1442
-msgid "Do you want to restore default settings?"
-msgstr "Viltu endurheimta sjálfgefnar stillingar?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
-msgid "Restore"
-msgstr "Endurheimta"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1451
-msgid "Settings Restored"
-msgstr "Stillingar endurheimtar"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 36
 msgid "Detecting bandwidth..."
 msgstr "Að greina bandbreidd..."
@@ -2906,9 +2312,25 @@ msgstr "Uppgötva"
 msgid "Manual"
 msgstr "Handbók"
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 361
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 70
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 438
+msgid "PIN Code"
+msgstr "PIN númer."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 82
 msgid "Client Settings"
 msgstr "Viðskiptavina stillingar"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 83
+msgid "Reset to Defaults"
+msgstr "Að endurstilla í sjálfgefið"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 85
 msgid "Stream resolution"
@@ -2952,6 +2374,14 @@ msgstr "Greina"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 123
 msgid "How the window will be displayed"
 msgstr "Hvernig glugginn verður sýndur"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 224
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 352
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
+msgid "Audio"
+msgstr "Hljóð"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 128
 msgid "Receive audio streaming"
@@ -3197,6 +2627,549 @@ msgstr "Já."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 831
 msgid "Restored"
 msgstr "Endurheimt"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 113
+msgid "Sunshine Offline"
+msgstr "Sólskin Offline"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 118
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 889
+msgid "Configure and share your game for friends to connect"
+msgstr "Stilltuðu og deildu leiknum þínum svo vinir geti tengst."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 122
+msgid "Game Configuration"
+msgstr "Leikjaskipulag"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 131
+msgid "Game Mode"
+msgstr "Leikjaskipulag"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 131
+msgid "Select game source"
+msgstr "Veldu leikgjafa"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 133
+msgid "Full Desktop"
+msgstr "Fullur skrifborð"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 133
+msgid "Custom App"
+msgstr "Sérfræðilausn"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 137
+msgid "Game Selection"
+msgstr "Leikja valkostur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 138
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 143
+msgid "Choose game from list"
+msgstr "Veldu leik úr lista"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 142
+msgid "Select Game"
+msgstr "Veldu leik"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 150
+msgid "Application Details"
+msgstr "Upplysingar um forritið"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 151
+msgid "Configure name and command"
+msgstr "Stillir nafn og skipun"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 155
+msgid "Application Name"
+msgstr "Forritsheiti"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 159
+msgid "Command"
+msgstr "Skipun"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 164
+msgid "Streaming Settings"
+msgstr "Straumstillingar"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 165
+msgid "Quality and Players"
+msgstr "Gæði og Spilarar"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 169
+msgid "Streaming Quality"
+msgstr "Straumgæði"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 170
+msgid "Higher quality = higher bandwidth usage"
+msgstr "Hærri gæði = hærri bandbreiddarnotkun"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
+msgid "Low (720p 30fps)"
+msgstr "Lág (720p 30fps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
+msgid "Medium (1080p 30fps)"
+msgstr "Miðlungs (1080p 30fps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
+msgid "High (1080p 60fps)"
+msgstr "Hár (1080p 60fps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
+msgid "Ultra (1440p 60fps)"
+msgstr "Ultra (1440p 60fps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 173
+msgid "Max (4K 60fps)"
+msgstr "Max (4K 60fps)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 180
+msgid "Max Players"
+msgstr "Maksimum leikmenn"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 181
+msgid "Maximum number of simultaneous connections"
+msgstr "Hámarksfjöldi samtímis tenginga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 188
+msgid "Hardware and Capture"
+msgstr "Hugbúnaður og Fanga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 189
+msgid "Monitor, GPU, and Capture Method"
+msgstr "Vöktun, GPU, og Fanga aðferð"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 193
+msgid "Monitor / Display"
+msgstr "Skjár / Sýning"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 194
+msgid "Select the display to capture"
+msgstr "Veldu skjáinn til að fanga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 202
+msgid "Graphics Card / Encoder"
+msgstr "Grafíkort / Kóðari"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 203
+msgid "Choose hardware for video encoding"
+msgstr "Veldu vélbúnað fyrir vídeókóðun"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 211
+msgid "Capture Method"
+msgstr "Fangaraðferð"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 212
+msgid "Wayland (recommended), X11 (legacy), or KMS (direct)"
+msgstr "Wayland (ráðlagt), X11 (arfgengur), eða KMS (beint)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 214
+msgid "KMS (Direct)"
+msgstr "KMS (Beint)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 225
+msgid "Sound settings"
+msgstr "Hljóðstillingar"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 229
+msgid "Host Audio Output"
+msgstr "Hýsing hljóðúttak"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 230
+msgid "Where YOU will hear the game sound"
+msgstr "Hvar ÞÚ munt heyra hljóðið úr leiknum"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 237
+msgid "Audio Streaming"
+msgstr "Hljóðstraumspilun"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 238
+msgid "Enable audio on client (Sound on Host + Guest)"
+msgstr "Virkja hljóð á viðskiptavini (Hljóð á gestgjafa + gesti)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 245
+msgid "Audio Mixer (Sources)"
+msgstr "Hljóðblanda (Heimildir)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 246
+msgid "Manage audio sources"
+msgstr "Stjórna hljóðgjöfum"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 256
+msgid "Input, Network, and Access"
+msgstr "Inntak, Netkerfi og Aðgangur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 260
+msgid "Share Controls"
+msgstr "Deila stjórnum"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 261
+msgid "Allow guests to control the game"
+msgstr "Leyfðu gestum að stjórna leiknum"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 266
+msgid "Automatic UPnP"
+msgstr "Sjálfvirk UPnP"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 267
+msgid "Automatically configure router ports"
+msgstr "Sjálfvirkt stilla rútartengi"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 272
+msgid "Address Family (IPv4 + IPv6)"
+msgstr "Heimilisfjölskylda (IPv4 + IPv6)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 273
+msgid "Enable simultaneous IPv4 and IPv6 support on server"
+msgstr "Virkja stuðning fyrir IPv4 og IPv6 samtímis á þjóninum"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 278
+msgid "Origin Web UI Allowed (WAN)"
+msgstr "Origin Vefviðmót Leyft (WAN)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 279
+msgid "Allows anyone to access the web interface (Anyone may access Web UI)"
+msgstr "Leyfir öllum aðgang að vefviðmótinu (Hver sem er getur aðgang að Vef UI)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 284
+msgid "Configure Firewall (IPv6)"
+msgstr "Stillir eldvegg (IPv6)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 285
+msgid "Open TCP/UDP ports required for external connection"
+msgstr "Opna TCP/UDP hafnir sem krafist er fyrir ytri tengingu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 288
+msgid "Configure"
+msgstr "Stilla"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 310
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 909
+msgid "Start Server"
+msgstr "Byrjaðu þjónustuna"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 317
+msgid "Configure Sunshine"
+msgstr "Stilltuðu Sunshine"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 325
+msgid "Enter PIN"
+msgstr "Sláðu inn PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 342
+msgid "Information"
+msgstr "Upplýsingar"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 347
+msgid "Game"
+msgstr "Leikur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 357
+msgid "Use PIN Code to Connect"
+msgstr "Notaðu PIN númer til að tengjast"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 358
+msgid "Share this with the guest. Local network is required."
+msgstr "Deildu þessu með gestinum. Innanlandsnet er nauðsynlegt."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 372
+msgid "Copy PIN"
+msgstr "Afrita PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 569
+msgid "Insert PIN"
+msgstr "Settu PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 570
+msgid "Enter the PIN displayed on the client device (Moonlight)."
+msgstr "Sláðu inn PIN númerið sem sýnt er á viðskiptatækinu (Moonlight)."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 577
+msgid "PIN"
+msgstr "PIN"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 580
+msgid "Device Name (Optional)"
+msgstr "nafn tækis (valfrjálst)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 588
+msgid "Send"
+msgstr "Senda"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 601
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 665
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 705
+# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 307
+msgid "PIN sent successfully"
+msgstr "PIN sent successfully"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 609
+msgid "PIN Error"
+msgstr "PIN villa"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 616
+msgid "User Not Found"
+msgstr "Notandi fannst ekki"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 617
+msgid "No user has been created in Sunshine. It is necessary to configure a user through the browser."
+msgstr ""
+"Enginn notandi hefur verið búinn til í Sunshine. Það er nauðsynlegt að stilla notanda í gegnum "
+"vafrann."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 621
+msgid "Open Configuration"
+msgstr "Opna stillingu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 635
+msgid "Create Sunshine User"
+msgstr "Búðu til Sunshine notanda"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 636
+msgid "Define a username and password for Sunshine."
+msgstr "Skilgreindu notendanafn og lykilorð fyrir Sunshine."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 641
+msgid "New User"
+msgstr "Notandi nýr"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 643
+msgid "New Password"
+msgstr "Nýtt lykilorð"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 649
+msgid "Save and Continue"
+msgstr "Vista og Haltu áfram"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 660
+msgid "User created!"
+msgstr "Notandi búinn til!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 666
+msgid "Error sending PIN after creation"
+msgstr "Villa að senda PIN eftir sköpun."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 668
+msgid "Error creating user"
+msgstr "Villa að búa til notanda"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 679
+msgid "Sunshine Authentication"
+msgstr "Sólarheimild"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 680
+msgid ""
+"Sunshine requires login. Enter your credentials (default: admin / password created during "
+"installation)."
+msgstr ""
+"Sunshine krefst innskráningu. Sláðu inn auðkenni þín (sjálfgefið: admin / lykilorð sem var búið til "
+"við uppsetningu)."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 685
+msgid "Username"
+msgstr "notendanafn"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 687
+msgid "Password"
+msgstr "Lykilorð"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 693
+msgid "Confirm"
+msgstr "Staðfesta"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 709
+msgid "Failed with credentials"
+msgstr "Mistakast með auðkenni"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 716
+msgid "Server Information"
+msgstr "upplýsingar um þjóninn"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 726
+msgid "Restart server to apply complex audio changes."
+msgstr "Endurrætta þjóninn til að beita flóknum hljóðbreytingum."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 739
+msgid "System Default"
+msgstr "Kerfiskarstilling"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 752
+msgid "Error loading audio"
+msgstr "Villa að hlaða hljóð."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 771
+msgid "Output changed to: {}"
+msgstr "Útgangur breyttist í: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
+msgid "Configuring firewall... (Password may be requested)"
+msgstr "Stillir eldvegg... (Lykilorð gæti verið óskað)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 794
+msgid "Success: {}"
+msgstr "Sigrún: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 795
+msgid "Firewall Error"
+msgstr "Eldvegg Villa"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 795
+msgid "Execution failed or cancelled."
+msgstr "Framkvæmd mistókst eða var aflýst."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 807
+msgid "Error executing script: {}"
+msgstr "Villa að framkvæma skrift: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 843
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 843
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 843
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 843
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 847
+msgid "Clicked Start Server..."
+msgstr "Smellt Server..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 863
+msgid "Server Active - Guests can now connect"
+msgstr "Þjónn virkur - Gestir geta nú tengst"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 864
+msgid "Active - Waiting for Connections"
+msgstr "Virkt - Bíður eftir tengingum"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 890
+msgid "Inactive"
+msgstr "Óvirkt"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1041
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1045
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1068
+msgid "Host + Guest"
+msgstr "Gestgjafi + Gestur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1041
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1045
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1068
+msgid "Host Only"
+msgstr "aðeins hýsill"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1153
+msgid "Failed to create Virtual Audio"
+msgstr "Mistók að búa til sýndarhljóð."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1196
+msgid "Server started"
+msgstr "Þjónn hafinn"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1202
+msgid "Check logs for details."
+msgstr "Skoðaðu skýrslurnar fyrir nánari upplýsingar."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1213
+msgid ""
+"Missing library: {}\n"
+"\n"
+"Would you like to try to fix it automatically?"
+msgstr ""
+"Vantar bókasafn: {}\n"
+"\n"
+"Viltu reyna að laga það sjálfkrafa?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1222
+msgid ""
+"Missing library: {}\n"
+"\n"
+"Please check your Sunshine installation."
+msgstr ""
+"Vantar bókasafn: {}\n"
+"\n"
+"Vinsamlegast athugaðu Sunshine uppsetninguna þína."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1225
+msgid "Port already in use. Check if another instance is running."
+msgstr "Portur er þegar í notkun. Athugaðu hvort önnur tilvik sé í gangi."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1229
+msgid "Failed to start"
+msgstr "Mistók að hefja"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1229
+msgid ""
+"The server failed to start.\n"
+"{}"
+msgstr "Þjónninn tókst ekki að ræsa."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1231
+msgid "Fix Automatically"
+msgstr "Lagfærðu sjálfkrafa"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1256
+msgid "Stopping server..."
+msgstr "Að stöðva þjóninn..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1287
+msgid "Server stopped"
+msgstr "Þjónn stöðvaður"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1297
+msgid "Sunshine stopped unexpectedly"
+msgstr "Sólskin hætti óvænt."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1442
+msgid "Restore Defaults"
+msgstr "Endurheimta sjálfgefin gildi"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1442
+msgid "Do you want to restore default settings?"
+msgstr "Viltu endurheimta sjálfgefnar stillingar?"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1443
+msgid "Restore"
+msgstr "Endurheimta"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1451
+msgid "Settings Restored"
+msgstr "Stillingar endurheimtar"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 51
+msgid "Icon loaded"
+msgstr "Tákn hlaðið"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/main.py, line: 69
+msgid ""
+"Integrated remote cooperative gaming system\n"
+"Inspired by Steam Remote Play Together"
+msgstr ""
+"Samþætt fjarstýrð samvinnuleikjakerfi  \n"
+"Innblásið af Steam Remote Play Together"
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 124
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 127
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 144
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/system_check.py, line: 147
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 215
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/audio.py, line: 226
+msgid "Unknown"
+msgstr "Óþekkt"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 98
+msgid " (IPv6 Local)"
+msgstr "(IPv6 staðbundið)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 100
+msgid " (IPv6 Global)"
+msgstr "(IPv6 Alheims)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+msgid "Host ({})"
+msgstr "Hýsing ({})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"
