@@ -1131,6 +1131,10 @@ msgstr "2. Alan adı ve Yetki Anahtarını girin"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 131
 msgid "3. Click \"Establish Connection\""
 msgstr "3. \"Bağlantı Kur\" butonuna tıklayın."
@@ -1925,6 +1929,20 @@ msgstr "Temiz Kayıtlar"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Eski günlük dosyaları kaldırıldı."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3006,13 +3024,17 @@ msgstr "Ses Çıkışını Barındır"
 msgid "Where YOU will hear the game sound"
 msgstr "Oyunun sesini nerede duyacaksınız"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid "Audio Streaming"
-msgstr "Ses Akışı"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Ses Çıkış Modu"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "İstemcide sesi etkinleştir (Ana bilgisayarda + Misafirde ses)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Oyunun sesi nerede çalınacağını belirleyin."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Misafir + Ev sahibi"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
 msgid "Audio Mixer (Sources)"
@@ -3107,9 +3129,9 @@ msgstr "Müşteri cihazında (Moonlight) görüntülenen PIN'i girin."
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 580
-msgid "Device Name (Optional)"
-msgstr "Cihaz Adı (İsteğe Bağlı)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Cihaz Adı"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 588
 msgid "Send"
@@ -3206,14 +3228,6 @@ msgstr "Kimlik bilgileriyle başarısız oldu."
 msgid "Server Information"
 msgstr "Sunucu Bilgisi"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Ses akışı etkinleştirildi"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "Ses akışı durdu"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
 msgstr "Sistem Varsayılanı"
@@ -3279,6 +3293,10 @@ msgstr "Anahtar + Misafir"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
 msgid "Host Only"
 msgstr "Sadece Ana Bilgisayar"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Ana makine çıktısı geri yüklendi: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1153
 msgid "Failed to create Virtual Audio"

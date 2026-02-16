@@ -1129,6 +1129,10 @@ msgstr "2. Zadajte doménu a autentifikačný kľúč"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 131
 msgid "3. Click \"Establish Connection\""
 msgstr "3. Kliknite na \"Nadviazať pripojenie\""
@@ -1923,6 +1927,20 @@ msgstr "Čisté záznamy"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Staré súbory protokolu boli odstránené."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3005,13 +3023,17 @@ msgstr "Host zvukový výstup"
 msgid "Where YOU will hear the game sound"
 msgstr "Kde budete počuť zvuk hry"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid "Audio Streaming"
-msgstr "Audio streamovanie"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Režim výstupu zvuku"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Povoliť zvuk na klientovi (Zvuk na hostiteľovi + hosťovi)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Určte, kde sa bude hrať zvuk hry."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Hosť + Hostiteľ"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
 msgid "Audio Mixer (Sources)"
@@ -3106,9 +3128,9 @@ msgstr "Zadajte PIN zobrazený na zariadení klienta (Moonlight)."
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 580
-msgid "Device Name (Optional)"
-msgstr "Názov zariadenia (voliteľné)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Názov zariadenia"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 588
 msgid "Send"
@@ -3205,14 +3227,6 @@ msgstr "Zlyhalo s povereniami"
 msgid "Server Information"
 msgstr "Informácie o serveri"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Povolené streamovanie zvuku"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "Streamovanie zvuku sa zastavilo"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
 msgstr "Predvolené nastavenie systému"
@@ -3276,6 +3290,10 @@ msgstr "Host + Hostiteľ"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
 msgid "Host Only"
 msgstr "Iba hostiteľský"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Výstup hostiteľa bol obnovený: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1153
 msgid "Failed to create Virtual Audio"

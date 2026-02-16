@@ -1139,6 +1139,10 @@ msgstr "2. Indtast domæne og Auth-nøgle"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 131
 msgid "3. Click \"Establish Connection\""
 msgstr "3. Klik på \"Etabler forbindelse\""
@@ -2973,13 +2977,17 @@ msgstr "Værtlydudgang"
 msgid "Where YOU will hear the game sound"
 msgstr "Hvor DU vil høre spillyden"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 232
-msgid "Audio Streaming"
-msgstr "Lydstreaming"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Lydudgangstilstand"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 233
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Aktivér lyd på klient (Lyd på vært + gæst)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Bestem, hvor spillyden vil blive afspillet."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Gæst + Vært"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 240
 msgid "Audio Mixer (Sources)"
@@ -3074,9 +3082,9 @@ msgstr "Indtast den PIN, der vises på klientenheden (Moonlight)."
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 574
-msgid "Device Name (Optional)"
-msgstr "Enhedsnavn (Valgfrit)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Enhedsnavn"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 582
 msgid "Send"
@@ -3173,14 +3181,6 @@ msgstr "Mislykkedes med legitimationsoplysninger"
 msgid "Server Information"
 msgstr "Serverinformation"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Lydstreaming aktiveret"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "Lydstreaming stoppet"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 731
 msgid "System Default"
 msgstr "Systemstandard"
@@ -3251,6 +3251,10 @@ msgstr "Vært + Gæst"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1055
 msgid "Host Only"
 msgstr "Vært kun"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Vært output gendannet: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1146
 msgid "Failed to create Virtual Audio"

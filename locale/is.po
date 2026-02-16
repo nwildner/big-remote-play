@@ -1058,6 +1058,10 @@ msgstr "Þrýstingur lokið með góðum árangri!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Uppsetning mistókst. Útgangs kóði: {}"
@@ -1119,6 +1123,10 @@ msgstr "Í íslenzku valmyndinni"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Sláðu inn lén og Auth lykil"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1876,6 +1884,10 @@ msgstr "Automatískt"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1960,6 +1972,20 @@ msgstr "Hreinsaðar skýrslur"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Gamall skráar hafa verið fjarlægðar."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3053,13 +3079,17 @@ msgstr "Hýsing hljóðúttak"
 msgid "Where YOU will hear the game sound"
 msgstr "Hvar ÞÚ munt heyra hljóðið úr leiknum"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid "Audio Streaming"
-msgstr "Hljóðstraumspilun"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Hljóðúttaksstilling"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Virkja hljóð á viðskiptavini (Hljóð á gestgjafa + gesti)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Ákveðið hvar hljóð leiksins verður spilað."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Gestur + Hýsill"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
 msgid "Audio Mixer (Sources)"
@@ -3154,9 +3184,9 @@ msgstr "Sláðu inn PIN númerið sem sýnt er á viðskiptatækinu (Moonlight).
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 580
-msgid "Device Name (Optional)"
-msgstr "nafn tækis (valfrjálst)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Tækiheiti"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 588
 msgid "Send"
@@ -3253,14 +3283,6 @@ msgstr "Mistakast með auðkenni"
 msgid "Server Information"
 msgstr "upplýsingar um þjóninn"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Hljóðstraumur virkjaður"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "Hljóðstraumurinn hætti."
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
 msgstr "Kerfiskarstilling"
@@ -3336,6 +3358,10 @@ msgstr "Gestgjafi + Gestur"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
 msgid "Host Only"
 msgstr "aðeins hýsill"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Hýsingarúttak endurheimt: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1153
 msgid "Failed to create Virtual Audio"

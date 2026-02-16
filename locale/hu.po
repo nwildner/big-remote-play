@@ -1832,6 +1832,10 @@ msgstr "Automatikus"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -2960,13 +2964,17 @@ msgstr "Gazda Audio Kimenet"
 msgid "Where YOU will hear the game sound"
 msgstr "Ahol a játék hangját hallani fogod"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid "Audio Streaming"
-msgstr "Audio Streaming"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Hangkimeneti mód"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Engedélyezze a hangot az ügyfélen (Hang a gazdán + Vendégen)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Határozza meg, hol fog a játék hangja megszólalni."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Vendég + Házigazda"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
 msgid "Audio Mixer (Sources)"
@@ -3061,9 +3069,9 @@ msgstr "Írd be a kliens eszközön (Moonlight) megjelenített PIN-kódot."
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 580
-msgid "Device Name (Optional)"
-msgstr "Eszköz neve (Opcionális)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Eszköz neve"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 588
 msgid "Send"
@@ -3160,14 +3168,6 @@ msgstr "Hitelesítési hiba történt."
 msgid "Server Information"
 msgstr "Szerverinformáció"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Audio streaming engedélyezve"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "A hanganyag-streaming leállt"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
 msgstr "Rendszer alapértelmezett"
@@ -3231,6 +3231,10 @@ msgstr "Gazda + Vendég"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
 msgid "Host Only"
 msgstr "Csak gazda"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "A gazda kimenete helyreállítva: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1154
 msgid "Failed to create Virtual Audio"

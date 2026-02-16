@@ -1074,6 +1074,10 @@ msgstr "Instalação concluída com sucesso!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "A instalação falhou. Código de saída: {}"
@@ -1135,6 +1139,10 @@ msgstr "No menu lateral"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Insira o domínio e a chave de autenticação"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1892,6 +1900,10 @@ msgstr "Automático"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -2019,6 +2031,20 @@ msgstr "Old log files have been removed."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 141
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 686
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 750
@@ -2068,6 +2094,10 @@ msgstr ""
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
 msgid "Apagar Tudo"
 msgstr "Delete All"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 256
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 256
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 256
 # 
@@ -2838,6 +2868,10 @@ msgstr ""
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 923
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 923
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 923
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 816
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 816
@@ -3090,13 +3124,17 @@ msgstr "Saída de Áudio do Host"
 msgid "Where YOU will hear the game sound"
 msgstr "Onde VOCÊ ouvirá o som do jogo"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid "Audio Streaming"
-msgstr "Transmissão de Áudio"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Modo de Saída de Áudio"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Ativar áudio no cliente (Som no Host + Convidado)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Determine onde o som do jogo será reproduzido."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Convidado + Anfitrião"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
 msgid "Audio Mixer (Sources)"
@@ -3191,9 +3229,9 @@ msgstr "Digite o PIN exibido no dispositivo cliente (Moonlight)."
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 580
-msgid "Device Name (Optional)"
-msgstr "Nome do Dispositivo (Opcional)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Nome do Dispositivo"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 588
 msgid "Send"
@@ -3288,14 +3326,6 @@ msgstr "Falhou com as credenciais"
 msgid "Server Information"
 msgstr "Informações do Servidor"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Streaming de áudio ativado"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "A transmissão de áudio foi interrompida."
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
 msgstr "Padrão do Sistema"
@@ -3359,6 +3389,10 @@ msgstr "Anfitrião + Convidado"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
 msgid "Host Only"
 msgstr "Apenas Host"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Saída do host restaurada: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1153
 msgid "Failed to create Virtual Audio"

@@ -1147,6 +1147,10 @@ msgstr "2. Въведете домейн и ключ за удостоверяв
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 131
 msgid "3. Click \"Establish Connection\""
 msgstr "3. Щракнете върху \"Установяване на връзка\""
@@ -2978,13 +2982,17 @@ msgstr "Хост аудио изход"
 msgid "Where YOU will hear the game sound"
 msgstr "Къде ВИЕ ще чуете звука на играта"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 232
-msgid "Audio Streaming"
-msgstr "Аудио стрийминг"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Режим на звуковия изход"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 233
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Активирайте аудио на клиента (Звук на хост и гост)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Определете къде ще се възпроизвежда звука на играта."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Гост + Хост"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 240
 msgid "Audio Mixer (Sources)"
@@ -3081,9 +3089,9 @@ msgstr "Въведете ПИН кода, показан на клиентско
 msgid "PIN"
 msgstr "ПИН"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 574
-msgid "Device Name (Optional)"
-msgstr "Име на устройството (по избор)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Име на устройството"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 582
 msgid "Send"
@@ -3178,14 +3186,6 @@ msgstr "Неуспешно с удостоверенията"
 msgid "Server Information"
 msgstr "Информация за сървъра"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Аудио стрийминг активиран"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "Аудио стриймингът спря."
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 731
 msgid "System Default"
 msgstr "Системен по подразбиране"
@@ -3252,6 +3252,10 @@ msgstr "Хост + Гост"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1055
 msgid "Host Only"
 msgstr "Само хост"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Възстановен изход на хоста: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1146
 msgid "Failed to create Virtual Audio"

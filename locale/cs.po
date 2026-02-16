@@ -2933,13 +2933,17 @@ msgstr "Host Audio Výstup"
 msgid "Where YOU will hear the game sound"
 msgstr "Kde USLYŠÍTE zvuk hry"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 232
-msgid "Audio Streaming"
-msgstr "Audio streamování"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
+msgid "Audio Output Mode"
+msgstr "Režim výstupu zvuku"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 233
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "Povolit zvuk na klientovi (Zvuk na hostiteli + hostovi)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "Určete, kde bude zvuk hry přehráván."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "Host + Hostitel"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 240
 msgid "Audio Mixer (Sources)"
@@ -3036,9 +3040,9 @@ msgstr "Zadejte PIN zobrazený na klientském zařízení (Moonlight)."
 msgid "PIN"
 msgstr "PIN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 574
-msgid "Device Name (Optional)"
-msgstr "Název zařízení (volitelné)"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "Název zařízení"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 582
 msgid "Send"
@@ -3135,14 +3139,6 @@ msgstr "Selhalo s přihlašovacími údaji"
 msgid "Server Information"
 msgstr "Informace o serveru"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
-msgid "Audio streaming enabled"
-msgstr "Přenos zvuku povolen"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
-msgid "Audio streaming stopped"
-msgstr "Streamování audia bylo zastaveno."
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 731
 msgid "System Default"
 msgstr "Výchozí systém"
@@ -3209,6 +3205,10 @@ msgstr "Host + Hostitel"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1055
 msgid "Host Only"
 msgstr "Pouze hostitel"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "Host output obnoven: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1146
 msgid "Failed to create Virtual Audio"

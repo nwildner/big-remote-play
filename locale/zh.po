@@ -989,6 +989,10 @@ msgstr "安装成功完成！"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "安装失败。退出代码：{}"
@@ -1780,6 +1784,10 @@ msgstr "自动的"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 55
 msgid "Escuro"
 msgstr "黑暗"
@@ -1854,6 +1862,20 @@ msgstr "清除日志"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 195
 msgid "Arquivos de log antigos foram removidos."
 msgstr "旧日志文件已被删除。"
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2935,13 +2957,17 @@ msgstr "主机音频输出"
 msgid "Where YOU will hear the game sound"
 msgstr "您将在哪里听到游戏声音"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 304
-msgid "Audio Streaming"
-msgstr "音频流媒体"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 305
-msgid "Enable audio on client (Sound on Host + Guest)"
-msgstr "在客户端启用音频（主机和来宾的声音）"
+msgid "Audio Output Mode"
+msgstr "音频输出模式"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid "Determine where the game sound will be played"
+msgstr "确定游戏声音将播放的位置"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid "Guest + Host"
+msgstr "访客 + 主机"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 312
 msgid "Audio Mixer (Sources)"
@@ -3036,9 +3062,9 @@ msgstr "在客户端设备（Moonlight）上输入显示的 PIN。"
 msgid "PIN"
 msgstr "个人识别码"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 641
-msgid "Device Name (Optional)"
-msgstr "设备名称（可选）"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 652
+msgid "Device Name"
+msgstr "设备名称"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 649
 msgid "Send"
@@ -3131,14 +3157,6 @@ msgstr "凭证验证失败"
 msgid "Server Information"
 msgstr "服务器信息"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 789
-msgid "Audio streaming enabled"
-msgstr "音频流已启用"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 791
-msgid "Audio streaming stopped"
-msgstr "音频流已停止"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 807
 msgid "System Default"
 msgstr "系统默认"
@@ -3202,6 +3220,10 @@ msgstr "主机 + 客户端"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1145
 msgid "Host Only"
 msgstr "仅主机"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
+msgid "Host output restored: {}"
+msgstr "主机输出已恢复：{}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1240
 msgid "Failed to create Virtual Audio"
