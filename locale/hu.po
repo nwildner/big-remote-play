@@ -463,6 +463,10 @@ msgstr "Magas felbontású görgetés"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Továbbítsa a nagy felbontású görgetési eseményeket a Moonlight kliensektől."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Automatikus / Elsődleges"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
 msgid "Audio Sink"
 msgstr "Audio Sink"
@@ -491,23 +495,21 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Grafikus adapter"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
-msgid "Specific GPU to use"
-msgstr "Használni kívánt specifikus GPU"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "Használható specifikus GPU. Az alapértelmezett általában helyes."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
 msgid "Display Name"
 msgstr "Megjelenítési név"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
 msgstr ""
-"A Sunshine indításakor látnia kell a észlelt kijelzők listáját. Megjegyzés: Az id értéket a "
-"zárójelben kell használni. Az alábbiakban egy példa található; a tényleges kimenet a Hibaelhárítás "
-"fülön található."
+"Válaszd ki a rögzítendő kijelző monitort. Megfelel a kimeneti csatlakozó nevének (pl. DP-1, "
+"HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 320
 msgid "Maximum Bitrate"
@@ -1818,6 +1820,10 @@ msgstr "Automatikus"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1899,26 +1905,6 @@ msgstr "Régi naplófájlok eltávolítása"
 msgid "Limpar"
 msgstr "Tisztítás"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "Rendszerkarbantartás"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Eszközök gyakori problémák megoldására"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Könyvtárak javítása (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "A hiba megoldása: a libicuuc.so.7* hiányzik."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Automatikus javítás"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Tiszta naplók"
@@ -1934,23 +1920,6 @@ msgstr "Régi naplófájlok eltávolításra kerültek."
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 750
 msgid "OK"
 msgstr "Rendben"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Automatikus javítás megkezdődött"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "A könyvtárak javító scriptje elindult. Kérjük, adja meg a jelszót, ha kérik."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Hiba"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "A javítási szkript nem található."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
@@ -3267,16 +3236,6 @@ msgstr "A szerver elindult"
 msgid "Check logs for details."
 msgstr "Ellenőrizze a naplókat a részletekhez."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1214
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Hiányzó könyvtár: {}\n"
-"\n"
-"Szeretné automatikusan megpróbálni javítani?"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1223
 msgid ""
 "Missing library: {}\n"
@@ -3300,10 +3259,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "A szerver nem tudott elindulni."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1232
-msgid "Fix Automatically"
-msgstr "Automatikus javítás"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
 msgid "Stopping server..."
@@ -3418,10 +3373,6 @@ msgstr "(IPv6 Globális)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Gazda ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Hiba: Hiányzó ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

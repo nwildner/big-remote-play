@@ -461,6 +461,10 @@ msgstr "Przewijanie w wysokiej rozdzielczości"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Przekaż zdarzenia przewijania o wysokiej rozdzielczości od klientów Moonlight"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Auto / Główny"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
 msgid "Audio Sink"
 msgstr "Odbiornik audio"
@@ -489,23 +493,21 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Adapter graficzny"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
-msgid "Specific GPU to use"
-msgstr "Specyficzna karta graficzna do użycia"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "Specyficzna karta graficzna do użycia. Domyślnie jest zazwyczaj poprawna."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
 msgid "Display Name"
 msgstr "Nazwa wyświetlana"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
 msgstr ""
-"Podczas uruchamiania Sunshine powinieneś zobaczyć listę wykrytych wyświetlaczy. Uwaga: musisz użyć "
-"wartości id wewnątrz nawiasów. Poniżej znajduje się przykład; rzeczywisty wynik można znaleźć w "
-"zakładce Rozwiązywanie problemów."
+"Wybierz monitor wyświetlacza do przechwycenia. Odpowiada nazwie złącza wyjściowego (np. DP-1, "
+"HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 320
 msgid "Maximum Bitrate"
@@ -1046,6 +1048,10 @@ msgstr "Błąd terminala osadzonego: {}. Próba zewnętrznego..."
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 109
 msgid "Installation completed successfully!"
 msgstr "Instalacja zakończona pomyślnie!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
@@ -1912,26 +1918,6 @@ msgstr "Usuń arquivos de log antigos"
 msgid "Limpar"
 msgstr "Czyścić"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "Utrzymanie systemu"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Narzędzia do rozwiązywania powszechnych problemów"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Naprawić biblioteki (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Rozwiąż brakujący błąd libicuuc.so.7*"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Automatyczna naprawa"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Logs Limpos"
 msgstr "Czyste dzienniki"
@@ -1950,23 +1936,6 @@ msgstr "Stare pliki dziennika zostały usunięte."
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 750
 msgid "OK"
 msgstr "OK"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Automatyczne naprawianie uruchomione"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Skrypt naprawy bibliotek został uruchomiony. Podaj hasło, jeśli zostaniesz o to poproszony."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Błąd"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "Skrypt korekcyjny nie został znaleziony."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 190
 msgid "Caminho copiado!"
@@ -3278,16 +3247,6 @@ msgstr "Serwer uruchomiony"
 msgid "Check logs for details."
 msgstr "Sprawdź dzienniki, aby uzyskać szczegóły."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1213
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Brakująca biblioteka: {}\n"
-"\n"
-"Czy chcesz spróbować naprawić to automatycznie?"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1222
 msgid ""
 "Missing library: {}\n"
@@ -3311,10 +3270,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "Serwer nie udało się uruchomić."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1231
-msgid "Fix Automatically"
-msgstr "Napraw automatycznie"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1256
 msgid "Stopping server..."
@@ -3429,10 +3384,6 @@ msgstr "(IPv6 Globalny)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Host ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Błąd: Brakujący ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

@@ -464,6 +464,10 @@ msgstr "Défilement haute résolution"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Transmettre des événements de défilement haute résolution des clients Moonlight"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Automatique / Principal"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 314
 msgid "Audio Sink"
 msgstr "Sortie audio"
@@ -492,23 +496,21 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Adaptateur graphique"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
-msgid "Specific GPU to use"
-msgstr "GPU spécifique à utiliser"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "GPU spécifique à utiliser. La valeur par défaut est généralement correcte."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
 msgid "Display Name"
 msgstr "Nom d'affichage"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
 msgstr ""
-"Lors du démarrage de Sunshine, vous devriez voir la liste des écrans détectés. Remarque : Vous "
-"devez utiliser la valeur d'identification à l'intérieur des parenthèses. Ci-dessous un exemple ; la "
-"sortie réelle peut être trouvée dans l'onglet Dépannage."
+"Sélectionnez le moniteur d'affichage à capturer. Correspond au nom du connecteur de sortie (par "
+"exemple, DP-1, HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
 msgid "Maximum Bitrate"
@@ -1088,6 +1090,10 @@ msgstr "Installation terminée avec succès !"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "L'installation a échoué. Code de sortie : {}"
@@ -1148,6 +1154,10 @@ msgstr "Dans le menu latéral"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Entrez le domaine et la clé d'authentification"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1866,6 +1876,10 @@ msgstr "Automatique"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1965,26 +1979,6 @@ msgstr "Removez les anciens fichiers journaux."
 msgid "Limpar"
 msgstr "Nettoyer"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "Maintenance du Système"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Outils pour résoudre des problèmes courants"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Corriger les bibliothèques (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Résoudre l'erreur libicuuc.so.7* manquante"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Correction automatique"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Journaux propres"
@@ -1995,40 +1989,17 @@ msgstr "Les anciens fichiers journaux ont été supprimés."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Correction automatique lancée"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Le script de correction des bibliothèques a été lancé. Fournissez le mot de passe si demandé."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Erreur"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "Script de correction non trouvé."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3436,16 +3407,6 @@ msgstr "Serveur démarré"
 msgid "Check logs for details."
 msgstr "Vérifiez les journaux pour plus de détails."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1206
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Bibliothèque manquante : {}\n"
-"\n"
-"Voulez-vous essayer de la réparer automatiquement ?"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1215
 msgid ""
 "Missing library: {}\n"
@@ -3469,10 +3430,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "Le serveur a échoué à démarrer."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1224
-msgid "Fix Automatically"
-msgstr "Réparer automatiquement"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
 msgid "Stopping server..."
@@ -3590,10 +3547,6 @@ msgstr "(IPv6 Global)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Hôte ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Erreur : ICU 76 manquant"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 80
 msgid "Sunshine failed to start (Exit code {}).\n"

@@ -460,6 +460,10 @@ msgstr "Hár upplausn skrollun"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Láta háupplausnarskrollviðburði frá Moonlight viðskiptavinum."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Sjálfvirkt / Aðal"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
 msgid "Audio Sink"
 msgstr "Hljóðmóttakari"
@@ -488,22 +492,19 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Grafíkkaðili"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
-msgid "Specific GPU to use"
-msgstr "Sérstakur GPU til að nota"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "GPU sérfræðingur til að nota. Sjálfgefið er venjulega rétt."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
 msgid "Display Name"
 msgstr "Sýndarnafn"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
-msgstr ""
-"Við upphaf Sunshine ættirðu að sjá lista yfir greind skjái. Athugið: Þú þarft að nota id gildið "
-"innan sviga. Hér að neðan er dæmi; raunveruleg úttak má finna í Villuleit flipanum."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
+msgstr "Veldu skjáinn til að fanga. Samræmist nafni úttaks tengis (t.d. DP-1, HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 320
 msgid "Maximum Bitrate"
@@ -1045,6 +1046,10 @@ msgstr "Þrýstingur lokið með góðum árangri!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Uppsetning mistókst. Útgangs kóði: {}"
@@ -1106,6 +1111,10 @@ msgstr "Í íslenzku valmyndinni"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Sláðu inn lén og Auth lykil"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1839,6 +1848,10 @@ msgstr "Automatískt"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1916,26 +1929,6 @@ msgstr "Remove old log files"
 msgid "Limpar"
 msgstr "Ræsa"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "System Maintenance"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Tól til að leysa algeng vandamál"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Corrigir bókasafn (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Lagaðu villuna libicuuc.so.7* vantar."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Automatic Fix"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Logs Limpos"
 msgstr "Hreinsaðar skýrslur"
@@ -1946,43 +1939,17 @@ msgstr "Gamall skráar hafa verið fjarlægðar."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Automatísk lagfæring hafin"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Skráning á bókasafni hefur verið hafin. Vinsamlegast gefðu upp lykilorð ef óskað er eftir því."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Villa"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "Skrá de leiðréttingar fannst ekki."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2019,6 +1986,10 @@ msgstr "Hætta við"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
 msgid "Configurações Restauradas!"
 msgstr "Still not found."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
 # 
@@ -3264,6 +3235,10 @@ msgstr "Framkvæmd mistókst eða var aflýst."
 msgid "Error executing script: {}"
 msgstr "Villa að framkvæma skrift: {}"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 911
+msgid "Copied!"
+msgstr "Afrit!"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 884
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 884
@@ -3316,16 +3291,6 @@ msgstr "Þjónn hafinn"
 msgid "Check logs for details."
 msgstr "Skoðaðu skýrslurnar fyrir nánari upplýsingar."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1213
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Vantar bókasafn: {}\n"
-"\n"
-"Viltu reyna að laga það sjálfkrafa?"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1222
 msgid ""
 "Missing library: {}\n"
@@ -3349,10 +3314,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "Þjónninn tókst ekki að ræsa."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1231
-msgid "Fix Automatically"
-msgstr "Lagfærðu sjálfkrafa"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1256
 msgid "Stopping server..."
@@ -3466,10 +3427,6 @@ msgstr "(IPv6 Alheims)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Hýsing ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Villa: Vantar ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

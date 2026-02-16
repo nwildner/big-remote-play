@@ -480,6 +480,10 @@ msgstr "Υψηλή Ανάλυση Κύλισης"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Περάστε γεγονότα κύλισης υψηλής ανάλυσης από τους πελάτες Moonlight"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Αυτόματο / Κύριο"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 314
 msgid "Audio Sink"
 msgstr "Ηχητική Εξαγωγή"
@@ -508,23 +512,21 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Προσαρμογέας Γραφικών"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
-msgid "Specific GPU to use"
-msgstr "Συγκεκριμένη GPU προς χρήση"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "Συγκεκριμένη GPU προς χρήση. Η προεπιλογή είναι συνήθως σωστή."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
 msgid "Display Name"
 msgstr "Όνομα Εμφάνισης"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
 msgstr ""
-"Κατά την εκκίνηση του Sunshine, θα πρέπει να δείτε τη λίστα των ανιχνευμένων οθονών. Σημείωση: "
-"Πρέπει να χρησιμοποιήσετε την τιμή id μέσα στις παρενθέσεις. Παρακάτω είναι ένα παράδειγμα; η "
-"πραγματική έξοδος μπορεί να βρεθεί στην καρτέλα Αντιμετώπιση προβλημάτων."
+"Επιλέξτε την οθόνη που θέλετε να καταγράψετε. Αντιστοιχεί στο όνομα του συνδέσμου εξόδου (π.χ., "
+"DP-1, HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
 msgid "Maximum Bitrate"
@@ -1128,6 +1130,10 @@ msgstr "Στο μενού πλαϊνής μπάρας"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Εισάγετε το domain και το Auth Key"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1846,6 +1852,10 @@ msgstr "Αυτόματο"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1959,26 +1969,6 @@ msgstr "Αφαίρεση παλαιών αρχείων καταγραφής"
 msgid "Limpar"
 msgstr "Καθαρισμός"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "Συντήρηση Συστήματος"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Εργαλεία για την επίλυση κοινών προβλημάτων"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Διόρθωση Βιβλιοθηκών (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Επιλύστε το σφάλμα libicuuc.so.7* που λείπει."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Αυτόματη Διόρθωση"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Καθαρά Καταγραφές"
@@ -1989,40 +1979,17 @@ msgstr "Τα παλιά αρχεία καταγραφής έχουν αφαιρ�
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 196
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 302
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Αυτόματη Διόρθωση Ξεκίνησε"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Ο σκριπτάς διόρθωσης βιβλιοθηκών έχει ξεκινήσει. Παρέχετε τον κωδικό πρόσβασης αν ζητηθεί."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Σφάλμα"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "Σενάριο διόρθωσης δεν βρέθηκε."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3455,16 +3422,6 @@ msgstr "Ο διακομιστής ξεκίνησε"
 msgid "Check logs for details."
 msgstr "Ελέγξτε τα αρχεία καταγραφής για λεπτομέρειες."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1206
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Λείπει η βιβλιοθήκη: {}\n"
-"\n"
-"Θα θέλατε να προσπαθήσετε να το διορθώσετε αυτό αυτόματα;"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1215
 msgid ""
 "Missing library: {}\n"
@@ -3488,10 +3445,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "Ο διακομιστής απέτυχε να ξεκινήσει."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1224
-msgid "Fix Automatically"
-msgstr "Διόρθωση Αυτόματα"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."
@@ -3607,10 +3560,6 @@ msgstr "(IPv6 Παγκόσμιο)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Φιλοξενητής ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Σφάλμα: Λείπει το ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 80
 msgid "Sunshine failed to start (Exit code {}).\n"

@@ -461,6 +461,10 @@ msgstr "Vysoké rozlišení posouvání"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Přenášet události vysokého rozlišení rolování od klientů Moonlight"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Automaticky / Hlavní"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 314
 msgid "Audio Sink"
 msgstr "Zvukový výstup"
@@ -489,22 +493,21 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Grafická karta"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
-msgid "Specific GPU to use"
-msgstr "Specifická GPU k použití"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "Specifická GPU k použití. Výchozí je obvykle správná."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
 msgid "Display Name"
 msgstr "Zobrazit jméno"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
 msgstr ""
-"Během spuštění Sunshine byste měli vidět seznam detekovaných displejů. Poznámka: Musíte použít "
-"hodnotu id uvnitř závorek. Níže je příklad; skutečný výstup lze nalézt na kartě Řešení problémů."
+"Vyberte monitor pro zobrazení, který chcete zachytit. Odpovídá názvu výstupního konektoru (např. "
+"DP-1, HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
 msgid "Maximum Bitrate"
@@ -1878,26 +1881,6 @@ msgstr "Odstranit staré soubory protokolu"
 msgid "Limpar"
 msgstr "Vyčistit"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "Údržba systému"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Nástroje pro řešení běžných problémů"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Opravit knihovny (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Vyřešte chybějící libicuuc.so.7*"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Automatická oprava"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Čisté protokoly"
@@ -1913,23 +1896,6 @@ msgstr "Staré protokoly byly odstraněny."
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 727
 msgid "OK"
 msgstr "OK"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Automatické opravy spuštěny"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Skript pro opravu knihoven byl spuštěn. Zadejte heslo, pokud budete vyzváni."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Chyba"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "Skript pro opravu nebyl nalezen."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
@@ -3256,17 +3222,6 @@ msgstr "Server byl spuštěn"
 msgid "Check logs for details."
 msgstr "Zkontrolujte protokoly pro podrobnosti."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1206
-#, python-brace-format
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Chybějící knihovna: {}\n"
-"\n"
-"Chcete se pokusit to opravit automaticky?"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1215
 #, python-brace-format
 msgid ""
@@ -3292,10 +3247,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "Server se nepodařilo spustit."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1224
-msgid "Fix Automatically"
-msgstr "Opravit automaticky"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."
@@ -3409,10 +3360,6 @@ msgstr "(Globální IPv6)"
 #, python-brace-format
 msgid "Host ({})"
 msgstr "Host ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Chyba: Chybějící ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 80
 #, python-brace-format

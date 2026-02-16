@@ -461,6 +461,10 @@ msgstr "Висока резолюция на превъртане"
 msgid "Pass through high resolution scroll events from Moonlight clients"
 msgstr "Преминаване на събития за превъртане с висока разделителна способност от клиенти на Moonlight"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
+msgid "Auto / Primary"
+msgstr "Авто / Основен"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 314
 msgid "Audio Sink"
 msgstr "Аудио източник"
@@ -489,23 +493,21 @@ msgstr ""
 msgid "Graphics Adapter"
 msgstr "Графичен адаптер"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
-msgid "Specific GPU to use"
-msgstr "Специфичен GPU за използване"
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+msgid "Specific GPU to use. Default is usually correct."
+msgstr "Специфичен GPU за използване. По подразбиране обикновено е правилно."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
 msgid "Display Name"
 msgstr "Показвано име"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid ""
-"During Sunshine startup, you should see the list of detected displays. Note: You need to use the id "
-"value inside the parenthesis. Below is an example; the actual output can be found in the "
-"Troubleshooting tab."
+"Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, "
+"HDMI-A-1)."
 msgstr ""
-"По време на стартиране на Sunshine, трябва да видите списъка с откритите дисплеи. Забележка: Трябва "
-"да използвате стойността на id в скобите. По-долу е пример; действителният изход може да бъде "
-"намерен в раздела за отстраняване на проблеми."
+"Изберете дисплейния монитор за заснемане. Съответства на името на изходния конектор (напр. DP-1, "
+"HDMI-A-1)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
 msgid "Maximum Bitrate"
@@ -1116,6 +1118,10 @@ msgstr "В страничното меню"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Въведете домейн и ключ за удостоверяване"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1898,26 +1904,6 @@ msgstr "Премахване на стари лог файлове"
 msgid "Limpar"
 msgstr "Изчисти"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
-msgid "Manutenção do Sistema"
-msgstr "Поддръжка на системата"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
-msgid "Ferramentas para resolver problemas comuns"
-msgstr "Инструменти за решаване на често срещани проблеми"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
-msgid "Corrigir Bibliotecas (ICU)"
-msgstr "Коригиране на библиотеки (ICU)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
-msgid "Resolve o erro libicuuc.so.7* ausente"
-msgstr "Решете проблема с отсъствието на libicuuc.so.7*"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
-msgid "Fix Automático"
-msgstr "Автоматично поправяне"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Чисти журнали"
@@ -1933,23 +1919,6 @@ msgstr "Старите лог файлове бяха премахнати."
 # File: usr/share/big-remote-play/ui/guest_view.py, line: 727
 msgid "OK"
 msgstr "Добре"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "Fix Automático Iniciado"
-msgstr "Автоматично стартирано поправяне"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
-msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
-msgstr "Скриптът за корекция на библиотеки беше стартиран. Моля, предоставете паролата, ако бъде поискано."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Erro"
-msgstr "Грешка"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
-msgid "Script de correção não encontrado."
-msgstr "Скрипт за корекция не е намерен."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3288,17 +3257,6 @@ msgstr "Сървърът е стартиран"
 msgid "Check logs for details."
 msgstr "Проверете логовете за подробности."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1206
-#, python-brace-format
-msgid ""
-"Missing library: {}\n"
-"\n"
-"Would you like to try to fix it automatically?"
-msgstr ""
-"Липсваща библиотека: {}\n"
-"\n"
-"Искате ли да опитате да я поправите автоматично?"
-# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1215
 #, python-brace-format
 msgid ""
@@ -3324,10 +3282,6 @@ msgid ""
 "The server failed to start.\n"
 "{}"
 msgstr "Сървърът не успя да стартира."
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1224
-msgid "Fix Automatically"
-msgstr "Поправи автоматично"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."
@@ -3443,10 +3397,6 @@ msgstr "(IPv6 Глобален)"
 #, python-brace-format
 msgid "Host ({})"
 msgstr "Хост ({})"
-# 
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
-msgid "Error: Missing ICU 76"
-msgstr "Грешка: Липсва ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 80
 #, python-brace-format
