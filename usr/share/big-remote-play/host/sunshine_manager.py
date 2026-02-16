@@ -249,16 +249,24 @@ class SunshineHost:
                 try:
                     with open(config_file, 'r') as f:
                         for line in f:
+                            line = line.strip()
+                            if not line or line.startswith('#'): continue
                             if '=' in line:
-                                parts = line.strip().split('=', 1)
+                                parts = line.split('=', 1)
                                 if len(parts) == 2:
                                     current_config[parts[0].strip()] = parts[1].strip()
                 except Exception as e:
                     print(f"Error reading existing config: {e}")
             
             # Update with new settings
-            current_config.update(settings)
-
+            for k, v in settings.items():
+                if v is None:
+                    # Remove key if value is None
+                    if k in current_config:
+                        del current_config[k]
+                else:
+                    current_config[k] = str(v)
+ 
             # Ensure pointing to apps.json
             if 'apps_file' not in current_config:
                 current_config['apps_file'] = 'apps.json'

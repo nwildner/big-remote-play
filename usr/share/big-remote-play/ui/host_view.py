@@ -2,7 +2,7 @@ import gi
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
 
-from gi.repository import Gtk, Adw, GLib
+from gi.repository import Gtk, Gdk, Adw, GLib
 import subprocess, random, string, json, socket, os
 from pathlib import Path
 from utils.game_detector import GameDetector
@@ -46,30 +46,57 @@ class HostView(Gtk.Box):
         
     def detect_monitors(self):
         monitors = [(_('Automatic'), 'auto')]
+        is_wayland = os.environ.get('XDG_SESSION_TYPE') == 'wayland'
+        
+        # Method: GDK (Most consistent for labels and Wayland indices)
+        names = []
         try:
-            out = subprocess.check_output(['xrandr', '--current'], text=True, stderr=subprocess.STDOUT)
-            for l in out.split('\n'):
-                if ' connected' in l:
-                    p = l.split()
-                    if p:
-                        name = p[0]; res = ""
-                        for x in p:
-                            if 'x' in x and '+' in x: res = f" ({x.split('+')[0]})"; break
-                        monitors.append((f"Monitor: {name}{res}", name))
-        except:
+            display = Gdk.Display.get_default()
+            if display:
+                monitor_list = display.get_monitors()
+                for i in range(monitor_list.get_n_items()):
+                    monitor = monitor_list.get_item(i)
+                    conn = monitor.get_connector()
+                    if conn:
+                        manufacturer = monitor.get_manufacturer() or ""
+                        model = monitor.get_model() or ""
+                        label_parts = []
+                        if manufacturer: label_parts.append(manufacturer)
+                        if model: label_parts.append(model)
+                        label = " ".join(label_parts) if label_parts else "Monitor"
+                        
+                        # Value logic: Wayland uses 0, 1, 2... | X11 uses HDMI-A-1, etc.
+                        val = str(i) if is_wayland else conn
+                        full_label = f"{label} ({conn})"
+                        monitors.append((full_label, val))
+                        names.append(conn)
+        except Exception as e:
+            print(f"Error detecting GDK monitors: {e}")
+
+        # Fallback for X11/DRM if GDK didn't find everything
+        if not is_wayland:
+            # Xrandr (Reinforcement for X11)
             try:
-                out = subprocess.check_output(['xrandr', '--listactivemonitors'], text=True)
-                for l in out.strip().split('\n')[1:]:
-                    p = l.split()
-                    if p: monitors.append((f"Monitor: {p[-1]}", p[-1]))
+                cmd = "xrandr --listmonitors | tail -n +2 | awk '{print $NF}'"
+                res = subprocess.check_output(cmd, shell=True, text=True)
+                for n in res.splitlines():
+                    n = n.strip()
+                    if n and n not in names:
+                        monitors.append((f"Display ({n})", n))
+                        names.append(n)
             except: pass
-        try:
-            from pathlib import Path
-            for p in Path('/sys/class/drm').glob('card*-*'):
-                if (p/'status').exists() and (p/'status').read_text().strip() == 'connected':
-                    n = p.name.split('-', 1)[1]
-                    if not any(n in m[1] for m in monitors): monitors.append((f"Monitor: {n}", n))
-        except: pass
+
+            # DRM (Reinforcement for KMS/DRM)
+            try:
+                from pathlib import Path
+                for p in Path('/sys/class/drm').glob('card*-*'):
+                    if (p/'status').exists() and (p/'status').read_text().strip() == 'connected':
+                        name = p.name.split('-', 1)[1]
+                        if name not in names:
+                            monitors.append((f"DRM Display ({name})", name))
+                            names.append(name)
+            except: pass
+            
         return monitors
 
     def detect_gpus(self):
@@ -1223,22 +1250,22 @@ class HostView(Gtk.Box):
             sunshine_config['platform'] = platform
 
 
-            if platform != 'wayland':
-                monitor_idx = self.monitor_row.get_selected()
-                if 0 < monitor_idx < len(self.available_monitors):
-                    mon_name = self.available_monitors[monitor_idx][1]
-                    if mon_name != 'auto':
-                        sunshine_config['output_name'] = mon_name
+            # Set output_name if a specific monitor is selected, others set to None to remove from config
+            sunshine_config['output_name'] = None
+            monitor_idx = self.monitor_row.get_selected()
+            if 0 < monitor_idx < len(self.available_monitors):
+                mon_name = self.available_monitors[monitor_idx][1]
+                if mon_name != 'auto':
+                    sunshine_config['output_name'] = mon_name
             
-            # If Wayland, do NOT set output_name.
-            # Sunshine uses Portals (Pipewire) which asks user to choose or uses default.
-            # Setting output_name on Wayland often causes "Monitor not found" errors.
+            # Set adapter_name only if specific adapter chosen
+            sunshine_config['adapter_name'] = None
             if selected_gpu_info['encoder'] == 'vaapi' and selected_gpu_info['adapter'] != 'auto':
                 sunshine_config['adapter_name'] = selected_gpu_info['adapter']
             
             if platform == 'wayland':
                 sunshine_config['wayland.display'] = os.environ.get('WAYLAND_DISPLAY', 'wayland-0')
-            if platform == 'x11' and self.monitor_row.get_selected() == 0:
+            if platform == 'x11' and (not sunshine_config['output_name']):
                 sunshine_config['output_name'] = ':0'
             
             self.sunshine.configure(sunshine_config)
@@ -1264,17 +1291,10 @@ class HostView(Gtk.Box):
                         with open(log_path, 'r') as f:
                             lines = f.readlines()
                             for line in lines[-10:]:
-                                if "error while loading shared libraries" in line and "libicuuc.so.76" in line:
-                                    lib = "libicuuc.so.76"
-                                    error_msg = _("Missing library: {}\n\nWould you like to try to fix it automatically?").format(lib)
-                                    
-                                    # Locate the fix script
-                                    script_path = Path(__file__).parent.parent / 'scripts' / 'fix_sunshine_libs.sh'
-                                    if script_path.exists():
-                                        fix_cmd = ['pkexec', str(script_path)]
-                                    break
-                                elif "error while loading shared libraries" in line:
-                                    lib = line.split("error while loading shared libraries:")[1].split(":")[0].strip()
+                                if "error while loading shared libraries" in line:
+                                    # Extract lib name if possible or just show generic error
+                                    parts = line.split("error while loading shared libraries:")
+                                    lib = parts[1].split(":")[0].strip() if len(parts) > 1 else "Unknown"
                                     error_msg = _("Missing library: {}\n\nPlease check your Sunshine installation.").format(lib)
                                     break
                                 elif "Address already in use" in line:
@@ -1283,18 +1303,7 @@ class HostView(Gtk.Box):
                 except: pass
                 
                 dialog = Adw.MessageDialog.new(self.get_root(), _("Failed to start"), _("The server failed to start.\n{}").format(error_msg))
-                if fix_cmd:
-                    dialog.add_response("fix", _("Fix Automatically"))
                 dialog.add_response("close", _("Close"))
-                
-                def on_dialog_response(dialog, response):
-                    if response == "fix" and fix_cmd:
-                        try:
-                            subprocess.Popen(fix_cmd)
-                        except Exception as e:
-                            self.show_error_dialog(_("Error"), f"Failed to run fix script: {e}")
-                            
-                dialog.connect("response", on_dialog_response)
                 dialog.present()
             
         except Exception as e:

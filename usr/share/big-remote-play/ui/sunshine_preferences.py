@@ -4,7 +4,7 @@ import locale
 
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
-from gi.repository import Gtk, Adw, Gio, GLib, GObject
+from gi.repository import Gtk, Gdk, Adw, Gio, GLib, GObject
 from pathlib import Path
 import configparser
 import os
@@ -25,18 +25,14 @@ class SunshineConfigManager:
         self.config = {}
         if self.config_file.exists():
             try:
-                # Sunshine config is key = value typical format but without sections
                 with open(self.config_file, 'r') as f:
-                    content = f.read()
-                
-                # Add dummy section
-                content = "[DEFAULT]\n" + content
-                
-                cp = configparser.ConfigParser()
-                cp.read_string(content)
-                
-                for key in cp['DEFAULT']:
-                    self.config[key] = cp['DEFAULT'][key]
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith('#'): continue
+                        if '=' in line:
+                            parts = line.split('=', 1)
+                            if len(parts) == 2:
+                                self.config[parts[0].strip()] = parts[1].strip()
             except Exception as e:
                 print(f"Error loading Sunshine config: {e}")
 
@@ -340,12 +336,52 @@ class SunshinePreferencesPage(Adw.PreferencesPage):
             ("high_resolution_scrolling", _("High Resolution Scrolling"), "switch", "true", None, _("Pass through high resolution scroll events from Moonlight clients")),
         ]
 
+    def get_monitors(self):
+        monitors = []
+        is_wayland = os.environ.get('XDG_SESSION_TYPE') == 'wayland'
+        try:
+            display = Gdk.Display.get_default()
+            if display:
+                monitor_list = display.get_monitors()
+                for i in range(monitor_list.get_n_items()):
+                    monitor = monitor_list.get_item(i)
+                    name = monitor.get_connector()
+                    if name:
+                        manufacturer = monitor.get_manufacturer() or ""
+                        model = monitor.get_model() or ""
+                        label_parts = []
+                        if manufacturer: label_parts.append(manufacturer)
+                        if model: label_parts.append(model)
+                        label = " ".join(label_parts) if label_parts else "Monitor"
+                        
+                        # Value logic: Wayland uses 0, 1, 2... | X11 uses HDMI-A-1, etc.
+                        val = str(i) if is_wayland else name
+                        full_label = f"{label} ({name})"
+                        monitors.append((full_label, val))
+        except Exception as e:
+            print(f"Error getting monitors: {e}")
+        
+        if not monitors:
+            return [("auto", _("Auto / Primary"))]
+        
+        return monitors
+
     def get_av_options(self):
+        monitors = self.get_monitors()
+        # Verify if configured output_name is in monitors
+        current_output = self.config.get("output_name")
+        
+        # If current_output is set but not in detected monitors, we should potentially clear it
+        # or default to auto/first one to avoid Error 503.
+        # However, if detection is flaky, maybe we should keep it?
+        # But here the user issue IS that an invalid one persists.
+        # So providing only detected ones (plus auto) is safer.
+        
         return [
             ("audio_sink", _("Audio Sink"), "entry", "", None, _("Listing all available audio sinks is possible by running `pactl list short sinks` (PulseAudio) or `wpctl status` (PipeWire).")),
             ("stream_audio", _("Stream Audio"), "switch", "true", None, _("Whether to stream audio or not. Disabling this can be useful for streaming headless displays as second monitors.")),
-            ("adapter_name", _("Graphics Adapter"), "entry", "", None, _("Specific GPU to use")),
-            ("output_name", _("Display Name"), "entry", "", None, _("During Sunshine startup, you should see the list of detected displays. Note: You need to use the id value inside the parenthesis. Below is an example; the actual output can be found in the Troubleshooting tab.")),
+            ("adapter_name", _("Graphics Adapter"), "entry", "", None, _("Specific GPU to use. Default is usually correct.")),
+            ("output_name", _("Display Name"), "combo", monitors[0][0] if monitors else "auto", monitors, _("Select the display monitor to capture. Corresponds to the output connector name (e.g., DP-1, HDMI-A-1).")),
             ("max_bitrate", _("Maximum Bitrate"), "spin", "0", None, _("The maximum bitrate (in Kbps) that Sunshine will encode the stream at. If set to 0, it will always use the bitrate requested by Moonlight.")),
             ("min_fps", _("Minimum FPS Target"), "spin", "0", None, _("The lowest effective FPS a stream can reach. A value of 0 is treated as roughly half of the stream's FPS. A setting of 20 is recommended if you stream 24 or 30fps content.")),
         ]
