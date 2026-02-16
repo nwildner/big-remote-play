@@ -66,6 +66,22 @@ class SystemCheck:
         except:
             return False
 
+    def are_containers_running(self) -> bool:
+        """Checks if app containers (caddy, headscale) are running"""
+        try:
+            result = subprocess.run(
+                ['docker', 'ps', '--format', '{{.Names}}'],
+                capture_output=True,
+                text=True,
+                timeout=2
+            )
+            if result.returncode == 0:
+                output = result.stdout.strip()
+                return 'caddy' in output and 'headscale' in output
+            return False
+        except:
+            return False
+
     def is_tailscale_running(self) -> bool:
         """Checks if Tailscale daemon is running"""
         try:

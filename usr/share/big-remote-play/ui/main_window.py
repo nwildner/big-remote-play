@@ -526,7 +526,7 @@ class MainWindow(Adw.ApplicationWindow):
         # Buttons
         actions = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=10)
         
-        def run_cmd(action, sid=service_id):
+        def run_cmd(action, sid=service_id, force_type=None):
             m = SERVICE_METADATA[sid]
             cmd = []
             
@@ -535,12 +535,28 @@ class MainWindow(Adw.ApplicationWindow):
                 for b in ['moonlight-qt', 'moonlight']:
                     if shutil.which(b): return b
                 return None
+            
+            current_type = force_type or m['type']
 
-            if m['type'] == 'service':
+            if current_type == 'service':
                 cmd = ["bigsudo", "systemctl"]
                 if m.get('user'): 
                     cmd = ["systemctl", "--user"]
-                cmd.extend([action, m['unit']])
+                
+                cmd.append(action)
+                cmd.append(m['unit'])
+
+                # Special case: Stop docker socket to prevent auto-activation
+                if sid == 'docker' and action == 'stop':
+                    cmd.append('docker.socket')
+            elif current_type == 'containers':
+                # Control specific containers
+                if action == 'start':
+                    cmd = ['docker', 'start', 'caddy', 'headscale']
+                elif action == 'stop':
+                    cmd = ['docker', 'stop', 'caddy', 'headscale']
+                elif action == 'restart':
+                    cmd = ['docker', 'restart', 'caddy', 'headscale']
             else:
                 # App type
                 bin_name = m['bin']
@@ -563,7 +579,8 @@ class MainWindow(Adw.ApplicationWindow):
             if cmd:
                 try:
                     subprocess.Popen(cmd)
-                    self.show_toast(_("Action {} sent to {}").format(action, m['name']))
+                    name = _("Containers") if current_type == 'containers' else m['name']
+                    self.show_toast(_("Action {} sent to {}").format(action, name))
                     dialog.destroy()
                     GLib.timeout_add(1000, self.check_system)
                 except Exception as e:
@@ -585,6 +602,48 @@ class MainWindow(Adw.ApplicationWindow):
             btn_enable = Gtk.Button(label=_("Disable") if is_enabled else _("Enable"))
             btn_enable.connect("clicked", lambda b: run_cmd("disable" if is_enabled else "enable"))
             actions.append(btn_enable)
+            
+        # EXTRA: Docker Containers Controls
+        if service_id == 'docker':
+            # Separator
+            actions.append(Gtk.Separator(orientation=Gtk.Orientation.HORIZONTAL))
+            
+            # Container Status
+            cont_running = self.system_check.are_containers_running()
+            
+            cont_box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=8)
+            
+            cont_header = Gtk.Box(spacing=8)
+            cont_header.set_halign(Gtk.Align.CENTER)
+            cont_header.append(create_icon_widget('network-wired-symbolic', size=16))
+            cont_header.append(Gtk.Label(label=_("Private Network Containers")))
+            cont_box.append(cont_header)
+            
+            # Status dot for containers
+            c_status_box = Gtk.Box(spacing=10, halign=Gtk.Align.CENTER)
+            c_dot = create_icon_widget('media-record-symbolic', size=12, 
+                css_class=['status-dot', 'status-online' if cont_running else 'status-offline'])
+            c_status_box.append(c_dot)
+            c_status_lbl = Gtk.Label(label=_("Running (Caddy + Headscale)") if cont_running else _("Stopped"))
+            c_status_box.append(c_status_lbl)
+            cont_box.append(c_status_box)
+            
+            # Buttons for containers
+            # Start/Stop Toggle
+            c_btn_main = Gtk.Button(label=_("Stop Containers") if cont_running else _("Start Containers"))
+            c_btn_main.add_css_class("suggested-action" if not cont_running else "destructive-action")
+            c_btn_main.connect("clicked", lambda b: run_cmd("stop" if cont_running else "start", force_type='containers'))
+            cont_box.append(c_btn_main)
+
+            # Restart
+            c_btn_restart = Gtk.Button(label=_("Restart Containers"))
+            c_btn_restart.connect("clicked", lambda b: run_cmd("restart", force_type='containers'))
+            cont_box.append(c_btn_restart)
+            
+            # Disable entire container section if Docker service is stopped
+            cont_box.set_sensitive(is_running)
+            
+            actions.append(cont_box)
 
         content.append(actions)
         
