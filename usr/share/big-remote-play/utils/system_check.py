@@ -121,9 +121,6 @@ class SystemCheck:
             if result.returncode == 0:
                 return result.stdout.strip()
             else:
-                # Check for standard library error
-                if "libicuuc.so.76" in result.stderr:
-                    return _("Error: Missing ICU 76")
                 return _("Unknown")
                 
         except:
@@ -148,58 +145,3 @@ class SystemCheck:
             
         except:
             return _("Unknown")
-            
-    def check_firewall(self) -> Tuple[bool, str]:
-        """
-        Checks firewall status
-        Returns (has_firewall, type)
-        """
-        if shutil.which('ufw'):
-            try:
-                result = subprocess.run(
-                    ['ufw', 'status'],
-                    capture_output=True,
-                    text=True,
-                    timeout=2
-                )
-                
-                if result.returncode == 0:
-                    active = 'Status: active' in result.stdout
-                    return (active, 'ufw')
-                    
-            except:
-                pass
-                
-        if shutil.which('iptables'):
-            return (True, 'iptables')
-            
-        return (False, 'none')
-        
-    def check_network_connectivity(self) -> bool:
-        """Checks network connectivity"""
-        try:
-            # Ping Google DNS
-            result = subprocess.run(
-                ['ping', '-c', '1', '-W', '2', '8.8.8.8'],
-                capture_output=True,
-                timeout=3
-            )
-            
-            return result.returncode == 0
-            
-        except:
-            return False
-
-    def check_icu(self) -> bool:
-        """Checks if required libicuuc is present"""
-        import os
-        # Sunshine often expects .76 or .7*
-        paths = [
-            '/usr/lib/libicuuc.so.76',
-            '/usr/lib/libicuuc.so.77',
-            '/usr/lib/libicuuc.so.78'
-        ]
-        for p in paths:
-            if os.path.exists(p):
-                return True
-        return False
