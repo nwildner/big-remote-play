@@ -2073,6 +2073,10 @@ msgstr "Fyzická IP"
 msgid "Set ZeroTier API Token"
 msgstr "Nastavte ZeroTier API token"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "Vytvořit token pro přístup k API"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
 msgid "Status"
 msgstr "Stav"
@@ -2195,6 +2199,10 @@ msgstr "Vaše vytvořené/připojené sítě se zde zobrazí."
 msgid "Reconnect"
 msgstr "Znovu se připojit"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Upravte"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "Smazat"
@@ -2207,9 +2215,26 @@ msgstr "Webové uživatelské rozhraní"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Formulář vyplněn pro {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Formulář vyplněn pro {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Upravit – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Upravit síťový záznam"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Přihlašovací server"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Záznam byl aktualizován"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2566,9 +2591,9 @@ msgstr "{} odpojeno"
 msgid "{} selected! Setting up private network..."
 msgstr "{} vybráno! Nastavuji soukromou síť..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 234
-msgid "Play cooperatively over the local network"
-msgstr "Hrajte kooperativně přes místní síť"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Hrajte kooperativně přes místní síť nebo internet."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 253
 msgid "Share your games with other players on the network"
@@ -3361,6 +3386,21 @@ msgstr "Nepodařilo se vytvořit virtuální zvuk."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1189
 msgid "Server started"
 msgstr "Server byl spuštěn"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Otevírání režimu Velkého obrazu Steam..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Spouštění {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Chyba při spuštění hry: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."

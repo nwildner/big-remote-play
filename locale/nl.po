@@ -245,6 +245,10 @@ msgstr "Installatie succesvol voltooid!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Installatie mislukt. Exitcode: {}"
@@ -373,6 +377,20 @@ msgstr "Schone Logs"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Oude logbestanden zijn verwijderd."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2290,6 +2308,10 @@ msgstr "Fysiek IP"
 msgid "Set ZeroTier API Token"
 msgstr "Stel ZeroTier API-token in"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "API-toegangstoken aanmaken"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1013
 msgid "Status"
 msgstr "Status"
@@ -2413,6 +2435,10 @@ msgstr "Je gemaakte/verbonden netwerken zullen hier verschijnen."
 msgid "Reconnect"
 msgstr "Herverbinden"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Bewerken"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1263
 msgid "Delete"
 msgstr "Verwijderen"
@@ -2425,9 +2451,26 @@ msgstr "Webgebruikersinterface"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Formulier ingevuld voor {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Formulier ingevuld voor {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Bewerken – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Bewerk Netwerkvermelding"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Inloggen Server"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Invoer bijgewerkt"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2788,9 +2831,9 @@ msgstr "{} losgekoppeld"
 msgid "{} selected! Setting up private network..."
 msgstr "{} geselecteerd! Een privénetwerk instellen..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 312
-msgid "Play cooperatively over the local network"
-msgstr "Speel coöperatief via het lokale netwerk"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Speel coöperatief via het lokale netwerk of het internet"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 331
 msgid "Share your games with other players on the network"
@@ -3583,6 +3626,21 @@ msgstr "Kon het Virtuele Audio niet maken."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1196
 msgid "Server started"
 msgstr "Server gestart"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Steam Big Picture openen..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Starten {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Fout bij het starten van het spel: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1256
 msgid "Stopping server..."

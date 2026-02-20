@@ -243,6 +243,10 @@ msgstr "Þrýstingur lokið með góðum árangri!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Uppsetning mistókst. Útgangs kóði: {}"
@@ -270,6 +274,10 @@ msgstr "Veldu litaskemað"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 51
 msgid "Automático"
 msgstr "Automatískt"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
 # 
@@ -395,6 +403,20 @@ msgstr "Hreinsaðar skýrslur"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Gamall skráar hafa verið fjarlægðar."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2304,6 +2326,10 @@ msgstr "Fýsískt IP"
 msgid "Set ZeroTier API Token"
 msgstr "Settu ZeroTier API Token"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "Búðu til API aðgangstákn"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1013
 msgid "Status"
 msgstr "Staða"
@@ -2427,6 +2453,10 @@ msgstr "Nettin sem þú hefur búið til/tengst munu birtast hér."
 msgid "Reconnect"
 msgstr "Endur tengingu"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Breyta"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1263
 msgid "Delete"
 msgstr "Eyða"
@@ -2439,9 +2469,26 @@ msgstr "Vefviðmót"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Form fyllt út fyrir {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Form fyllt fyrir {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Breyta – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Breyta netfangaskráningu"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Innskráningarþjónn"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Inntak uppfært"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2556,6 +2603,10 @@ msgstr "3. Heimild"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1803
 msgid "Aguardar Aprovação"
 msgstr "Bíð eftir samþykki"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1997
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1997
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1803
 # 
@@ -2804,9 +2855,9 @@ msgstr "{} tengist ekki"
 msgid "{} selected! Setting up private network..."
 msgstr "{} valið! Að setja upp einkanet..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 312
-msgid "Play cooperatively over the local network"
-msgstr "Spila saman í gegnum staðarnetið"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Spila saman í gegnum staðarnet eða internetið"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 331
 msgid "Share your games with other players on the network"
@@ -3609,6 +3660,21 @@ msgstr "Mistók að búa til sýndarhljóð."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1196
 msgid "Server started"
 msgstr "Þjónn hafinn"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Opna Steam Stórmynd..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Ræsir {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Villa við að ræsa leikinn: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1256
 msgid "Stopping server..."

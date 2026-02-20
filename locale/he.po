@@ -377,6 +377,10 @@ msgstr "מחק הכל"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 259
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 259
@@ -2102,6 +2106,10 @@ msgstr "כתובת IP פיזית"
 msgid "Set ZeroTier API Token"
 msgstr "הגדר טוקן API של ZeroTier"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "צור טוקן גישה ל-API"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
 msgid "Status"
 msgstr "סטטוס"
@@ -2224,6 +2232,10 @@ msgstr "הרשתות שיצרת/חיברת יופיעו כאן."
 msgid "Reconnect"
 msgstr "התחבר מחדש"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "ערוך"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "מחק"
@@ -2236,9 +2248,26 @@ msgstr "ממשק משתמש אינטרנטי"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "טופס מולא עבור {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "טופס מולא עבור {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "עריכה – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "ערוך רשומת רשת"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "שרת כניסה"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "הכניסה עודכנה"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2591,9 +2620,9 @@ msgstr "{} מנותק"
 msgid "{} selected! Setting up private network..."
 msgstr "{} נבחר! מגדיר רשת פרטית..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 268
-msgid "Play cooperatively over the local network"
-msgstr "שחקו בשיתוף פעולה על הרשת המקומית"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "שחקו בשיתוף פעולה על הרשת המקומית או באינטרנט"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 287
 msgid "Share your games with other players on the network"
@@ -3377,6 +3406,21 @@ msgstr "נכשל ביצירת אודיו וירטואלי"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1189
 msgid "Server started"
 msgstr "השרת התחיל"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "פותח את Steam במצב תצוגת תמונה גדולה..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "מפעיל {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "שגיאה בהשקת המשחק: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
 msgid "Stopping server..."

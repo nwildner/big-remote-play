@@ -234,6 +234,10 @@ msgstr "Αυτόματο"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
@@ -382,6 +386,20 @@ msgstr "Καθαρά Καταγραφές"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Τα παλιά αρχεία καταγραφής έχουν αφαιρεθεί."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2425,6 +2443,10 @@ msgstr "Φυσική IP"
 msgid "Set ZeroTier API Token"
 msgstr "Ρυθμίστε το Token API του ZeroTier"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "Δημιουργία Διακριτικού Πρόσβασης API"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
 msgid "Status"
 msgstr "Κατάσταση"
@@ -2547,6 +2569,10 @@ msgstr "Τα δίκτυα που δημιουργήσατε/συνδέσατε �
 msgid "Reconnect"
 msgstr "Επανασύνδεση"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Επεξεργασία"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "Διαγραφή"
@@ -2559,9 +2585,26 @@ msgstr "Διεπαφή Ιστού"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Η φόρμα συμπληρώθηκε για {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Η φόρμα συμπληρώθηκε για {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Επεξεργασία – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Επεξεργασία Εισόδου Δικτύου"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Σερβερ Σύνδεσης"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Η καταχώρηση ενημερώθηκε"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2917,9 +2960,9 @@ msgstr "{} αποσυνδέθηκε"
 msgid "{} selected! Setting up private network..."
 msgstr "{} επιλέχθηκε! Ρύθμιση ιδιωτικού δικτύου..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 234
-msgid "Play cooperatively over the local network"
-msgstr "Παίξτε συνεργατικά μέσω του τοπικού δικτύου"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Παίξτε συνεργατικά μέσω του τοπικού δικτύου ή του διαδικτύου."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 253
 msgid "Share your games with other players on the network"
@@ -3709,6 +3752,21 @@ msgstr "Αποτυχία δημιουργίας εικονικού ήχου"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1189
 msgid "Server started"
 msgstr "Ο διακομιστής ξεκίνησε"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Άνοιγμα Steam Big Picture..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Εκκίνηση {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Σφάλμα κατά την εκκίνηση του παιχνιδιού: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."

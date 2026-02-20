@@ -270,6 +270,10 @@ msgstr "¡Instalación completada con éxito!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "La instalación falló. Código de salida: {}"
@@ -297,6 +301,10 @@ msgstr "Elige el esquema de colores"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 51
 msgid "Automático"
 msgstr "Automático"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
 # 
@@ -454,6 +462,20 @@ msgstr "Registros Limpos"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Old log files have been removed."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2218,6 +2240,10 @@ msgstr "2. Iniciar sesión en el Host"
 msgid "Vincular este dispositivo"
 msgstr "Link this device"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 820
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 820
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 805
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 805
@@ -2464,6 +2490,10 @@ msgstr "IP físico"
 msgid "Set ZeroTier API Token"
 msgstr "Establecer el token de API de ZeroTier"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "Crear token de acceso a la API"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
 msgid "Status"
 msgstr "Estado"
@@ -2586,6 +2616,10 @@ msgstr "Tus redes creadas/conectadas aparecerán aquí."
 msgid "Reconnect"
 msgstr "Reconectar"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Editar"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "Eliminar"
@@ -2598,9 +2632,26 @@ msgstr "Interfaz web"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Formulario completado para {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Formulario completado para {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Editar – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Editar entrada de red"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Servidor de inicio de sesión"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Entrada actualizada"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2956,9 +3007,9 @@ msgstr "{} desconectado"
 msgid "{} selected! Setting up private network..."
 msgstr "¡{} seleccionado! Configurando red privada..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 234
-msgid "Play cooperatively over the local network"
-msgstr "Juega cooperativamente a través de la red local."
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Juega de forma cooperativa a través de la red local o de Internet."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 253
 msgid "Share your games with other players on the network"
@@ -3746,6 +3797,21 @@ msgstr "Error al crear Audio Virtual"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1189
 msgid "Server started"
 msgstr "Servidor iniciado"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Abriendo Steam Big Picture..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Iniciando {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Error al iniciar el juego: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."

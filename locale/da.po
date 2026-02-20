@@ -2091,6 +2091,10 @@ msgstr "Fysisk IP"
 msgid "Set ZeroTier API Token"
 msgstr "Indstil ZeroTier API-token"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "Opret API-adgangstoken"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
 msgid "Status"
 msgstr "Status"
@@ -2213,6 +2217,10 @@ msgstr "Dine oprettede/forbundne netværk vises her."
 msgid "Reconnect"
 msgstr "Genopret forbindelse"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Rediger"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "Slet"
@@ -2225,9 +2233,26 @@ msgstr "Webbrugergrænseflade"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Formularen er udfyldt for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Formular udfyldt for {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Rediger – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Rediger netværksindgang"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Login-server"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Indtastning opdateret"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2584,9 +2609,9 @@ msgstr "{} afbrudt"
 msgid "{} selected! Setting up private network..."
 msgstr "{} valgt! Opsætter privat netværk..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 234
-msgid "Play cooperatively over the local network"
-msgstr "Spil samarbejdsvilligt over det lokale netværk"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Spil samarbejdsvilligt over det lokale netværk eller internettet"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 253
 msgid "Share your games with other players on the network"
@@ -3381,6 +3406,21 @@ msgstr "Mislykkedes at oprette virtuel lyd."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1189
 msgid "Server started"
 msgstr "Server startet"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Åbner Steam Big Picture..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Starter {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Fejl ved opstart af spil: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."

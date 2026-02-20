@@ -240,6 +240,10 @@ msgstr "Automatikus"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
@@ -2138,6 +2142,10 @@ msgstr "Fizikai IP"
 msgid "Set ZeroTier API Token"
 msgstr "Állítsa be a ZeroTier API tokent"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "API Hozzáférési Token Létrehozása"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 606
 msgid "Status"
 msgstr "Állapot"
@@ -2260,6 +2268,10 @@ msgstr "Itt fognak megjelenni a létrehozott/csatlakoztatott hálózatok."
 msgid "Reconnect"
 msgstr "Újracsatlakozás"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Szerkesztés"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "Törlés"
@@ -2272,9 +2284,26 @@ msgstr "Web felhasználói felület"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Űrlap kitöltve a(z) {VPN_META.get(vpn_id, {}).get('name', vpn_id)} számára."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Űrlap kitöltve a(z) {} számára"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Szerkesztés – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Hálózati bejegyzés szerkesztése"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Bejelentkezési szerver"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Bejegyzés frissítve"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2631,9 +2660,9 @@ msgstr "{} leválasztva"
 msgid "{} selected! Setting up private network..."
 msgstr "{} kiválasztva! Privát hálózat beállítása..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 312
-msgid "Play cooperatively over the local network"
-msgstr "Játssz együttműködve a helyi hálózaton."
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Játssz együttműködve a helyi hálózaton vagy az interneten."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 331
 msgid "Share your games with other players on the network"
@@ -3424,6 +3453,21 @@ msgstr "A virtuális audio létrehozása nem sikerült."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1197
 msgid "Server started"
 msgstr "A szerver elindult"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "A Steam Nagykép megnyitása..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Indítás {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Hiba a játék indításakor: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1257
 msgid "Stopping server..."

@@ -268,6 +268,10 @@ msgstr "Installeerimine lõpetati edukalt!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Installeerimine ebaõnnestus. Väljumiskood: {}"
@@ -326,6 +330,10 @@ msgstr "Kustuta kõik"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
 msgid "Remover logs, configurações, servidores e dados salvos"
 msgstr "Eemaldage logid, seaded, serverid ja salvestatud andmed"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 107
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 107
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 107
 # 
@@ -452,6 +460,20 @@ msgstr "Puhas logid"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Vana logifailid on eemaldatud."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2438,6 +2460,10 @@ msgstr "Füüsiline IP"
 msgid "Set ZeroTier API Token"
 msgstr "Sead ZeroTier API token"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "Loo API juurdepääsu token"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
 msgid "Status"
 msgstr "Olekondition"
@@ -2560,6 +2586,10 @@ msgstr "Siin kuvatakse teie loodud/ühendatud võrgud."
 msgid "Reconnect"
 msgstr "Ühenda uuesti"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "Muuda"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
 msgid "Delete"
 msgstr "Kustuta"
@@ -2572,9 +2602,26 @@ msgstr "Veebiliides"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "Vorm on täidetud {VPN_META.get(vpn_id, {}).get('name', vpn_id)} jaoks"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "Vorm on täidetud {} jaoks"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "Muuda – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "Muuda võrgu sisestust"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "Sissserver"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "Sisestus uuendatud"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2930,9 +2977,9 @@ msgstr "{} lahti ühendusest"
 msgid "{} selected! Setting up private network..."
 msgstr "{} valitud! Seadistatakse privaatvõrku..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 234
-msgid "Play cooperatively over the local network"
-msgstr "Mängi koostöös kohaliku võrgu kaudu"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "Mängi koostöös kohaliku võrgu või interneti kaudu."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 253
 msgid "Share your games with other players on the network"
@@ -3718,6 +3765,21 @@ msgstr "Virtuaalse heli loomine ebaõnnestus."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1189
 msgid "Server started"
 msgstr "Server käivitati"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "Avaneb Steam Big Picture..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "Käivitamine {}..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "Viga mängu käivitamisel: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1248
 msgid "Stopping server..."

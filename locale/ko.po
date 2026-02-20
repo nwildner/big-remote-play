@@ -303,6 +303,20 @@ msgstr "오래된 로그 파일이 제거되었습니다."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 691
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 # 
@@ -2154,6 +2168,10 @@ msgstr "물리적 IP"
 msgid "Set ZeroTier API Token"
 msgstr "제로티어 API 토큰 설정"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1255
+msgid "Create API Access Token"
+msgstr "API 액세스 토큰 생성"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1013
 msgid "Status"
 msgstr "상태"
@@ -2277,6 +2295,10 @@ msgstr "여기에서 생성된/연결된 네트워크가 표시됩니다."
 msgid "Reconnect"
 msgstr "재연결"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+msgid "Edit"
+msgstr "편집"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1263
 msgid "Delete"
 msgstr "삭제"
@@ -2289,9 +2311,26 @@ msgstr "웹 UI"
 msgid "VPN"
 msgstr "VPN"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
-msgid "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
-msgstr "{VPN_META.get(vpn_id, {}).get('name', vpn_id)}에 대한 양식이 작성되었습니다."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1787
+msgid "Form filled for {}"
+msgstr "{}에 대한 양식이 작성되었습니다."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid "Edit – {}"
+msgstr "편집 – {}"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid "Edit Network Entry"
+msgstr "네트워크 항목 편집"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1831
+msgid "Login Server"
+msgstr "로그인 서버"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1878
+msgid "Entry updated"
+msgstr "항목이 업데이트되었습니다."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
 msgid "Delete entry?"
@@ -2650,9 +2689,9 @@ msgstr "{} 연결이 끊어졌습니다."
 msgid "{} selected! Setting up private network..."
 msgstr "{} 선택됨! 개인 네트워크 설정 중..."
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 312
-msgid "Play cooperatively over the local network"
-msgstr "로컬 네트워크에서 협동 플레이하기"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
+msgid "Play cooperatively over the local network or the internet"
+msgstr "로컬 네트워크 또는 인터넷을 통해 협동 플레이하세요."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 331
 msgid "Share your games with other players on the network"
@@ -3439,6 +3478,21 @@ msgstr "가상 오디오를 생성하지 못했습니다."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1196
 msgid "Server started"
 msgstr "서버가 시작되었습니다."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1386
+msgid "Opening Steam Big Picture..."
+msgstr "스팀 빅 픽처 열기..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1399
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1418
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1431
+msgid "Launching {}..."
+msgstr "{}를 시작하는 중..."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1403
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1435
+msgid "Error launching game: {}"
+msgstr "게임 실행 오류: {}"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1256
 msgid "Stopping server..."
