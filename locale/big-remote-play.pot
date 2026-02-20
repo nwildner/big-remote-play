@@ -15,6 +15,404 @@ msgstr  "Project-Id-Version: big-remote-play\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 #
+# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 98
+msgid   " (IPv6 Local)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 100
+msgid   " (IPv6 Global)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
+msgid   "Host ({})"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 267
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid   "Host"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 152
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 155
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 172
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 175
+# File: big-remote-play/usr/share/big-remote-play/utils/audio.py, line: 271
+# File: big-remote-play/usr/share/big-remote-play/utils/audio.py, line: 282
+msgid   "Unknown"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 54
+msgid   "Icons and images paths added"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 61
+msgid   "The Story Behind the Project\n"
+        "\n"
+        "Big Remote Play was born from a real story of friendship, "
+        "determination, and the passion for Free Software.\n"
+        "\n"
+        "Alessandro e Silva Xavier (known as Alessandro) and Alexasandro "
+        "Pacheco Feliciano (known as Pacheco) wanted to play games together "
+        "on BigLinux using a feature that only existed on proprietary "
+        "platforms like Steam Remote Play and GeForce NOW. The problem? These "
+        "systems are proprietary, locked to their own ecosystems. If a game "
+        "wasn't available on their platform, it was nearly impossible to play "
+        "remotely with friends.\n"
+        "\n"
+        "Refusing to accept this limitation, Alessandro and Pacheco embarked "
+        "on a journey of countless attempts and extensive research. After "
+        "trying many different approaches, they finally found a working "
+        "solution by combining multiple free software programs — including "
+        "Sunshine, Moonlight, scripts, and VPN tools. They had achieved what "
+        "the proprietary platforms kept locked behind their walls, and the "
+        "best part: it was Free Software and multi-platform!\n"
+        "\n"
+        "Excited by their success, they started sharing their achievement "
+        "during their live streams, which generated tremendous enthusiasm "
+        "from the community. However, there was a catch — the setup was "
+        "complicated. It required configuring multiple separate solutions: "
+        "Sunshine, Moonlight, custom scripts, VPN connections... it was a lot "
+        "for anyone to handle.\n"
+        "\n"
+        "That's when a friend decided to step in and help develop a unified "
+        "application to simplify the entire process. And so, Big Remote Play "
+        "was born! 🎉\n"
+        "\n"
+        "An all-in-one application that integrates everything you need for "
+        "remote cooperative gaming — no proprietary platforms, no "
+        "restrictions, no limits on which games you can play."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 17
+msgid   "Install Dependencies"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 30
+msgid   "Installing required components..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 56
+msgid   "Embedded terminal not available (vte4 not found).\n"
+        "Opening external terminal for installation...\n"
+        "Please wait for the installation to finish in the other window."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 359
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1380
+msgid   "Starting..."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 70
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1704
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 815
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 681
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 723
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 751
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 795
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1690
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 687
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 799
+msgid   "Cancel"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 77
+msgid   "Done! Press Enter to close..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 85
+msgid   "Running in external terminal. Restart after completion."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 85
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 126
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1352
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1446
+msgid   "Close"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 86
+msgid   "Error: No terminal detected."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 86
+msgid   "Execute manually:\n"
+        "{}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 89
+msgid   "Installing..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 91
+msgid   "Error: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 92
+msgid   "Embedded terminal error: {}. Trying external..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 109
+msgid   "Installation completed successfully!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+msgid   "Finish"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
+msgid   "Installation failed. Exit code: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 25
+msgid   "Preferências"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 43
+msgid   "Geral"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 48
+msgid   "Aparência"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
+msgid   "Tema"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 53
+msgid   "Escolha o esquema de cores"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 56
+msgid   "Automático"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
+msgid   "Claro"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 58
+msgid   "Escuro"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 77
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 84
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 217
+msgid   "Restaurar"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+msgid   "Restaurar Padrões"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 82
+msgid   "Redefinir todas as configurações para o padrão"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 95
+msgid   "Limpar Tudo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 93
+msgid   "Remover logs, configurações, servidores e dados salvos"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 107
+msgid   "Avançado"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 112
+msgid   "Caminhos"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 115
+msgid   "Diretório de Configuração"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 122
+msgid   "Copiar Caminho"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 131
+msgid   "Logs e Depuração"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 134
+msgid   "Logs Detalhados"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 135
+msgid   "Ativar logging verbose para depuração"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
+msgid   "Limpar Logs"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 141
+msgid   "Remover arquivos de log antigos"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 143
+msgid   "Limpar"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 198
+msgid   "Logs Limpos"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 198
+msgid   "Arquivos de log antigos foram removidos."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+msgid   "OK"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 208
+msgid   "Caminho copiado!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 213
+msgid   "Todas as suas modificações no Big Remote Play serão restauradas! "
+        "Isso inclui as configurações do Sunshine e Moonlight."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 215
+msgid   "Restaurar Padrões?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 216
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 263
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 272
+msgid   "Cancelar"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 251
+msgid   "Configurações Restauradas! Reinicie o aplicativo para aplicar todas "
+        "as alterações."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 255
+msgid   "Erro ao restaurar: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 262
+msgid   "Limpar TUDO?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 262
+msgid   "ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e "
+        "servidores salvos. O aplicativo será fechado."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 264
+msgid   "Apagar Tudo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
+msgid   "Tem Certeza Absoluta?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
+msgid   "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 273
+msgid   "Sim, Apagar Tudo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 316
+msgid   "Erro ao Limpar"
+msgstr  ""
+
+#
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 62
 msgid   "Sunshine"
 msgstr  ""
@@ -73,7 +471,10 @@ msgid   "Configuration files and logs"
 msgstr  ""
 
 #
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 79
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 471
 msgid   "Advanced"
 msgstr  ""
 
@@ -496,10 +897,10 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 412
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 787
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 50
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 258
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 311
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 787
 msgid   "Automatic"
 msgstr  ""
 
@@ -1131,463 +1532,268 @@ msgid   "Connected to {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 17
-msgid   "Install Dependencies"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 24
+msgid   "Create Headscale Server"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 30
-msgid   "Installing required components..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 25
+msgid   "Set up your own private VPN server using Docker + Cloudflare DNS."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 56
-msgid   "Embedded terminal not available (vte4 not found).\n"
-        "Opening external terminal for installation...\n"
-        "Please wait for the installation to finish in the other window."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 26
+msgid   "Connect to Headscale Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 67
-msgid   "Starting..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 27
+msgid   "Enter the server domain and auth key provided by the administrator."
 msgstr  ""
 
 #
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 70
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1262
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 687
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 799
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 681
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 723
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 751
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 795
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1690
-msgid   "Cancel"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 77
-msgid   "Done! Press Enter to close..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 85
-msgid   "Running in external terminal. Restart after completion."
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 85
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 126
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1446
-msgid   "Close"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 86
-msgid   "Error: No terminal detected."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 86
-msgid   "Execute manually:\n"
-        "{}"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 89
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1669
-msgid   "Installing..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 91
-msgid   "Error: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 92
-msgid   "Embedded terminal error: {}. Trying external..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 109
-msgid   "Installation completed successfully!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
-msgid   "Finish"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
-msgid   "Installation failed. Exit code: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 53
-msgid   "🎮 Network Created Successfully!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 58
-msgid   "Share the info below with your friends so they can join via "
-        "\"Connect to Private Network\" and play together!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 86
-msgid   "📤 Share with Your Friends"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 88
-msgid   "Your friends only need these 2 items to join your network."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 93
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 864
-msgid   "Server Domain"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 101
-msgid   "Copy domain"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 107
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1197
-msgid   "Auth Key (Friends)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 115
-msgid   "Copy auth key"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 122
-msgid   "📋 How to Connect"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 124
-msgid   "Both you AND your friends must connect!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 129
-msgid   "1. Open \"Connect to Private Network\""
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 129
-msgid   "In the sidebar menu"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
-msgid   "2. Enter domain and Auth Key"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
-msgid   "Paste the data shown above"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 131
-msgid   "3. Click \"Establish Connection\""
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 131
-msgid   "Play together over the internet!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 142
-msgid   "🔧 Server Details"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 146
-msgid   "Web Interface"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 147
-msgid   "API URL"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 148
-msgid   "Public IP"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 149
-msgid   "Local IP"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 150
-msgid   "API Key (Admin UI)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 189
-msgid   "Save and Finish"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 204
-msgid   "Save to File"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 215
-msgid   "Share"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 226
-msgid   "This info is saved in \"Connect to Private Network\" → \"Previous "
-        "Networks\""
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 262
-msgid   "Save Connection Info"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 275
-msgid   "File saved: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 278
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1249
-msgid   "Error saving: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 288
-msgid   "Connection info copied! Paste it in any app to share."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 315
-msgid   "Preparing connection..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 316
-msgid   "Checking dependencies..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 317
-msgid   "Configuring Tailscale client..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 318
-msgid   "Logging in to network..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 319
-msgid   "Verifying connection..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 320
-msgid   "Connection established!"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 367
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 73
-msgid   "Create Private Network"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 369
-msgid   "Set up your own Headscale VPN server with automatic DNS "
-        "configuration via Cloudflare. This allows you and your friends to "
-        "connect securely over the internet."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 376
-msgid   "Server Configuration"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 377
-msgid   "Enter your Cloudflare credentials to automate the installation"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 379
-msgid   "Enter your domain"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 380
-msgid   "e.g.: myserver.us.kg"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 382
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 672
-msgid   "Zone ID"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 383
-msgid   "Found in Cloudflare Overview page"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 385
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 682
-msgid   "API Token"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 386
-msgid   "Token with DNS Edit permission"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 442
-msgid   "View access information"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 34
+msgid   "Login to Tailscale"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 478
-msgid   "Preparing environment..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 35
+msgid   "Login to your Tailscale account. No server required."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 479
-msgid   "Installing Docker..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 36
+msgid   "Connect to Tailscale Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 480
-msgid   "Configuring Headscale..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 37
+msgid   "Enter your auth key or login server to join a Tailscale network."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 481
-msgid   "Setting up Caddy reverse proxy..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 44
+msgid   "Create ZeroTier Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 482
-msgid   "Configuring DNS records..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 45
+msgid   "Create a new ZeroTier virtual network using your API token."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 483
-msgid   "Generating access keys..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 46
+msgid   "Connect to ZeroTier Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 484
-msgid   "Finalizing installation..."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 47
+msgid   "Enter the 16-character Network ID to join a ZeroTier network."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 502
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1764
-msgid   "Install Server"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 223
+msgid   "Configuration"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 508
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 256
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1173
 msgid   "Instructions"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 527
-msgid   "Domain is required"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 262
+msgid   "Logout / Disconnect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 530
-msgid   "Zone ID is required"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 274
+msgid   "Your Networks"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 533
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 287
+msgid   "Login / Connect"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 288
+msgid   "Save Token & Create Network"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 289
+msgid   "Install Server"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 307
+msgid   "Domain (e.g. vpn.ruscher.org)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 308
+msgid   "Cloudflare Zone ID"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 309
+msgid   "Cloudflare API Token"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 317
+msgid   "Auth Key (optional – leave empty for browser login)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 320
+msgid   "Get auth key"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 320
+msgid   "login.tailscale.com/admin/settings/keys"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 322
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 347
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1295
+msgid   "Open"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 337
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1323
+msgid   "ZeroTier API Token"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 340
+msgid   "Network Name"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 345
+msgid   "Get API Token"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 345
+msgid   "my.zerotier.com → Account → API Access Tokens"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 423
+msgid   "All fields are required"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 441
+msgid   "✅ Server installed!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 445
+msgid   "Headscale server installed!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 448
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 477
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 515
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1472
+msgid   "❌ Failed"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 449
+msgid   "Installation failed. Check the log."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 470
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1456
+msgid   "✅ Connected!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 474
+msgid   "Tailscale connected!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 478
+msgid   "Login failed"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 486
 msgid   "API Token is required"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 548
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 557
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 505
+msgid   "✅ Network created!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 511
+msgid   "ZeroTier network created!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 516
+msgid   "Network creation failed"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 534
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 543
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1732
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1741
 msgid   "Setup Instructions"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 558
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 544
 msgid   "Step-by-step guide to create your private network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 578
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 564
 msgid   "1. Register a Free Domain"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 579
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 565
 msgid   "Get a free .us.kg domain to use with your server"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 582
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 568
 msgid   "Access DigitalPlat Domain"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 583
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 569
 msgid   "Register and get your free domain (e.g.: myserver.us.kg)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 586
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 572
 msgid   "Open Site"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 597
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 583
 msgid   "Steps at DigitalPlat"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 599
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 585
 msgid   "1. Create an account or login\n"
         "2. Choose a .us.kg domain\n"
         "3. Complete the simple registration\n"
@@ -1595,37 +1801,37 @@ msgid   "1. Create an account or login\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 613
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 599
 msgid   "2. Configure Cloudflare"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 614
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 600
 msgid   "Point your domain to Cloudflare for DNS management"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 617
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 603
 msgid   "Access Cloudflare Dashboard"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 618
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 604
 msgid   "Create a free account and add your domain"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 621
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 607
 msgid   "Open Cloudflare"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 632
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 618
 msgid   "Setup Steps"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 634
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 620
 msgid   "1. Click 'Add a site' → Enter your domain\n"
         "2. Choose the FREE plan\n"
         "3. Write down the 2 nameservers provided\n"
@@ -1635,39 +1841,50 @@ msgid   "1. Click 'Add a site' → Enter your domain\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 646
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 632
 msgid   "Update Nameservers"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 647
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 633
 msgid   "Open domain panel to change NS records"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 650
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 636
 msgid   "Domain Panel"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 668
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 654
 msgid   "3. Get API Credentials"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 669
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 655
 msgid   "Obtain your Zone ID and API Token from Cloudflare"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 674
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 658
+msgid   "Zone ID"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 660
 msgid   "1. In Cloudflare, click on your domain\n"
         "2. Scroll down to the 'API' section on the right\n"
         "3. Copy the 'Zone ID' value"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 684
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 668
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1336
+msgid   "API Token"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 670
 msgid   "1. Click 'Get your API token' (below Zone ID)\n"
         "2. Click 'Create Token'\n"
         "3. Use template: 'Edit zone DNS' → 'Use template'\n"
@@ -1680,34 +1897,44 @@ msgid   "1. Click 'Get your API token' (below Zone ID)\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 703
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 689
 msgid   "4. Configure DNS Records in Cloudflare"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 704
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 690
 msgid   "Create DNS records pointing to your public IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 708
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 694
 msgid   "Your Public IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 709
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 695
 msgid   "Use this IP for the A record below"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 712
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 698
 msgid   "Loading..."
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 720
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 705
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1114
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1873
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 953
+msgid   "Copied!"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 711
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 380
 msgid   "Copy IP"
 msgstr  ""
@@ -1717,22 +1944,21 @@ msgstr  ""
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 740
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 741
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 577
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 615
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 728
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 897
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1335
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 577
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 615
 msgid   "Error"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 746
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 733
 msgid   "A Record"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 748
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 735
 msgid   "In Cloudflare → DNS → Records → 'Add record':\n"
         "• Type: A\n"
         "• Name: @\n"
@@ -1741,12 +1967,12 @@ msgid   "In Cloudflare → DNS → Records → 'Add record':\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 758
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 745
 msgid   "CNAME Record"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 760
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 747
 msgid   "Add another record:\n"
         "• Type: CNAME\n"
         "• Name: www\n"
@@ -1755,765 +1981,1078 @@ msgid   "Add another record:\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 775
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 762
 msgid   "5. Configure Router (Port Forwarding)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 776
-msgid   "Open the required ports on your router"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 763
+msgid   "Open ports 8080, 9443, 41641. Note: The installation script will "
+        "attempt to configure these automatically via UPnP."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 779
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 766
 msgid   "Access Your Router"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 781
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 768
 msgid   "1. Open your browser and go to 192.168.1.1 (or your router's IP)\n"
         "2. Find 'Port Forwarding' or 'NAT' settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 788
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 775
 msgid   "Web Interface and API"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 789
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 776
 msgid   "Admin Panel (Headscale UI)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 790
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 777
 msgid   "Peer-to-peer VPN data"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 800
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 787
 msgid   "Find your local IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 801
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 788
 msgid   "Run 'hostname -I' in a terminal to find your local IP address"
 msgstr  ""
 
 #
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 803
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1793
+msgid   "Tailscale Instructions"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 804
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 811
-msgid   "✅ Quick Summary"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1794
+msgid   "1. Criar Conta"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 804
+msgid   "Registro no Tailscale"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 804
+msgid   "Crie sua conta gratuita para começar a gerenciar sua malha VPN."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 804
+msgid   "Abrir Site"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 805
+msgid   "2. Login no Host"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 805
+msgid   "Vincular este dispositivo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 805
+msgid   "Utilize o botão 'Login / Connect' na aba anterior para autorizar "
+        "este PC."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 806
+msgid   "3. Painel Admin"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 806
+msgid   "Gerenciar Máquinas"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 806
+msgid   "Visualize e autorize as máquinas conectadas à sua rede no painel "
+        "oficial."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 806
+msgid   "Abrir Painel"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 810
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1800
+msgid   "ZeroTier Instructions"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 811
+msgid   "Acessar ZeroTier Central"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 811
+msgid   "Registre-se para criar e gerenciar suas redes virtuais."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 811
+msgid   "Abrir Portal"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 812
-msgid   "Checklist before clicking 'Install Server'"
+msgid   "2. Autenticação"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 815
-msgid   "1. Register free domain at DigitalPlat"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 812
+msgid   "Gerar Token de API"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 816
-msgid   "2. Change DNS to Cloudflare nameservers"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 812
+msgid   "Vá em 'Account Settings' e crie um novo 'API Access Token'."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 817
-msgid   "3. Get Zone ID + Create API Token"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 812
+msgid   "Gerar Token"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 818
-msgid   "4. Create A record with your IP (proxy OFF)"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 813
+msgid   "3. Configuração"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 819
-msgid   "5. Open ports 8080, 9443, 41641 on router"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 813
+msgid   "Vincular Rede"
 msgstr  ""
 
 #
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 855
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 78
-msgid   "Connect to Private Network"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 813
+msgid   "Cole o Token no campo correspondente e clique em 'Save Token &amp; "
+        "Create Network'."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 857
-msgid   "Join an existing Headscale private network. You need a Server Domain "
-        "and an Auth Key provided by the network administrator."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 814
+msgid   "4. Administração"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 863
-msgid   "Connection Details"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 814
+msgid   "Autorizar Membros"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 865
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 814
+msgid   "Clique no Network ID da sua rede para gerenciar e autorizar novos "
+        "dispositivos."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 814
+msgid   "Minhas Redes"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 831
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1820
+msgid   "Step-by-step guide"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 883
+msgid   "Disconnecting..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 888
+msgid   "Tailscale disconnected"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 900
+msgid   "ZeroTier token removed"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 909
+msgid   "Disconnected from Headscale"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 972
+msgid   "No networks found"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 972
+msgid   "Connect or create a network first"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 982
+msgid   "This device"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 998
+msgid   "Installation Log"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1020
+msgid   "🎉 Success! Share with friends:"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1022
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1069
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1665
+msgid   "Domain"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1023
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1069
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1666
+msgid   "Network ID"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1024
+msgid   "Auth Key (Friends)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1025
+msgid   "API Key (Admin)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1026
+msgid   "Web Interface"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1052
+msgid   "Save Network Information"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1061
+msgid   "Saved to file!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1068
+msgid   "VPN Network Details:\n"
+        "\n"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1069
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1279
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1285
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1667
 msgid   "Auth Key"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 937
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1908
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1075
+msgid   "Opening mail client..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1077
+msgid   "Save"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1080
+msgid   "Saved to history!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1085
+msgid   "Save to File"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1092
+msgid   "Share"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1106
+msgid   "Network Information"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1150
+msgid   "Connection Details"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1161
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1457
 msgid   "Establish Connection"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 962
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1181
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 239
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 432
 msgid   "Connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 973
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1192
 msgid   "Network Devices"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 991
-msgid   "IP"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1205
+msgid   "Set API Token to see all network devices"
 msgstr  ""
 
 #
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 992
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
-# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 267
-msgid   "Host"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1207
+msgid   "Set Token"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 993
-msgid   "User"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1214
+msgid   "Auth"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 994
-msgid   "System"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1214
+msgid   "ID"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 995
-msgid   "Connection"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 996
-msgid   "Traffic (Tx/Rx)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 997
-msgid   "Ping"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1013
-msgid   "Status"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1031
-msgid   "Previous Networks"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1067
-msgid   "No History"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1069
-msgid   "Your created networks will appear here."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1083
-msgid   "History is Empty"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1111
-msgid   "Reconnect"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1120
-msgid   "Save to TXT"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1128
-msgid   "Delete from history"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1137
-msgid   "Domain"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1145
-msgid   "Copy Domain"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1191
-msgid   "API Key"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1214
+msgid   "Name"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1215
-msgid   "Incomplete data in history"
+msgid   "Managed IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1225
-msgid   "Save Network Information"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1215
+msgid   "Last Seen"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1247
-msgid   "File saved!"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1216
+msgid   "Version"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1257
-msgid   "Delete History?"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1216
+msgid   "Physical IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1258
-msgid   "Are you sure you want to remove ID {} from history?"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1231
+msgid   "Set ZeroTier API Token"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1263
-msgid   "Delete"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1239
+msgid   "Status"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1289
-msgid   "Deleted from history"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1253
+msgid   "Previous Networks"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1278
+msgid   "Server Domain (e.g. vpn.ruscher.org)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1284
+msgid   "Login Server (leave empty for tailscale.com)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1290
+msgid   "Network ID (16 characters)"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1291
-msgid   "Error deleting: {}"
+msgid   "e.g. a1b2c3d4e5f6a7b8"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1313
-msgid   "Copied: {}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1293
+msgid   "Find Network ID"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1498
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1529
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1542
-msgid   "Installation Log"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1293
+msgid   "my.zerotier.com → Networks"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1498
-msgid   "Connection Log"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1332
+msgid   "Enter your API Token to view managed devices."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1759
-msgid   "✅ Installation complete!"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1348
+msgid   "Save & Refresh"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1763
-msgid   "Success!"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1361
+msgid   "Token saved"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1767
-msgid   "❌ Installation failed"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1768
-msgid   "Installation failed"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1769
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1914
-msgid   "Try Again"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1779
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1788
-msgid   "Network Established"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1833
-msgid   "Configuration saved to history"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1836
-msgid   "Error saving history: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1842
-msgid   "Fill all fields"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1848
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1379
 msgid   "Connecting..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1904
-msgid   "✅ Connection established!"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1387
+msgid   "Domain and Auth Key required"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1907
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1397
+msgid   "Auth Key is required"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1408
+msgid   "Network ID is required"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1469
 msgid   "Connected successfully!"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1912
-msgid   "❌ Connection failed"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1473
+msgid   "Try Again"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1913
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1474
 msgid   "Connection failed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 25
-msgid   "Preferências"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1508
+msgid   "Just now"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 43
-msgid   "Geral"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1521
+msgid   "Self"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 48
-msgid   "Aparência"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1521
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1529
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1572
+msgid   "Online"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
-msgid   "Tema"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1529
+msgid   "Offline"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 53
-msgid   "Escolha o esquema de cores"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1599
+msgid   "Peer"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 56
-msgid   "Automático"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1611
+msgid   "API Token Missing"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 57
-msgid   "Claro"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1611
+msgid   "See banner above"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 58
-msgid   "Escuro"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1613
+msgid   "No devices found"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 77
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 84
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 217
-msgid   "Restaurar"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1613
+msgid   "Try refreshing..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
-msgid   "Restaurar Padrões"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1629
+msgid   "No previous networks"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 82
-msgid   "Redefinir todas as configurações para o padrão"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1631
+msgid   "Your created/connected networks will appear here."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 95
-msgid   "Limpar Tudo"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1651
+msgid   "Reconnect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 93
-msgid   "Remover logs, configurações, servidores e dados salvos"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1659
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1705
+msgid   "Delete"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 107
-msgid   "Avançado"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1668
+msgid   "Web UI"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 112
-msgid   "Caminhos"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1669
+msgid   "VPN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 115
-msgid   "Diretório de Configuração"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1696
+msgid   "Form filled for {VPN_META.get(vpn_id, {}).get('name', vpn_id)}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 122
-msgid   "Copiar Caminho"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1701
+msgid   "Delete entry?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 131
-msgid   "Logs e Depuração"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1702
+msgid   "Remove this network from history?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 134
-msgid   "Logs Detalhados"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1717
+msgid   "Connection Log"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 135
-msgid   "Ativar logging verbose para depuração"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1742
+msgid   "Step-by-step guide to join a private network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
-msgid   "Limpar Logs"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1762
+msgid   "Steps to join Headscale"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 141
-msgid   "Remover arquivos de log antigos"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1765
+msgid   "Step 1: Get credentials"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 143
-msgid   "Limpar"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1766
+msgid   "Ask the network administrator for the Server Domain and Auth Key."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 198
-msgid   "Logs Limpos"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1771
+msgid   "Step 2: Enter details"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 198
-msgid   "Arquivos de log antigos foram removidos."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1772
+msgid   "Paste the Domain and Key in the fields on the previous tab."
 msgstr  ""
 
 #
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 199
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 317
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
-msgid   "OK"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1777
+msgid   "Step 3: Connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 208
-msgid   "Caminho copiado!"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1778
+msgid   "Click 'Establish Connection' and wait for the success message."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 213
-msgid   "Todas as suas modificações no Big Remote Play serão restauradas! "
-        "Isso inclui as configurações do Sunshine e Moonlight."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1794
+msgid   "Acessar Tailscale"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 215
-msgid   "Restaurar Padrões?"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1794
+msgid   "Todos os participantes precisam de uma conta (Google, GitHub, etc)."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 216
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 263
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 272
-msgid   "Cancelar"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1794
+msgid   "Criar Conta"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 251
-msgid   "Configurações Restauradas! Reinicie o aplicativo para aplicar todas "
-        "as alterações."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1795
+msgid   "2. Convite"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 255
-msgid   "Erro ao restaurar: {}"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1795
+msgid   "Solicitar Acesso"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 262
-msgid   "Limpar TUDO?"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1795
+msgid   "O administrador deve compartilhar o nó ou convidar seu e-mail para a "
+        "rede."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 262
-msgid   "ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e "
-        "servidores salvos. O aplicativo será fechado."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid   "3. Conectar"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 264
-msgid   "Apagar Tudo"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid   "Estabelecer Ligação"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
-msgid   "Tem Certeza Absoluta?"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1796
+msgid   "Com o convite aceito, use a aba anterior para se conectar."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 271
-msgid   "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1801
+msgid   "1. Identificação"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 273
-msgid   "Sim, Apagar Tudo"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1801
+msgid   "Obter Network ID"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 316
-msgid   "Erro ao Limpar"
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1801
+msgid   "Solicite o ID de 16 caracteres ao dono da rede."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 20
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid   "2. Ingressar"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid   "Digitar ID"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1802
+msgid   "Insira o ID na aba 'Connect' e clique em 'Establish Connection'."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1803
+msgid   "3. Autorização"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1803
+msgid   "Aguardar Aprovação"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1803
+msgid   "O administrador precisa marcar a opção 'Auth' para o seu PC no "
+        "painel dele."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1803
+msgid   "Painel ZT"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 24
+msgid   "Self-hosted VPN server with Cloudflare DNS. Full control."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 32
+msgid   "Easy mesh VPN. No server required. Free tier available."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 40
+msgid   "Flexible virtual network. Works through NAT and firewalls."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 51
 msgid   "Sunshine Game Stream Host"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 21
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 52
 msgid   "High-performance game stream host. Required to share your games."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 28
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 59
 msgid   "Moonlight Game Stream Client"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 29
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 60
 msgid   "Game stream client. Required to connect to other hosts."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 35
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 66
 msgid   "Docker Engine"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 36
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 67
 msgid   "Container platform. Required for the private network server."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 43
-msgid   "Tailscale / Headscale"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 74
+msgid   "Tailscale"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 44
-msgid   "Mesh VPN service. Required for private network connectivity."
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 75
+msgid   "Mesh VPN service. Required for Tailscale connectivity."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 54
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 82
+msgid   "ZeroTier"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 83
+msgid   "Virtual network service. Required for ZeroTier connectivity."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 93
 msgid   "Home"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 56
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 95
 msgid   "Home Page"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 59
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 339
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 98
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 651
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 146
 msgid   "Host Server"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 61
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 100
 msgid   "Share your games"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 64
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 347
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 103
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 659
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 59
 msgid   "Connect to Server"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 66
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 105
 msgid   "Connect to a host"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 69
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 108
 msgid   "Private Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 75
-msgid   "Setup Headscale server"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 176
+msgid   "Create Private Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 80
-msgid   "Join a private network"
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 178
+msgid   "{} - Setup server"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 202
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 182
+msgid   "Connect to Private Network"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 184
+msgid   "{} - Join network"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 188
+msgid   "Change VPN"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 190
+msgid   "Switch provider"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 195
+msgid   "Select VPN"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 197
+msgid   "Choose your VPN provider"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 298
 msgid   "Service Status"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 232
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 327
 msgid   "Checking..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 267
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 388
 msgid   "Installed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 267
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 388
 msgid   "Missing"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 273
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 394
 msgid   "host"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 273
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 394
 msgid   "connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 274
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 395
 msgid   "Need to install {} to {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 281
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 401
 msgid   "Preferences"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 281
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 401
 msgid   "About"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 321
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 445
+msgid   "Choose Your VPN Provider"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 448
+msgid   "Select a VPN solution to create or join a Private Network. Your "
+        "choice will be saved and shown in the sidebar menu."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 466
+msgid   "Quick Comparison"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 471
+msgid   "Self-hosted"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 471
+msgid   "Full control, needs domain + Cloudflare"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
+msgid   "Cloud (free)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
+msgid   "Easiest setup, works out of the box"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
+msgid   "Beginner"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
+msgid   "Flexible, works through NAT"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
+msgid   "Intermediate"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 523
+msgid   "Choose →"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 537
+msgid   "Switch VPN Provider?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 538
+msgid   "You are switching from {} to {}. Do you want to disconnect from {}?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 544
+msgid   "Keep Connected"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 545
+msgid   "Disconnect previous"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 561
+msgid   "Disconnecting from {}..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 570
+msgid   "{} disconnected"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 597
+msgid   "{} selected! Setting up private network..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 635
 msgid   "Play cooperatively over the local network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 652
 msgid   "Share your games with other players on the network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 348
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 660
 msgid   "Connect to a game server on the network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 360
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 671
 msgid   "<span size=\"small\">Based on <b>Sunshine</b> and <b>Moonlight</b></"
         "span>"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 814
 msgid   "Missing Components"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 814
 msgid   "Sunshine and Moonlight are required. Install now?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 815
 msgid   "Install"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 522
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 868
 msgid   "Running"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 522
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 627
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 868
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 958
 msgid   "Stopped"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 566
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 905
 msgid   "Moonlight not found"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 582
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 921
 msgid   "Containers"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 583
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 922
 msgid   "Action {} sent to {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 587
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 926
 msgid   "Error executing command: {}"
 msgstr  ""
 
@@ -2522,55 +3061,55 @@ msgstr  ""
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 590
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 928
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 978
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 213
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 221
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 978
 msgid   "Stop"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 590
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 928
 msgid   "Start"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 596
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 933
 msgid   "Restart"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 602
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 938
 msgid   "Disable"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 602
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 938
 msgid   "Enable"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 619
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 951
 msgid   "Private Network Containers"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 627
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 958
 msgid   "Running (Caddy + Headscale)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 633
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 962
 msgid   "Stop Containers"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 633
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 962
 msgid   "Start Containers"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 639
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 967
 msgid   "Restart Containers"
 msgstr  ""
 
@@ -2590,8 +3129,8 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 36
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 100
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 100
 msgid   "Resolution"
 msgstr  ""
 
@@ -2601,8 +3140,8 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 48
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 111
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 210
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 111
 msgid   "Frame Rate (FPS)"
 msgstr  ""
 
@@ -2833,6 +3372,673 @@ msgid   "Keep display active during streaming"
 msgstr  ""
 
 #
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 142
+msgid   "Sunshine Offline"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 147
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 999
+msgid   "Configure and share your game for friends to connect"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 151
+msgid   "Game Configuration"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 156
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 98
+msgid   "Reset to Defaults"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 160
+msgid   "Game Mode"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 160
+msgid   "Select game source"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 162
+msgid   "Full Desktop"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 162
+msgid   "Custom App"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 166
+msgid   "Game Selection"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 167
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 172
+msgid   "Choose game from list"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 171
+msgid   "Select Game"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 179
+msgid   "Application Details"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
+msgid   "Configure name and command"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 184
+msgid   "Application Name"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
+msgid   "Command"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
+msgid   "Streaming Settings"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 194
+msgid   "Quality and Players"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 200
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 100
+msgid   "Stream resolution"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 202
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 213
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 102
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 113
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 769
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 780
+msgid   "Custom"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 211
+msgid   "Frames per second"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 221
+msgid   "Bandwidth Limit (Mbps)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 222
+msgid   "Max bitrate (0 = Unlimited)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 232
+msgid   "Hardware and Capture"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 233
+msgid   "Monitor, GPU, and Capture Method"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
+msgid   "Monitor / Display"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
+msgid   "Select the display to capture"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 246
+msgid   "Graphics Card / Encoder"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid   "Choose hardware for video encoding"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid   "Capture Method"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
+msgid   "Wayland (recommended), X11 (legacy), or KMS (direct)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 258
+msgid   "KMS (Direct)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 267
+msgid   "Efficient Codecs (HEVC/AV1)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 268
+msgid   "Enable H.265/AV1 for better quality at lower bitrate (Requires "
+        "support)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 273
+msgid   "Optimization Mode"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 274
+msgid   "Balance between responsiveness and image quality"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 276
+msgid   "Low Latency (Fastest)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 277
+msgid   "Balanced (Default)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 278
+msgid   "High Quality (Best Image)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 284
+msgid   "Wi-Fi / Unstable Network Mode"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 285
+msgid   "Increases error correction (FEC) to prevent glitches"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 293
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 425
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 143
+msgid   "Audio"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 294
+msgid   "Sound settings"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 298
+msgid   "Host Audio Output"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 299
+msgid   "Where YOU will hear the game sound"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid   "Audio Output Mode"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 307
+msgid   "Determine where the game sound will be played"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 314
+msgid   "Guest + Host"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 324
+msgid   "Audio Mixer (Sources)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 325
+msgid   "Manage audio sources"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 335
+msgid   "Input, Network, and Access"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 339
+msgid   "Automatic UPnP"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 340
+msgid   "Automatically configure router ports"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 345
+msgid   "Address Family (IPv4 + IPv6)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 346
+msgid   "Enable simultaneous IPv4 and IPv6 support on server"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 351
+msgid   "Origin Web UI Allowed (WAN)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 352
+msgid   "Allows anyone to access the web interface (Anyone may access Web UI)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 357
+msgid   "Configure Firewall (IPv6)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 358
+msgid   "Open TCP/UDP ports required for external connection"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 361
+msgid   "Configure"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 383
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1019
+msgid   "Start Server"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 390
+msgid   "Configure Sunshine"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 398
+msgid   "Enter PIN"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 415
+msgid   "Information"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 420
+msgid   "Game"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 430
+msgid   "Use PIN Code to Connect"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 431
+msgid   "Share this with the guest. Local network is required."
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 434
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 455
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 85
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 453
+msgid   "PIN Code"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 445
+msgid   "Copy PIN"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 650
+msgid   "Insert PIN"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 651
+msgid   "Enter the PIN displayed on the client device (Moonlight)."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 658
+msgid   "PIN"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 660
+msgid   "Device Name"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 669
+msgid   "Save Password"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 670
+msgid   "Save credentials to Sunshine preferences"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 682
+msgid   "Send"
+msgstr  ""
+
+#
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 705
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 768
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 808
+# File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 322
+msgid   "PIN sent successfully"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 707
+msgid   "Authentication Failed"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 707
+msgid   "Invalid username or password."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 712
+msgid   "PIN Error"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 719
+msgid   "User Not Found"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 720
+msgid   "No user has been created in Sunshine. It is necessary to configure a "
+        "user through the browser."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 724
+msgid   "Open Configuration"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 738
+msgid   "Create Sunshine User"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
+msgid   "Define a username and password for Sunshine."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 744
+msgid   "New User"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 746
+msgid   "New Password"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 752
+msgid   "Save and Continue"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 763
+msgid   "User created!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 769
+msgid   "Error sending PIN after creation"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 771
+msgid   "Error creating user"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 782
+msgid   "Sunshine Authentication"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 783
+msgid   "Sunshine requires login. Enter your credentials (default: admin / "
+        "password created during installation)."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 788
+msgid   "Username"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 790
+msgid   "Password"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 796
+msgid   "Confirm"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 812
+msgid   "Failed with credentials"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 819
+msgid   "Server Information"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 849
+msgid   "System Default"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 862
+msgid   "Error loading audio"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 881
+msgid   "Output changed to: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 886
+msgid   "Configuring firewall... (Password may be requested)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 904
+msgid   "Success: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 905
+msgid   "Firewall Error"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 905
+msgid   "Execution failed or cancelled."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 917
+msgid   "Error executing script: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 957
+msgid   "Clicked Start Server..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 973
+msgid   "Server Active - Guests can now connect"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 974
+msgid   "Active - Waiting for Connections"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1000
+msgid   "Inactive"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1156
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1160
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1183
+msgid   "Host + Guest"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1156
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1160
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1183
+msgid   "Host Only"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1286
+msgid   "Host output restored: {}"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1291
+msgid   "Failed to create Virtual Audio"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1328
+msgid   "Server started"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1346
+msgid   "Stopping server..."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1378
+msgid   "Server stopped"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1388
+msgid   "Sunshine stopped unexpectedly"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1438
+msgid   "Check logs for details."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1440
+msgid   "Sunshine failed to start.\n"
+        "\n"
+        "Error: {}\n"
+        "\n"
+        "If this is a dependency issue (missing libraries), try the 'Fix "
+        "Dependencies' button."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1444
+msgid   "Server Failed to Start"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1447
+msgid   "View Logs"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1689
+msgid   "Restore Defaults"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1689
+msgid   "Do you want to restore default settings?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1690
+msgid   "Restore"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1698
+msgid   "Settings Restored"
+msgstr  ""
+
+#
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 40
 msgid   "Detecting bandwidth..."
 msgstr  ""
@@ -2866,46 +4072,8 @@ msgid   "Manual"
 msgstr  ""
 
 #
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 85
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 453
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 434
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 455
-msgid   "PIN Code"
-msgstr  ""
-
-#
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 97
 msgid   "Client Settings"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 98
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 156
-msgid   "Reset to Defaults"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 100
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 200
-msgid   "Stream resolution"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 102
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 113
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 769
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 780
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 202
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 213
-msgid   "Custom"
 msgstr  ""
 
 #
@@ -2946,15 +4114,6 @@ msgstr  ""
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 138
 msgid   "How the window will be displayed"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 143
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 293
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 425
-msgid   "Audio"
 msgstr  ""
 
 #
@@ -3321,702 +4480,6 @@ msgid   "If shortcuts like F1/F2/F3 are not switching screens:\n"
         "• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
         "• When capture is ON, your F-keys are sent to the remote PC.\n"
         "• When capture is OFF, your local PC intercepts them."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 142
-msgid   "Sunshine Offline"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 147
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 999
-msgid   "Configure and share your game for friends to connect"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 151
-msgid   "Game Configuration"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 160
-msgid   "Game Mode"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 160
-msgid   "Select game source"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 162
-msgid   "Full Desktop"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 162
-msgid   "Custom App"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 166
-msgid   "Game Selection"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 167
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 172
-msgid   "Choose game from list"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 171
-msgid   "Select Game"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 179
-msgid   "Application Details"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
-msgid   "Configure name and command"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 184
-msgid   "Application Name"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
-msgid   "Command"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
-msgid   "Streaming Settings"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 194
-msgid   "Quality and Players"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 211
-msgid   "Frames per second"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 221
-msgid   "Bandwidth Limit (Mbps)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 222
-msgid   "Max bitrate (0 = Unlimited)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 232
-msgid   "Hardware and Capture"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 233
-msgid   "Monitor, GPU, and Capture Method"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid   "Monitor / Display"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid   "Select the display to capture"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 246
-msgid   "Graphics Card / Encoder"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
-msgid   "Choose hardware for video encoding"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
-msgid   "Capture Method"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
-msgid   "Wayland (recommended), X11 (legacy), or KMS (direct)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 258
-msgid   "KMS (Direct)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 267
-msgid   "Efficient Codecs (HEVC/AV1)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 268
-msgid   "Enable H.265/AV1 for better quality at lower bitrate (Requires "
-        "support)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 273
-msgid   "Optimization Mode"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 274
-msgid   "Balance between responsiveness and image quality"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 276
-msgid   "Low Latency (Fastest)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 277
-msgid   "Balanced (Default)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 278
-msgid   "High Quality (Best Image)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 284
-msgid   "Wi-Fi / Unstable Network Mode"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 285
-msgid   "Increases error correction (FEC) to prevent glitches"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 294
-msgid   "Sound settings"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 298
-msgid   "Host Audio Output"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 299
-msgid   "Where YOU will hear the game sound"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
-msgid   "Audio Output Mode"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 307
-msgid   "Determine where the game sound will be played"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 314
-msgid   "Guest + Host"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 324
-msgid   "Audio Mixer (Sources)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 325
-msgid   "Manage audio sources"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 335
-msgid   "Input, Network, and Access"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 339
-msgid   "Automatic UPnP"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 340
-msgid   "Automatically configure router ports"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 345
-msgid   "Address Family (IPv4 + IPv6)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 346
-msgid   "Enable simultaneous IPv4 and IPv6 support on server"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 351
-msgid   "Origin Web UI Allowed (WAN)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 352
-msgid   "Allows anyone to access the web interface (Anyone may access Web UI)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 357
-msgid   "Configure Firewall (IPv6)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 358
-msgid   "Open TCP/UDP ports required for external connection"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 361
-msgid   "Configure"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 383
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1019
-msgid   "Start Server"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 390
-msgid   "Configure Sunshine"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 398
-msgid   "Enter PIN"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 415
-msgid   "Information"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 420
-msgid   "Game"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 430
-msgid   "Use PIN Code to Connect"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 431
-msgid   "Share this with the guest. Local network is required."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 445
-msgid   "Copy PIN"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 650
-msgid   "Insert PIN"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 651
-msgid   "Enter the PIN displayed on the client device (Moonlight)."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 658
-msgid   "PIN"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 660
-msgid   "Device Name"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 669
-msgid   "Save Password"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 670
-msgid   "Save credentials to Sunshine preferences"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 682
-msgid   "Send"
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 705
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 768
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 808
-# File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 322
-msgid   "PIN sent successfully"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 707
-msgid   "Authentication Failed"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 707
-msgid   "Invalid username or password."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 712
-msgid   "PIN Error"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 719
-msgid   "User Not Found"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 720
-msgid   "No user has been created in Sunshine. It is necessary to configure a "
-        "user through the browser."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 724
-msgid   "Open Configuration"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 738
-msgid   "Create Sunshine User"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
-msgid   "Define a username and password for Sunshine."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 744
-msgid   "New User"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 746
-msgid   "New Password"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 752
-msgid   "Save and Continue"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 763
-msgid   "User created!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 769
-msgid   "Error sending PIN after creation"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 771
-msgid   "Error creating user"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 782
-msgid   "Sunshine Authentication"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 783
-msgid   "Sunshine requires login. Enter your credentials (default: admin / "
-        "password created during installation)."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 788
-msgid   "Username"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 790
-msgid   "Password"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 796
-msgid   "Confirm"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 812
-msgid   "Failed with credentials"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 819
-msgid   "Server Information"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 849
-msgid   "System Default"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 862
-msgid   "Error loading audio"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 881
-msgid   "Output changed to: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 886
-msgid   "Configuring firewall... (Password may be requested)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 904
-msgid   "Success: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 905
-msgid   "Firewall Error"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 905
-msgid   "Execution failed or cancelled."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 917
-msgid   "Error executing script: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 953
-msgid   "Copied!"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 957
-msgid   "Clicked Start Server..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 973
-msgid   "Server Active - Guests can now connect"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 974
-msgid   "Active - Waiting for Connections"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1000
-msgid   "Inactive"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1156
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1160
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1183
-msgid   "Host + Guest"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1156
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1160
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1183
-msgid   "Host Only"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1286
-msgid   "Host output restored: {}"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1291
-msgid   "Failed to create Virtual Audio"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1328
-msgid   "Server started"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1346
-msgid   "Stopping server..."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1378
-msgid   "Server stopped"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1388
-msgid   "Sunshine stopped unexpectedly"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1438
-msgid   "Check logs for details."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1440
-msgid   "Sunshine failed to start.\n"
-        "\n"
-        "Error: {}\n"
-        "\n"
-        "If this is a dependency issue (missing libraries), try the 'Fix "
-        "Dependencies' button."
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1444
-msgid   "Server Failed to Start"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1447
-msgid   "View Logs"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1689
-msgid   "Restore Defaults"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1689
-msgid   "Do you want to restore default settings?"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1690
-msgid   "Restore"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1698
-msgid   "Settings Restored"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 51
-msgid   "Icon loaded"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
-msgid   "The Story Behind the Project\n"
-        "\n"
-        "Big Remote Play was born from a real story of friendship, "
-        "determination, and the passion for Free Software.\n"
-        "\n"
-        "Alessandro e Silva Xavier (known as Alessandro) and Alexasandro "
-        "Pacheco Feliciano (known as Pacheco) wanted to play games together "
-        "on BigLinux using a feature that only existed on proprietary "
-        "platforms like Steam Remote Play and GeForce NOW. The problem? These "
-        "systems are proprietary, locked to their own ecosystems. If a game "
-        "wasn't available on their platform, it was nearly impossible to play "
-        "remotely with friends.\n"
-        "\n"
-        "Refusing to accept this limitation, Alessandro and Pacheco embarked "
-        "on a journey of countless attempts and extensive research. After "
-        "trying many different approaches, they finally found a working "
-        "solution by combining multiple free software programs — including "
-        "Sunshine, Moonlight, scripts, and VPN tools. They had achieved what "
-        "the proprietary platforms kept locked behind their walls, and the "
-        "best part: it was Free Software and multi-platform!\n"
-        "\n"
-        "Excited by their success, they started sharing their achievement "
-        "during their live streams, which generated tremendous enthusiasm "
-        "from the community. However, there was a catch — the setup was "
-        "complicated. It required configuring multiple separate solutions: "
-        "Sunshine, Moonlight, custom scripts, VPN connections... it was a lot "
-        "for anyone to handle.\n"
-        "\n"
-        "That's when a friend decided to step in and help develop a unified "
-        "application to simplify the entire process. And so, Big Remote Play "
-        "was born! 🎉\n"
-        "\n"
-        "An all-in-one application that integrates everything you need for "
-        "remote cooperative gaming — no proprietary platforms, no "
-        "restrictions, no limits on which games you can play."
-msgstr  ""
-
-#
-# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
-#
-# File: big-remote-play/usr/share/big-remote-play/utils/audio.py, line: 271
-# File: big-remote-play/usr/share/big-remote-play/utils/audio.py, line: 282
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 140
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 143
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 160
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 163
-msgid   "Unknown"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 98
-msgid   " (IPv6 Local)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 100
-msgid   " (IPv6 Global)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
-msgid   "Host ({})"
 msgstr  ""
 
 #
