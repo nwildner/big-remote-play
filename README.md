@@ -116,6 +116,23 @@ cd big-remote-play/pkgbuild
 makepkg -si
 ```
 
+### Fedora / RPM Based Distributions
+
+You'll need [RPM Fusion](https://rpmfusion.org/Configuration) repository as well as 2 COPR repositories for `Sunshine` and `moonlight-qt`
+
+```bash
+sudo dnf copr enable ferdiu/moonlight
+sudo dnf copr enable lizardbyte/stable
+``` 
+
+```bash
+# Download the RPM Spec and build it:
+mkdir -p  ~/rpmspec/{SPEC,SOURCES}
+cd ~/rpmspec/SPEC
+
+
+```
+
 ### Dependencies
 
 | Dependency | Purpose |
